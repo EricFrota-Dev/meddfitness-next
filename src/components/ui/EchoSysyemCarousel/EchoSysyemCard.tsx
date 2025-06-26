@@ -1,17 +1,19 @@
-import { simpleCardProps } from "@/constants/types";
+import { simpleCard } from "@/constants/types";
 import Image from "next/image";
 import React from "react";
 
-const EchoSysyemCard: React.FC<simpleCardProps> = ({ title, desc, src }) => {
+const EchoSysyemCard: React.FC<simpleCard> = ({ title, desc, src }) => {
   return (
-    <div className="w-60">
-      <div className="bg-6/20 border-2/30 border-[1px] h-80 rounded-t-2xl p-4">
-        <h2>
-          <span>{title}</span>
-        </h2>
-        <h3>{desc}</h3>
+    <div className="w-60 transition-all">
+      <div className="bg-dark border border-primary/20 h-80 rounded-t-2xl p-4 shadow-lg shadow-darker">
+        <h4>
+          <strong>
+            <span>{title}</span>
+          </strong>
+        </h4>
+        <p>{desc}</p>
       </div>
-      <div className="bg-2 h-30 rounded-b-full relative">
+      <div className="bg-primary h-30 rounded-b-full relative">
         <Image
           src={src}
           alt={title}

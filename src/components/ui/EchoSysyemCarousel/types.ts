@@ -1,5 +1,5 @@
-import { simpleCardProps } from "@/constants/types";
+import { simpleCard } from "@/constants/types";
 
 export type echoSysyemCardProps = {
-  items: simpleCardProps[];
+  items: simpleCard[];
 };

@@ -1,3 +1,4 @@
+"use client";
 import { motion } from "motion/react";
 import Button from ".";
 import { pulseAnimation } from "@/animations";
@@ -10,11 +11,13 @@ const GarantirEngressoBtn: React.FC<GarantirEngressoBtnProps> = ({
     <motion.div
       className={className}
       variants={pulseAnimation()}
-      animate="default">
+      animate="default"
+    >
       <Button
         typeBtn="redirect"
-        onClick={() => console.log('clicou em "GARANTIR O MEU INGRESSO"')}>
-        <strong className="text-center">GARANTIR O MEU INGRESSO</strong>
+        onClick={() => console.log('clicou em "GARANTIR O MEU INGRESSO"')}
+      >
+        <strong className="text-center">GARANTA O SEU INGRESSO</strong>
       </Button>
     </motion.div>
   );

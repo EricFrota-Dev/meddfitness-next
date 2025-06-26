@@ -1,28 +1,38 @@
 import React from "react";
-import { motion } from "motion/react";
 import { GradientCardProps } from "./types";
-import { scaleBounceAnimation } from "@/animations";
+import EntryAnimation from "@/components/layout/AnimatedContent/EntryAnimation";
 
-const GradientCard: React.FC<GradientCardProps> = ({
+type ComponentProps = GradientCardProps & {
+  from?: "none";
+  delay?: number;
+  bg?: string;
+};
+
+const GradientCard: React.FC<ComponentProps> = ({
+  delay,
+  from,
   children,
   bordered,
   className,
+  bg = "bg-dark",
 }) => {
   return (
-    <motion.div
+    <EntryAnimation
+      from={from}
+      delay={delay}
       className={`${className} p-[2px] rounded-xl ${
-        bordered && "bg-gradient-to-r from-4 via-2 to-4"
+        bordered &&
+        "bg-gradient-to-r from-primary-darker via-primary to-primary-darker"
       }`}
-      variants={scaleBounceAnimation()}
-      initial="small"
-      whileInView="default">
+    >
       <div
         className={`${
-          bordered ? "bg-5" : "radial-gradient"
-        } rounded-xl p-8 border border-transparent bg-clip-padding h-full flex flex-col justify-center items-center `}>
+          bordered ? bg : "radial-gradient"
+        } rounded-xl shadow-lg p-8 border border-transparent bg-clip-padding h-full flex flex-col justify-center items-center `}
+      >
         {children}
       </div>
-    </motion.div>
+    </EntryAnimation>
   );
 };
 

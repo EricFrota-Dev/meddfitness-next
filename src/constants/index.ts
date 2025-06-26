@@ -38,6 +38,7 @@ import {
   ifbbBrasil,
   linkedFun,
   Logo,
+  LogoPrincipal,
   megafitness,
   rissi,
   universoCasuo,
@@ -226,7 +227,7 @@ export const patrocinadores: simpleCard[] = [
   { id: 3, title: "XXX", src: defaultPerfilPhoto, desc: " EM BREVE" },
 ];
 
-export const echosystem: simpleCard[] = [
+export const echosystem = [
   {
     id: 0,
     title: "CONCURSO DE GAROTA MEGAFIT",
@@ -366,60 +367,51 @@ export const stafPerfilPhotos: simpleCard[] = [
 export const navegation = [
   {
     id: "0",
-    title: "TURMA",
-    url: "/Turma",
+    title: "SOBRE NÓS",
+    url: "/About",
+    options: [],
   },
   {
     id: "1",
-    title: "MEDDEVENTOS",
-    url: "/MeddEventos",
+    title: "MEGAFITNESS 2025",
+    url: "/MegaFitness2025",
+    options: [],
   },
   {
     id: "2",
-    title: "MEDDFITNESS 2025",
-    url: "/MeddFitness2025",
+    title: "1° CONGRESSO MEDDFITNESS BRASIL",
+    url: "/CongressoMeddfitness",
+    options: [],
   },
-  // {
-  //   id: "3",
-  //   title: "IFBB ACADEMY",
-  //   url: "/meddfitness/ifbb_academy",
-  //   element: IfbbAcademy,
-  // },
-  // {
-  //   id: "4",
-  //   title: "IFBB PRO",
-  //   url: "/meddfitness/ifbb_pro",
-  //   element: IfbbPro,
-  // },
-  // {
-  //   id: "5",
-  //   title: "IFBB BRASIL STORE",
-  //   url: "/meddfitness/ifbb_brasil_store",
-  //   element: IfbbBrasil,
-  // },
   {
-    id: "6",
-    title: "GAROTA MEGAFITNESS",
-    url: "/GarotaMegaFitness",
+    id: "3",
+    title: "EVENTO EM GRANDE ESTILO",
+    url: "/EventoGrandeEstilo",
+    options: [],
   },
-  // {
-  //   id: "7",
-  //   title: "PODCAST MAROMBA",
-  //   url: "/meddfitness/podcast_maromba",
-  //   element: PodcastMaromba,
-  // },
-  // {
-  //   id: "8",
-  //   title: "GUIA",
-  //   url: "/meddfitness/guia",
-  //   element: GuiaDoSite,
-  // },
+  {
+    id: "4",
+    title: "BLOG",
+    url: "/Blog",
+    options: [],
+  },
+  {
+    id: "5",
+    title: "CONTATO",
+    url: "/Contact",
+    options: [],
+  },
 ];
 export const images: simpleImage[] = [
   {
     id: 0,
     alt: "MeddFitness Logo",
     src: Logo,
+  },
+  {
+    id: 1,
+    alt: "MeddFitness Logo Principal",
+    src: LogoPrincipal,
   },
 ];
 

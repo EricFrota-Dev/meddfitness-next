@@ -15,12 +15,13 @@ export type childrenProps = {
 };
 
 export type simpleCardProps = {
-  title: string;
+  name: string;
+  role: string;
   src: StaticImageData;
   desc?: string;
 };
 export type simpleCard = {
-  id: number;
+  id?: number;
   title: string;
   src: StaticImageData;
   desc?: string;

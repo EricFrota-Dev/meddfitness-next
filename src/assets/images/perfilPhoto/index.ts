@@ -4,6 +4,7 @@ import DianaMonteiro from "./DianaMonteiro_perfil.png";
 import BetaoMonteiro from "./BetaoMonteiro_perfil.png";
 import CassioBirque from "./CassioBirque_perfil.png";
 import defaultPerfilPhoto from "./default-perfil-icon.png";
+import Jacqueline from "./JacquelineMouradian_perfil.png";
 
 export {
   PauloNetto,
@@ -12,4 +13,5 @@ export {
   BetaoMonteiro,
   CassioBirque,
   defaultPerfilPhoto,
+  Jacqueline,
 };

@@ -7,6 +7,7 @@ import vivaCare from "./viva-care-logo.png";
 import universoCasuo from "./universo-casuo-logo.png";
 import rissi from "./rissi-logo.png";
 import linkedFun from "./linked-fun-logo.png";
+import LogoPrincipal from "./meddfitness-logo-principal.svg";
 
 export {
   Logo,
@@ -18,4 +19,5 @@ export {
   universoCasuo,
   rissi,
   linkedFun,
+  LogoPrincipal,
 };

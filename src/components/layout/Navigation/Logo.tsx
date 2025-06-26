@@ -1,23 +1,16 @@
-"use client";
-
-import { entryAnimation } from "@/animations";
 import { images } from "@/constants";
-import { motion } from "motion/react";
 import Image from "next/image";
 import Link from "next/link";
+import EntryAnimation from "../AnimatedContent/EntryAnimation";
 
 const Logo = () => {
   return (
     <>
-      <motion.div
-        variants={entryAnimation()}
-        initial="from_left"
-        animate="default"
-        className="-z-20">
+      <EntryAnimation from="left">
         <Link href="/">
-          <Image className="h-[50px]" src={images[0].src} alt={images[0].alt} />
+          <Image className="h-25" src={images[1].src} alt={images[1].alt} />
         </Link>
-      </motion.div>
+      </EntryAnimation>
     </>
   );
 };

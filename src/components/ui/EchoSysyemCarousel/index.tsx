@@ -1,3 +1,4 @@
+"use client";
 import { echoSysyemCardProps } from "./types";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -62,7 +63,8 @@ const EchoSysyemCarousel: React.FC<echoSysyemCardProps> = ({ items }) => {
       slidesToSlide={2}
       swipeable
       customLeftArrow={<CustomLeftArrow />}
-      customRightArrow={<CustomRightArrow />}>
+      customRightArrow={<CustomRightArrow />}
+    >
       {items.concat(items).map(({ title, src, desc }, index) => (
         <EchoSysyemCard key={index} title={title} src={src} desc={desc} />
       ))}

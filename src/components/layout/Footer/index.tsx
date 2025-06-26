@@ -5,11 +5,12 @@ import { motion } from "motion/react";
 
 const Footer = () => {
   return (
-    <motion.section
-      className="bg-6 text-white"
+    <motion.div
+      className="bg-darker text-light"
       variants={entryAnimation()}
       initial="from_bottom"
-      whileInView="default">
+      whileInView="default"
+    >
       {/* Container Principal */}
       <div className="customContainer">
         <div className="flex flex-wrap justify-between gap-8 ">
@@ -88,13 +89,13 @@ const Footer = () => {
         </div>
       </div>
       {/* Linha Divisória */}
-      <hr className="border-4 " />
+      <hr className="border-1 border-dark-200" />
 
       {/* Direitos Autorais */}
-      <div className="text-center text-sm text-gray-400 m-6">
+      <div className="text-center text-sm text-gray-400 p-6">
         © 2025 MedDFitness. Todos os direitos reservados.
       </div>
-    </motion.section>
+    </motion.div>
   );
 };
 

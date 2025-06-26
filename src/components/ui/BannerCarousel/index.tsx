@@ -23,7 +23,7 @@ const BannerCarousel = () => {
   };
 
   return (
-    <div className="w-screen flex justify-center">
+    <div className="w-screen max-h-180 flex justify-center">
       <Carousel
         additionalTransfrom={0}
         arrows
@@ -42,7 +42,8 @@ const BannerCarousel = () => {
         slidesToSlide={1}
         swipeable
         customLeftArrow={<CustomLeftArrow />}
-        customRightArrow={<CustomRightArrow />}>
+        customRightArrow={<CustomRightArrow />}
+      >
         {banners.map(({ alt, src }, i) => (
           <BannerItem key={i} src={src} alt={alt} />
         ))}

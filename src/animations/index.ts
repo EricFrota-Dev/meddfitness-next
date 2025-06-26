@@ -13,14 +13,16 @@ export const smooth = {
 export function entryAnimation(delay = 0) {
   return {
     default: {
+      scaleX: 1,
+      scaleY: 1,
+      scale: 1,
       x: 0,
       y: 0,
       opacity: 1,
       transition: {
         duration: 0.7,
-        staggerChildren: 0.15,
-        delay: delay,
         ease: "backOut",
+        delay,
       },
     },
     from_right: {
@@ -61,6 +63,43 @@ export function entryAnimation(delay = 0) {
         staggerChildren: 0.15,
         delay: delay,
         ease: "backOut",
+      },
+    },
+    from_center: {
+      scale: 0,
+      opacity: 0,
+      transition: {
+        duration: 0.3,
+        staggerChildren: 0.15,
+        delay: delay,
+        ease: "easeInOut",
+      },
+    },
+    grow_x: {
+      scaleX: 0,
+      transition: {
+        duration: 0.3,
+        staggerChildren: 0.15,
+        delay: delay,
+        ease: "easeInOut",
+      },
+    },
+    grow_y: {
+      scaleY: 0,
+      transition: {
+        duration: 0.3,
+        staggerChildren: 0.15,
+        delay: delay,
+        ease: "easeInOut",
+      },
+    },
+    smooth: {
+      opacity: 0,
+      transition: {
+        duration: 0.3,
+        staggerChildren: 0.15,
+        delay: delay,
+        ease: "easeInOut",
       },
     },
   };

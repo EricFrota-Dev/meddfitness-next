@@ -19,13 +19,15 @@ const NavItems = () => {
           variants={entryAnimation(isSidebarOpen ? 0.03 * index : 0)}
           initial={isSidebarOpen ? "from_right" : "initialScale"}
           animate={isSidebarOpen ? "default" : "defaultScale"}
-          exit={isSidebarOpen ? "from_right" : undefined}>
+          exit={isSidebarOpen ? "from_right" : undefined}
+        >
           <Link
             href={url}
             onClick={close}
-            className={`relative rounded-md py-1 px-3 flex w-full items-center text-[0.8em] hover:bg-4/40 hover:scale-102 active:scale-98 active:bg-4/80 transition-transform ${
+            className={`relative rounded-md py-1 px-3 flex w-full items-center hover:bg-4/40 hover:scale-102 active:scale-98 active:bg-4/80 transition-transform ${
               location === url && "scale-102"
-            }`}>
+            }`}
+          >
             <motion.div
               className={`${
                 isSidebarOpen
@@ -39,7 +41,7 @@ const NavItems = () => {
               transition={{ duration: 0.3, ease: "easeInOut" }}
             />
 
-            <h3>{title}</h3>
+            <h5>{title}</h5>
           </Link>
         </motion.li>
       ))}
