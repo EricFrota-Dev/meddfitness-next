@@ -1,9 +1,11 @@
 import React from "react";
 import { GradientCardProps } from "./types";
-import EntryAnimation from "@/components/layout/AnimatedContent/EntryAnimation";
+import EntryAnimation, {
+  EntryDirection,
+} from "@/components/layout/AnimatedContent/EntryAnimation";
 
 type ComponentProps = GradientCardProps & {
-  from?: "none";
+  from?: EntryDirection;
   delay?: number;
   bg?: string;
 };

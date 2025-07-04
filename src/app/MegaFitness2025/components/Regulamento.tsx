@@ -1,12 +1,45 @@
-import React from "react";
+"use client";
+import React, { useEffect, useState } from "react";
 import { premiacao } from "../constants";
 
 const Regulamento = () => {
+  const [activeIndex, setActiveIndex] = useState<number>(0);
+
+  const setIndex = (index: number) => {
+    console.log(index);
+    setActiveIndex(index);
+  };
+
+  useEffect(() => {
+    const sections = document.querySelectorAll(".regulamento");
+    sections.forEach((section, index) => {
+      if (index === activeIndex) {
+        section.classList.remove("hidden");
+      } else {
+        section.classList.add("hidden");
+      }
+    });
+  }, [activeIndex]);
   return (
     <>
-      <div className="customContainer">
-        <p className="text-[4rem] font-bold font-montserrat">REGULAMENTO</p>
-        <h2>1.1 Perfil dos Candidatos</h2>
+      <h1 className="text-[4rem] font-bold font-montserrat text-center text-primary ">
+        REGULAMENTO
+      </h1>
+      <div className="flex justify-center mb-4 bg-dark-300 shadow-md shadow-darker-30">
+        {[...Array(8)].map((_, index) => (
+          <button
+            key={index}
+            onClick={() => setIndex(index)}
+            className={`${
+              index == activeIndex ? "bg-primary text-dark" : "text-white"
+            } px-4 py-2  border-x border-dark-300 transition-all duration-100`}
+          >
+            {`Regulamento ${index + 1}`}
+          </button>
+        ))}
+      </div>
+      <div className="customContainer regulamento">
+        <h2>1 Perfil dos Candidatos</h2>
         <p>
           Para participar do processo seletivo, os candidatos deverão acessar o
           site www.meddfitness.com.br e preencher o formulário de inscrição.
@@ -54,9 +87,8 @@ const Regulamento = () => {
         </p>
       </div>
 
-      <div className="customContainer">
+      <div className="customContainer regulamento hidden">
         <h2>2.0 Taxa de Inscrição</h2>
-        <p>2.0 Taxa de Inscrição</p>
         <p>
           2.1 Para participar do Concurso MEGAFITNESS e suas respectivas etapas,
           os candidatos deverão efetuar o pagamento de uma taxa de inscrição no
@@ -100,7 +132,7 @@ const Regulamento = () => {
           acompanhada da documentação comprobatória.
         </p>
       </div>
-      <div className="customContainer">
+      <div className="customContainer regulamento hidden">
         <h2>3 - Critérios de Seleção e Classificação</h2>
         <p>
           3.1 Por não se tratar de um concurso de fisiculturismo ou de modelos
@@ -144,7 +176,7 @@ const Regulamento = () => {
           impossibilitando a aplicação de critérios objetivos de desempate.
         </p>
       </div>
-      <div className="customContainer">
+      <div className="customContainer regulamento hidden">
         <h2>4 - BANCA JULGADORA</h2>
         <p>
           4.1 A banca avaliadora será composta por profissionais do setor
@@ -154,7 +186,7 @@ const Regulamento = () => {
           — indicados pela IFBB Brasil.
         </p>
       </div>
-      <div className="customContainer">
+      <div className="customContainer regulamento hidden">
         <h2>5 - Premiação</h2>
         <p>
           5.1 Os finalistas do 1º ao 3º lugar, nas categorias masculina e
@@ -180,7 +212,7 @@ const Regulamento = () => {
           </ul>
         </div>
       </div>
-      <div className="customContainer">
+      <div className="customContainer regulamento hidden">
         <h2>
           6 - Direitos de Uso de Imagem, Voz e contatos para envio de mensagens.
         </h2>
@@ -214,7 +246,7 @@ const Regulamento = () => {
           seus critérios internos.
         </p>
       </div>
-      <div className="customContainer">
+      <div className="customContainer regulamento hidden">
         <h2>7.0 Assessoria e Exclusividade</h2>
         <p>
           7.1 As finalistas terão assessoria de imprensa exclusiva, indicada
@@ -281,7 +313,8 @@ const Regulamento = () => {
           segurança pública e/ou força maior.
         </p>
       </div>
-      <div className="customContainer">
+      <div className="customContainer regulamento hidden">
+        <h2>8.0 Todos os direitos autorais</h2>
         <p>
           8.1 Ao se inscrever no MEGAFITNESS, o participante declara
           automaticamente ter pleno conhecimento de todos os termos deste

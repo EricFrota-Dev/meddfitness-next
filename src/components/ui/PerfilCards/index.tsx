@@ -1,19 +1,21 @@
 import React from "react";
 import { simpleCardProps } from "@/constants/types";
 import Image from "next/image";
-import EntryAnimation from "@/components/layout/AnimatedContent/EntryAnimation";
+import EntryAnimation, {
+  EntryDirection,
+} from "@/components/layout/AnimatedContent/EntryAnimation";
 
 type PerfilCardProps = simpleCardProps & {
-  animation?: string;
+  animation?: EntryDirection;
   delay?: number;
 };
 
 const PerfilCard: React.FC<PerfilCardProps> = ({
   name,
-  role,
+  role = null,
   src,
   desc,
-  animation = "from_center",
+  animation = "scale",
   delay = 0,
 }) => {
   return (
@@ -25,7 +27,7 @@ const PerfilCard: React.FC<PerfilCardProps> = ({
       <div className="">
         <Image src={src} alt={name} />
       </div>
-      <div className="flex text-center flex-col items-center justify-center h-full bg-2 text-6 p-2">
+      <div className="flex text-center flex-col items-center h-full bg-2 text-6 p-2">
         <h4>
           <strong>{name}</strong>
         </h4>

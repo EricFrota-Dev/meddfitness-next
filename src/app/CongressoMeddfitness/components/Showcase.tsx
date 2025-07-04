@@ -11,7 +11,7 @@ const Showcase = () => {
         </h1>
         <h3>
           <span className="font-bold">
-            feira | wORKSHOP | PODCAST | CONCURSO | CAMPEONATO | show
+            FEIRA | WORKSHOP | PODCAST | CONCURSO | CAMPEONATO | SHOW
           </span>
         </h3>
       </div>
@@ -33,13 +33,13 @@ const Showcase = () => {
       </div>
       <div className="flex justify-around">
         {MdAbout.map((item, i) => (
-          <EntryAnimation from="scale" delay={i * 150}>
-            <div
-              key={i}
-              className="rounded-full w-100 h-100 bg-primary px-10 text-dark font-bold py-40 flex justify-center items-center text-center"
-            >
-              <p>{item}</p>
-            </div>
+          <EntryAnimation
+            key={i}
+            from="scale"
+            delay={i * 150}
+            className="rounded-full w-100 h-100 bg-primary px-10 text-dark font-bold py-40 flex justify-center items-center text-center"
+          >
+            <p>{item}</p>
           </EntryAnimation>
         ))}
       </div>

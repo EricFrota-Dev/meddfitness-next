@@ -35,9 +35,10 @@ const EventsCarousel: React.FC<eventsCardProps> = ({ items }) => {
         slidesToSlide={1}
         swipeable
         customLeftArrow={<CustomLeftArrow />}
-        customRightArrow={<CustomRightArrow />}>
+        customRightArrow={<CustomRightArrow />}
+      >
         {items.map(({ title, src }, index) => (
-          <EventCard key={index} title={title} src={src} />
+          <EventCard key={index} role="" name={title} src={src} />
         ))}
       </Carousel>
     </div>

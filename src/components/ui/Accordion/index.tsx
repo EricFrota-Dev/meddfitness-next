@@ -13,11 +13,12 @@ const Accordion = ({ items }: accordionProps) => {
 
   return (
     <div className="w-full flex flex-col text-start">
-      {items.map(({ question, response, id }) => (
-        <div key={id} className="border-b border-3/30">
+      {items.map(({ question, response }, id) => (
+        <div key={id} className="border-b border-dark-200">
           <button
             className="w-full text-left p-3 cursor-pointer font-semibold hover:bg-3/20 transition-all"
-            onClick={() => toggleItem(id)}>
+            onClick={() => toggleItem(id)}
+          >
             {question}
           </button>
           <motion.div
@@ -27,10 +28,11 @@ const Accordion = ({ items }: accordionProps) => {
               opacity: openItem === id ? 1 : 0,
             }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
-            className="overflow-hidden">
+            className="overflow-hidden"
+          >
             <ul>
               {response.map((res: string, i: number) => (
-                <li key={i} className="p-3 ml-3 text-1/50">
+                <li key={i} className="p-3 ml-3 text-light/50">
                   {res}
                 </li>
               ))}

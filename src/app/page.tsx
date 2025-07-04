@@ -8,22 +8,18 @@ const Home = () => {
       <div id="banners" className="p-0 m-0">
         <BannerCarousel />
       </div>
+
       <div id="MedFuture">
-        <div className="customContainer flex items-center justify-center bg-darker xl:min-h-40">
-          <EntryAnimation from="right">
-            <h3>
-              <p>
-                O futuro da <span>medicina esportiva</span> e do{" "}
-                <span>fitness</span> começa aqui.
-              </p>
-              <p className="font-extralight text-center">
-                {" "}
-                Viva a experiência, transforme sua performance!
-              </p>
-            </h3>
-          </EntryAnimation>
-        </div>
+        <EntryAnimation
+          from="right"
+          className="customContainer text-light-500 flex items-center justify-center gap-[10%] bg-darker xl:min-h-22"
+        >
+          <h1 className="font-extrabold">CRIAÇÃO</h1>{" "}
+          <h1 className="font-extrabold">CELEBRAÇÃO</h1>{" "}
+          <h1 className="font-extrabold">CONEXÃO</h1>
+        </EntryAnimation>
       </div>
+
       <section id="events">
         <Ingressos />
       </section>

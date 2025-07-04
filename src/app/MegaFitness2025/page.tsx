@@ -19,12 +19,12 @@ const MegaFitness2025 = () => {
       <section id="regulamento">
         <Regulamento />
       </section>
-      <section id="investimento">
+      {/* <section id="investimento" className="customContainer text-center">
         <h1>Investimento Patrocínio</h1>
         <p>Medfit Ouro 200 K 2 cotas</p>
         <p>Medfit prata 100 K 5 cotas</p>
         <p>Medfit bronze 50 K 3 cotas</p>
-      </section>
+      </section> */}
     </>
   );
 };

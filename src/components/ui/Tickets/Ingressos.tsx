@@ -1,7 +1,5 @@
-import { pulseAnimation } from "@/animations";
 import GradientCard from "@/components/ui/GradientCard";
 import { ingressosCard } from "@/constants";
-import { motion } from "motion/react";
 import React from "react";
 import GarantirEngressoBtn from "../Button/GarantirEngressoBtn";
 import EntryAnimation from "@/components/layout/AnimatedContent/EntryAnimation";

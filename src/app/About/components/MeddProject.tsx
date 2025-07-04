@@ -30,7 +30,7 @@ const MeddProject = () => {
               <GradientCard className="max-w-70 h-full" bordered>
                 <div className="h-full">
                   <div>
-                    <h3 className="mb-4">
+                    <h3 className="mb-4 text-center">
                       <span>{title}</span>
                     </h3>
                   </div>

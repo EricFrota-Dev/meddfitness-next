@@ -1,4 +1,5 @@
 import exemplo from "@/assets/images/exemplo.jpg";
+import Image from "next/image";
 
 const FrontsMeddfitness = () => {
   return (
@@ -12,7 +13,7 @@ const FrontsMeddfitness = () => {
           </h3>
         </div>
         <div className="flex items-center justify-center">
-          <img src={exemplo.src} alt="exemplo" />
+          <Image src={exemplo.src} alt="exemplo" />
         </div>
         <div className="md:flex">
           <div className="p-6 flex items-center flex-3">

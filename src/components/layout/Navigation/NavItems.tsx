@@ -15,7 +15,7 @@ const NavItems = () => {
       {navegation.map(({ url, title }, index) => (
         <motion.li
           key={index}
-          className="flex m-1 items-center"
+          className="flex m-1 h-full items-center"
           variants={entryAnimation(isSidebarOpen ? 0.03 * index : 0)}
           initial={isSidebarOpen ? "from_right" : "initialScale"}
           animate={isSidebarOpen ? "default" : "defaultScale"}
@@ -25,14 +25,12 @@ const NavItems = () => {
             href={url}
             onClick={close}
             className={`relative rounded-md py-1 px-3 flex w-full items-center hover:bg-4/40 hover:scale-102 active:scale-98 active:bg-4/80 transition-transform ${
-              location === url && "scale-102"
+              location === url && "scale-102 text-dark"
             }`}
           >
             <motion.div
               className={`${
-                isSidebarOpen
-                  ? "bg-gradient-to-r from-2/50 to-5/0"
-                  : "bg-gradient-to-r from-3 via-2/50 to-4"
+                isSidebarOpen ? "bg-primary " : "bg-primary"
               } absolute inset-0 rounded-md z-[-1]`}
               initial={{ width: "0%" }}
               animate={{

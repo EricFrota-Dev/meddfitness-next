@@ -1,13 +1,13 @@
-import { entryAnimation } from "@/animations";
 import EntryAnimation from "@/components/layout/AnimatedContent/EntryAnimation";
 import { images } from "@/constants";
-import { motion } from "motion/react";
 import Image from "next/image";
+import { cardsContent } from "../constants";
+import GradientCard from "@/components/ui/GradientCard";
 
 const TurmaAbout = () => {
   return (
-    <section>
-      <div className="customContainer mt-10 mb-10 flex flex-col xl:flex-row gap-5 xl:gap-20">
+    <div className="customContainer mt-14">
+      <div className="mt-10 mb-10 flex flex-col xl:flex-row gap-5 xl:gap-20">
         <EntryAnimation from="left" className="flex-1 flex items-center">
           <Image
             src={images[1].src}
@@ -17,29 +17,37 @@ const TurmaAbout = () => {
         </EntryAnimation>
         <EntryAnimation
           from="right"
-          className="flex-2 text-justify self-center"
+          className="flex-2 text-justify self-center text-xl"
         >
           <p>
             {" "}
-            A <span>MEDDFITNESS</span> nasceu para preencher uma lacuna
-            existente no setor de medicina esportiva, oferecendo eventos e
-            serviços especializados para profissionais da área que, muitas
-            vezes, não têm acesso a grandes congressos realizados nas capitais
-            do Brasil. Nosso objetivo é descentralizar o conhecimento e
-            democratizar o acesso à informação, promovendo eventos de alto nível
-            que unam medicina esportiva, nutrição, fisioterapia, educação física
-            e fisiculturismo em um ambiente de aprendizado e networking.
-            <br /> Através de workshops, seminários e convenções, promovemos a
-            conexão entre especialistas da área da saúde esportiva e o setor
-            fitness, criando oportunidades para profissionais, empresas e
-            atletas. <br />
-            Nosso diferencial está na criação de eventos espetáculos, que unem
-            ciência, negócios e entretenimento, proporcionando experiências
-            imersivas e impactantes para todos os participantes
+            A <strong>MeddFitness</strong> nasceu com o propósito de levar
+            conhecimento e capacitação de qualidade para a comunidade médica, de
+            saúde e bem-estar, oferecendo cursos de especialização, seminários e
+            palestras, especialmente para regiões importantes, que ficam fora do
+            circuito das capitais e metrópoles.
+            <br /> No Brasil, a maioria dos eventos voltados à medicina
+            esportiva e serviços de excelência estão concentrados nos grandes
+            centros urbanos e nossa proposta é justamente trazer excelência para
+            estes polos potenciais mais distantes.
           </p>
         </EntryAnimation>
       </div>
-    </section>
+      <div className="text-2 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 mt-18 mb-18 h-full">
+        {cardsContent.map((text, i) => (
+          <EntryAnimation from="scale" key={i} delay={i * 150}>
+            <GradientCard
+              bg="bg-dark"
+              bordered
+              key={i}
+              className="min-w-[130px] max-w-70 ml-auto mr-auto text-xl text-center h-full"
+            >
+              {text}
+            </GradientCard>
+          </EntryAnimation>
+        ))}
+      </div>
+    </div>
   );
 };
 

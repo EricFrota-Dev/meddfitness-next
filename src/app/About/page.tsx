@@ -1,20 +1,20 @@
-import BannerItem from "@/components/ui/BannerCarousel/BannerItem";
-import { banners, echosystem } from "@/constants";
+// import BannerItem from "@/components/ui/BannerCarousel/BannerItem";
+import { echosystem } from "@/constants";
 import TurmaAbout from "./components/TurmaAbout";
 import PerfilCard from "@/components/ui/PerfilCards";
-import TurmaPurpose from "./components/TurmaPurpose";
+// import TurmaPurpose from "./components/TurmaPurpose";
 import eventImg from "@/assets/images/events/events-bg.jpg";
 import MeddProject from "./components/MeddProject";
 import { grupoGestorAbout } from "./constants";
-import EntryAnimation from "@/components/layout/AnimatedContent/EntryAnimation";
+// import EntryAnimation from "@/components/layout/AnimatedContent/EntryAnimation";
 import EchoSysyemCarousel from "@/components/ui/EchoSysyemCarousel";
 
 const Equipe = () => {
   return (
     <>
-      <EntryAnimation>
+      {/* <EntryAnimation>
         <BannerItem src={banners[1].src} alt={banners[1].alt} />
-      </EntryAnimation>
+      </EntryAnimation> */}
       <TurmaAbout />
       <section>
         <div className="customContainer gap-8 flex flex-col items-center">
@@ -34,7 +34,7 @@ const Equipe = () => {
           </div>
         </div>
       </section>
-      <TurmaPurpose />
+      {/* <TurmaPurpose /> */}
       {/* <FrontsMeddfitness /> */}
       {/* <section className="">
         <EntryAnimation from="right" className="text-center">

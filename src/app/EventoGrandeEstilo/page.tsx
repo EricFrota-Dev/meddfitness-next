@@ -1,0 +1,223 @@
+import Image from "next/image";
+import React from "react";
+import banner4 from "@/assets/images/banners/banner4.jpg";
+import { LogoPrincipal } from "@/assets/images/logos";
+import { entregas, targets } from "./constants";
+import GradientCard from "@/components/ui/GradientCard";
+
+const EventoGrandeEstilo = () => {
+  return (
+    <div>
+      <div>
+        <Image src={banner4} alt="Eventos em Grande Estilo" />
+      </div>
+      <section className="bg-primary-darker">
+        <div className="customContainer">
+          <div className=" p-10 gap-10 flex justify-end items-center">
+            <div>
+              <h4 className="text-justify text-2xl">
+                A MEDDFITNESS também é uma empresa especializada em eventos e
+                entretenimento que promove encontros memoráveis que unem
+                sofisticação, propósito e excelência. Com uma equipe
+                multidisciplinar e apaixonada pelo que faz, criamos experiências
+                únicas, planejadas em cada detalhe para encantar, envolver e
+                transformar.
+              </h4>
+            </div>
+            <Image src={LogoPrincipal} alt="Meddfitness" height={400} />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="customContainer">
+          <h1 className="text-[4rem] mb-6">NOSSA ESSÊNCIA</h1>
+          <p className="text-2xl">
+            <strong className="text-3xl">Perpetuidade</strong> <br />
+            Criamos experiências que ultrapassam o instante e se transformam em
+            memórias duradouras. Eventos celebrativos fortalecem vínculos,
+            inspiram conexões e promovem o bem-estar. São encontros marcantes
+            que unem equipes, celebram conquistas e constroem histórias que
+            permanecem vivas com o passar do tempo.
+          </p>
+        </div>
+      </section>
+      <section>
+        <div className="customContainer grid grid-cols-2 gap-6">
+          <div>
+            <h2>Visão</h2>
+            <p>
+              Transformar o entretenimento brasileiro com impacto social e
+              cultural.
+            </p>
+          </div>
+          <div>
+            <h2>Missão</h2>
+            <p>
+              Transformar o entretenimento brasileiro com impacto social e
+              cultural.
+            </p>
+          </div>
+          <div>
+            <h2>Valores</h2>
+            <p>
+              Transformar o entretenimento brasileiro com impacto social e
+              cultural.
+            </p>
+          </div>
+          <div>
+            <h2>Talento & Cultura</h2>
+            <p>
+              Aplicamos princípios da animação e storytelling para guiar nossos
+              projetos: Timing, antecipação, carisma, estrutura sólida, entre
+              outros.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="customContainer">
+          <h1 className="text-[4rem]">ALINHAMENTO DE EXPECTATIVAS</h1>
+          <p className="text-2xl">
+            Trabalhamos dentro do budget definido, sem abrir mão do espetáculo.
+            Oferecemos experiências gastronômicas com food fingers de cozinha
+            multicultural e open bar com bebidas premium e coquetéis exclusivos.
+            Tudo pensado para encantar, surpreender e entregar exatamente o que
+            foi sonhado, ou até mais.
+          </p>
+        </div>
+      </section>
+      <section>
+        <div className="customContainer">
+          <h1>EVENTOS EM GRANDE ESTILO!</h1>
+          <p>
+            Realizamos{" "}
+            <strong>
+              eventos corporativos, sociais, culturais e promocionais
+            </strong>
+            com excelência e criatividade. Nosso repertório é amplo e
+            diversificado. A equipe multidisciplinar da MEDDFITNESS está sempre
+            pronta para surpreender. Shows, ativações, experiências imersivas,
+            festas personalizadas e uma produção técnica impecável: se você pode
+            imaginar, nós podemos realizar. Com alegria, elegância e atenção aos
+            detalhes, transformamos cada encontro em uma experiência única capaz
+            de emocionar, criar conexões e valorizar a essência de cada ocasião.
+          </p>
+        </div>
+      </section>
+      <section>
+        <div className="customContainer">
+          <h1 className="text-[4rem] text-center mb-10">
+            <span>ENTREGAS</span>
+          </h1>
+          <div className="flex gap-4">
+            {entregas.map((item, i) => (
+              <GradientCard key={i} bordered className="w-fit">
+                <h2>{item.title}</h2>
+                <ul>
+                  {item.itens.map((text, j) => (
+                    <li key={j}>
+                      <p>{text}</p>
+                    </li>
+                  ))}
+                </ul>
+              </GradientCard>
+            ))}
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="customContainer flex">
+          <div className="flex justify-center items-center">
+            <div>
+              <h1 className="text-[4rem]">DIFERENCIAIS</h1>
+              <div className="">
+                <ul className="list-disc pl-6 text-2xl">
+                  <li>Planejamento estratégico com foco na experiência</li>
+                  <li>Curadoria artística e técnica personalizada</li>
+                  <li>Equipe experiente e versátil</li>
+                  <li>Parcerias com fornecedores premium</li>
+                  <li>Atendimento próximo, transparente e ágil</li>
+                  <li>
+                    Operação totalmente segurada pelas companhias Allianz,
+                    Zurich e AXA.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div>
+            <Image
+              src="https://media-public.canva.com/vYstI/MAFLEHvYstI/1/s.jpg"
+              alt="mulher"
+            />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="customContainer">
+          <h1>EVENTOS REALIZADOS COM NOSSO PATROCÍNIO</h1>
+        </div>
+      </section>
+      <div className="flex bg-primary-darker">
+        <div className="p-10 flex-1 pl-[10%] flex justify-center items-center flex-col">
+          <h1 className="text-[3rem]">
+            PRESENÇA MARCANTE EM EVENTOS E REDES SOCIAIS
+          </h1>
+          <p className="text-2xl ">
+            Hair Fashion Show 1,4 milhões inscrições Monange Drean Fashion 2.0
+            milhões de pessoas Like Mega Model 1,4 milhões incrições Menina
+            Fantástica 50 milhões impactados TicTac Mega Model 2 milhões
+            inscrições Palmolive Mega Model 1,3 milhões inscrições Atroveran
+            Mega Model 1,3 milhões inscrições. Pantene Menina Fantástica 50
+            milhões Impactados Mega Challenge Simple Organic 320 milhões de
+            “views “ em 30 dias no Tik Tok.
+          </p>
+        </div>
+        <div
+          style={{
+            backgroundImage: `url('https://media-public.canva.com/Z9MsU/MADyQ6Z9MsU/1/s2.jpg')`,
+          }}
+          className="h-150 bg-cover bg-center flex-1"
+        />
+      </div>
+      <section>
+        <div className="customContainer">
+          <h1>ENTRETENIMENTO AO VIVO</h1>
+          <p>
+            O setor de entretenimento ao vivo movimenta uma ampla rede de
+            profissionais e serviços, envolvendo desde artistas e agentes até
+            promotores de eventos, operadores de bilheteria, alimentação,
+            merchandising e espaços. Os principais segmentos incluem shows,
+            peças teatrais, exposições e eventos esportivos. São experiências
+            que conectam marcas e públicos diversos. A viabilização de eventos
+            depende de uma estrutura bem coordenada, onde cada elo da cadeia
+            agrega valor, seja na produção, na operação ou na venda de
+            patrocínios. Cada vez mais, empresas associam suas marcas a eventos
+            culturais, esportivos e sociais, reforçando sua presença e
+            propósito. Com crescimento constante desde os anos 2000, o setor
+            segue em expansão e se mostra fundamental na construção de
+            experiências memoráveis e de alto impacto.
+          </p>
+        </div>
+      </section>
+      <div>
+        <h1 className="text-center mb-6 bg-light text-dark py-10 px-[10%]">
+          ALGUNS CLIENTES & TARGET : NOSSA REDE DE RELACIONAMENTOS
+        </h1>
+        <div>
+          <ul className="flex gap-6 customContainer">
+            {targets.map((item, i) => (
+              <li key={i} className="flex items-center">
+                <div className="bg-light rounded min-w-30 h-30 p-3 flex justify-center items-center">
+                  <Image src={item.url} alt={item.name} />
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default EventoGrandeEstilo;

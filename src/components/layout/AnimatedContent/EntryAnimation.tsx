@@ -3,7 +3,13 @@
 import { useInView } from "react-intersection-observer";
 import clsx from "clsx";
 
-type EntryDirection = "top" | "bottom" | "left" | "right" | "scale" | "none";
+export type EntryDirection =
+  | "top"
+  | "bottom"
+  | "left"
+  | "right"
+  | "scale"
+  | "none";
 
 type EntryAnimationProps = {
   children?: React.ReactNode;
@@ -21,7 +27,6 @@ const EntryAnimation = ({
   repeat = false,
 }: EntryAnimationProps) => {
   const { ref, inView } = useInView({ triggerOnce: !repeat });
-  console.log(inView);
 
   const animationClass = {
     bottom: "animate-fade-in-up",
@@ -31,7 +36,6 @@ const EntryAnimation = ({
     scale: "animate-fade-in-scale",
     none: "animate-fade-in-smooth",
   }[from];
-
   return (
     <div
       ref={ref}

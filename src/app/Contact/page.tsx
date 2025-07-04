@@ -1,0 +1,20 @@
+import React from "react";
+import { contacts } from "./constants";
+import GradientCard from "@/components/ui/GradientCard";
+
+const Contact = () => {
+  return (
+    <div className="customContainer flex justify-around">
+      {contacts.map(({ name, contacts }, i) => (
+        <GradientCard key={i} bordered className="max-w-150 flex-1">
+          <h2>{name}</h2>
+          <p>{contacts.site}</p>
+          <p>{contacts.email}</p>
+          <p>{contacts.phone}</p>
+        </GradientCard>
+      ))}
+    </div>
+  );
+};
+
+export default Contact;

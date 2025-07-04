@@ -150,27 +150,27 @@ export const categorias: categoryFem[] = [
 export const parceiros = [
   {
     id: 0,
-    title: "ACADEMIAS",
+    name: "ACADEMIAS",
     src: academias,
   },
   {
     id: 1,
-    title: "BOX DE CROSSFIT",
+    name: "BOX DE CROSSFIT",
     src: boxCrossfit,
   },
   {
     id: 2,
-    title: "STUDIO DE YOGA",
+    name: "STUDIO DE YOGA",
     src: yoga,
   },
   {
     id: 3,
-    title: "PSTUDIO DE PILATES",
+    name: "PSTUDIO DE PILATES",
     src: pilates,
   },
   {
     id: 4,
-    title: "CLUBES ESPORTIVOS",
+    name: "CLUBES ESPORTIVOS",
     src: clubeExportivo,
   },
 ];
@@ -220,11 +220,11 @@ export const embaixadores: simpleCard[] = [
   { id: 2, title: "XXX", src: defaultPerfilPhoto, desc: " EM BREVE" },
   { id: 3, title: "XXX", src: defaultPerfilPhoto, desc: " EM BREVE" },
 ];
-export const patrocinadores: simpleCard[] = [
-  { id: 0, title: "XXX", src: defaultPerfilPhoto, desc: " EM BREVE" },
-  { id: 1, title: "XXX", src: defaultPerfilPhoto, desc: " EM BREVE" },
-  { id: 2, title: "XXX", src: defaultPerfilPhoto, desc: " EM BREVE" },
-  { id: 3, title: "XXX", src: defaultPerfilPhoto, desc: " EM BREVE" },
+export const patrocinadores = [
+  { id: 0, name: "XXX", src: defaultPerfilPhoto, desc: " EM BREVE" },
+  { id: 1, name: "XXX", src: defaultPerfilPhoto, desc: " EM BREVE" },
+  { id: 2, name: "XXX", src: defaultPerfilPhoto, desc: " EM BREVE" },
+  { id: 3, name: "XXX", src: defaultPerfilPhoto, desc: " EM BREVE" },
 ];
 
 export const echosystem = [
@@ -308,24 +308,24 @@ export const projetoMeddfitness = [
   {
     id: 0,
     title: "NETWORK",
-    desc: "Congregar, estimular e apoiar o intercâmbio de informação atualizada e conhecimento técnic científico na área de medicina esportiva, integrada às diretrizes das políticas de promoção do esporte saudável e adequada, e de segurança física e mental.",
+    desc: "Congregar, estimular e apoiar o intercâmbio de informações atualizadas e do conhecimento técnico-científico na área de medicina, na área da medicina esportiva, alinhando-se às diretrizes das políticas de promoção do esporte saudável, adequado e da segurança física e mental.",
     icon: network,
   },
   {
     id: 1,
     title: "EDUCAÇÃO",
-    desc: "Gerar oportunidadede aperfeiçoamento profissional e promover a divulgação de estudos e avanços científicos a fim de cooperar para a melhora dos serviços de saúde e do indivíduo com foco no fisiculturismo;",
+    desc: "Gerar oportunidades de aperfeiçoamento profissional e promover a divulgação de estudos e avanços científicos, contribuindo para a melhoria dos serviços de saúde e do bem-estar do indivíduo, com foco no fisiculturismo.",
     icon: books,
   },
   {
     id: 2,
     title: "NEGÓCIOS",
-    desc: "Facilitar a troca de experiências e ampliar o networking entre profissionais da medicina esportiva no Brasil e em países ibero-americanos.",
+    desc: "Incentivar a troca de experiências, a cooperação e o enriquecimento profissional, reunindo especialistas e empresas de diversos estados brasileiros e de países ibero-americanos. Além disso, proporcionar aos congressistas a oportunidade de ampliar o relacionamento com entidades atuantes nas diferentes áreas da medicina esportiva.",
     icon: hands,
   },
   {
     id: 3,
-    title: "Entretenimento",
+    title: "ENTRETENIMENTO",
     desc: "Proporcionar momentos inesquecíveis através de eventos Espetáculos em formato de feiras ou corporativos.",
     icon: instruments,
   },
@@ -389,12 +389,12 @@ export const navegation = [
     url: "/EventoGrandeEstilo",
     options: [],
   },
-  {
-    id: "4",
-    title: "BLOG",
-    url: "/Blog",
-    options: [],
-  },
+  // {
+  //   id: "4",
+  //   title: "BLOG",
+  //   url: "/Blog",
+  //   options: [],
+  // },
   {
     id: "5",
     title: "CONTATO",
