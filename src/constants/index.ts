@@ -29,8 +29,6 @@ import {
   casuoAtraction2,
   stevenSagal1,
   stevenSagal2,
-  zeNetoCristiano1,
-  zeNetoCristiano2,
 } from "@/assets/images/atractions";
 import {
   anadem,

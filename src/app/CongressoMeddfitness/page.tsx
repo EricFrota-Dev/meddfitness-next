@@ -1,16 +1,9 @@
-// import { LogoPrincipal } from "@/assets/images/logos";
-// import Logo from "@/components/layout/Navigation/Logo";
 import { atractions, embaixadores, patrocinadores } from "@/constants";
-// import Image from "next/image";
 import React from "react";
 import MeddFitnessAbout from "./components/MeddFitnessAbout";
-import Showcase from "./components/Showcase";
 import IFBBFed from "./components/IFBBFed";
 import Midias from "./components/Midias";
-import Objetivos from "./components/Objetivos";
-// import { grupoGestorAbout } from "../About/constants";
 import PerfilCard from "@/components/ui/PerfilCards";
-import MedicinaEsportiva from "./components/MedicinaEsportiva";
 import GarantirEngressoBtn from "@/components/ui/Button/GarantirEngressoBtn";
 import Accordion from "@/components/ui/Accordion";
 import { duvidasRespostas01, duvidasRespostas02 } from "./constants";
