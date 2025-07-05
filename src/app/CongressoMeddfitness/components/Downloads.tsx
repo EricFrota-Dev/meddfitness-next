@@ -8,7 +8,12 @@ const Downloads = () => {
     <div className="customContainer">
       <div className="md:flex md:gap-6 mb-6">
         <div className="flex-1 mb-3 md:mb-0">
-          <Image src={localImg.src} alt="#" />
+          <Image
+            src={localImg.src}
+            alt="#"
+            width={localImg.width}
+            height={localImg.height}
+          />
         </div>
         <div className="flex-1 flex gap-3 flex-col justify-around items-center">
           <h1>

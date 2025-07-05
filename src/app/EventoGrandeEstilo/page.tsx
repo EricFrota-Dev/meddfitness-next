@@ -2,8 +2,11 @@ import Image from "next/image";
 import React from "react";
 import banner4 from "@/assets/images/banners/banner4.jpg";
 import { LogoPrincipal } from "@/assets/images/logos";
-import { entregas, targets } from "./constants";
+import { entregas, frentes } from "./constants";
 import GradientCard from "@/components/ui/GradientCard";
+import eventShow from "@/assets/images/events/show01.jpg";
+import eventosRealizados from "@/assets/images/events/eventosRealizados.jpg";
+import { targets } from "@/assets/images/logos/targets";
 
 const EventoGrandeEstilo = () => {
   return (
@@ -18,17 +21,17 @@ const EventoGrandeEstilo = () => {
               <h4 className="text-justify text-2xl">
                 A MEDDFITNESS também é uma empresa especializada em eventos e
                 entretenimento que promove encontros memoráveis que unem
-                sofisticação, propósito e excelência. Com uma equipe
-                multidisciplinar e apaixonada pelo que faz, criamos experiências
-                únicas, planejadas em cada detalhe para encantar, envolver e
-                transformar.
+                sofisticação, propósito e excelência. <br />
+                <br /> Com uma equipe multidisciplinar e apaixonada pelo que
+                faz, criamos experiências únicas, planejadas em cada detalhe
+                para encantar, envolver e transformar.
               </h4>
             </div>
             <Image src={LogoPrincipal} alt="Meddfitness" height={400} />
           </div>
         </div>
       </section>
-      <section>
+      <section className="bg-light text-dark">
         <div className="customContainer">
           <h1 className="text-[4rem] mb-6">NOSSA ESSÊNCIA</h1>
           <p className="text-2xl">
@@ -43,38 +46,23 @@ const EventoGrandeEstilo = () => {
       </section>
       <section>
         <div className="customContainer grid grid-cols-2 gap-6">
-          <div>
-            <h2>Visão</h2>
-            <p>
-              Transformar o entretenimento brasileiro com impacto social e
-              cultural.
-            </p>
-          </div>
-          <div>
-            <h2>Missão</h2>
-            <p>
-              Transformar o entretenimento brasileiro com impacto social e
-              cultural.
-            </p>
-          </div>
-          <div>
-            <h2>Valores</h2>
-            <p>
-              Transformar o entretenimento brasileiro com impacto social e
-              cultural.
-            </p>
-          </div>
-          <div>
-            <h2>Talento & Cultura</h2>
-            <p>
-              Aplicamos princípios da animação e storytelling para guiar nossos
-              projetos: Timing, antecipação, carisma, estrutura sólida, entre
-              outros.
-            </p>
-          </div>
+          {frentes.map(({ title, desc }, i) => (
+            <GradientCard
+              bordered
+              key={i}
+              delay={150 * i}
+              from="scale"
+              className="max-w-100 mx-auto"
+            >
+              <h2>
+                <span>{title}</span>
+              </h2>
+              <p>{desc}</p>
+            </GradientCard>
+          ))}
         </div>
       </section>
-      <section>
+      <section className="bg-dark-100">
         <div className="customContainer">
           <h1 className="text-[4rem]">ALINHAMENTO DE EXPECTATIVAS</h1>
           <p className="text-2xl">
@@ -86,10 +74,15 @@ const EventoGrandeEstilo = () => {
           </p>
         </div>
       </section>
-      <section>
-        <div className="customContainer">
-          <h1>EVENTOS EM GRANDE ESTILO!</h1>
-          <p>
+      <section
+        className="text-shadow-lg bg-cover bg-center h-185 text-center"
+        style={{ backgroundImage: `url('${eventShow.src}')` }}
+      >
+        <div className="customContainer bg-darker/50">
+          <h1 className="text-[3rem] mb-10 font-extrabold">
+            <span>EVENTOS EM GRANDE ESTILO!</span>
+          </h1>
+          <p className="text-2xl">
             Realizamos{" "}
             <strong>
               eventos corporativos, sociais, culturais e promocionais
@@ -149,14 +142,14 @@ const EventoGrandeEstilo = () => {
             <Image
               src="https://media-public.canva.com/vYstI/MAFLEHvYstI/1/s.jpg"
               alt="mulher"
+              width={800}
+              height={720}
             />
           </div>
         </div>
       </section>
       <section>
-        <div className="customContainer">
-          <h1>EVENTOS REALIZADOS COM NOSSO PATROCÍNIO</h1>
-        </div>
+        <Image src={eventosRealizados} alt="eventos realizdos" />
       </section>
       <div className="flex bg-primary-darker">
         <div className="p-10 flex-1 pl-[10%] flex justify-center items-center flex-col">
@@ -200,16 +193,24 @@ const EventoGrandeEstilo = () => {
           </p>
         </div>
       </section>
-      <div>
-        <h1 className="text-center mb-6 bg-light text-dark py-10 px-[10%]">
+      <div className="bg-light">
+        <h1 className="text-center mb-6  text-dark py-10 px-[10%] border-b border-dark-100">
           ALGUNS CLIENTES & TARGET : NOSSA REDE DE RELACIONAMENTOS
         </h1>
         <div>
-          <ul className="flex gap-6 customContainer">
-            {targets.map((item, i) => (
-              <li key={i} className="flex items-center">
-                <div className="bg-light rounded min-w-30 h-30 p-3 flex justify-center items-center">
-                  <Image src={item.url} alt={item.name} />
+          <ul className="grid gap-6 customContainer grid-cols-7">
+            {targets.map((image, i) => (
+              <li
+                key={i}
+                className="flex items-center justify-center shadow-lg"
+              >
+                <div className=" rounded min-w-30 h-30 p-3 flex justify-center items-center">
+                  <Image
+                    src={image}
+                    alt={"logo" + 1 + i}
+                    width={120}
+                    height={120}
+                  />
                 </div>
               </li>
             ))}

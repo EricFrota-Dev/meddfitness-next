@@ -11,17 +11,16 @@ const Banner = () => {
         <Image src={Couple} alt="couple" height={820} />
       </EntryAnimation>
       <EntryAnimation from="bottom" className="flex items-center flex-col">
-        <h1 className="text-[6rem] font-extrabold z-10 ">
+        <h1 className="text-[6rem] font-extrabold z-10 mb-10">
           1º Congresso MeddFitness Brasil - Olímpia/SP 2025
         </h1>
-
-        <h3 className="text-[3rem] z-10">
+        <h3 className="text-[2.5rem] z-10">
+          Feira • Workshop • Podcast• Concurso • Campeonato • Show
+        </h3>
+        {/* <h5 className="text-[2.5rem] z-10">
           {" "}
           Uma experiência imersiva de saúde, ciência e performance
-        </h3>
-        <p className="text-[1.5rem] z-10">
-          Feira • Workshop • Podcast• Concurso • Campeonato • Show
-        </p>
+        </h5> */}
 
         <GarantirEngressoBtn className="mt-10" />
       </EntryAnimation>

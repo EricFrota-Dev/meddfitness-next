@@ -4,7 +4,7 @@ import EntryAnimation from "@/components/layout/AnimatedContent/EntryAnimation";
 
 const IFBBFed = () => {
   return (
-    <div className="customContainer flex gap-6">
+    <div className="customContainer flex gap-6 justify-center">
       <EntryAnimation from="left">
         <div className="flex flex-col gap-6 max-w-200 border-b-1 border-dark-100 p-4">
           <span className="font-montserrat">
@@ -42,7 +42,7 @@ const IFBBFed = () => {
           </ul>
         </div>
       </EntryAnimation>
-      <div className="flex-1 flex">
+      <div className="flex">
         <div>
           <div className="h-full mx-auto w-full relative flex justify-center items-center">
             <EntryAnimation

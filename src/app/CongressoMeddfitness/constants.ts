@@ -8,7 +8,7 @@ import {
   revistaBranca,
   youtube,
 } from "@/assets/images/logos/midias";
-import { Midias } from "./types";
+import { About, Midias } from "./types";
 import { articleContent } from "@/constants/types";
 import { FAQsProps } from "./types";
 
@@ -57,7 +57,7 @@ export const midias: Midias[] = [
 export const duvidasRespostas01: FAQsProps[] = [
   {
     id: 0,
-    question: "Por que em São José do Rio Preto?",
+    question: "Por que em Olímpia?",
     response: [
       "Primeira vês que a IFBB e MEDDFITNESS escolhem uma cidade e obtém  apoio total  da Secretaria de Esportes e Turismo da Prefeitura Municipal para sediar esse evento, cuja magnitude propiciará um encontro científico e demonstrativo Da capacidade de atendimento médico da cidade e participação de seus  atletas em campeonatos. A cidade atende mais de 93 municípios vizinhos que utilizam sua malha de saúde, conta com os grandes especialistas de medicina esportiva da cidade e região, fazendo fronteira com os estados de Mato Grosso do Sul, Minas Gerais e Goiás e atendendo em sua malha pacientes dos três estados.",
     ],
@@ -96,24 +96,24 @@ export const duvidasRespostas01: FAQsProps[] = [
 ];
 
 export const duvidasRespostas02: FAQsProps[] = [
-  {
-    id: 0,
-    question: "Quando será o MeddFitness 2025?",
-    response: [
-      "Ocorrerá de 07 a 09 de novenbro, na Arena Olímpia Shows & Eventos",
-      "Rua Projetada A, Sem N° - Parque do Sol, Olímpia-SP.",
-    ],
-  },
-  {
-    id: 1,
-    question: "Para quem é o workshop? Qual o público?",
-    response: [
-      "Profissionais e estudantes de graduação e pós-graduação das áreas de nutrição, educação física, medicina, fisioterapia e outros relacionados à área esportiva.",
-      "Pesquisadores e membros de grupos de pesquisa e programas de pós-graduação nas áreas correlatas à medicina esportiva.",
-      "Atletas, treinadores, praticantes de atividades físicas, além dos anteriormente descritos.",
-      "Empresas prestadoras de serviços e fornecedoras de produtos relacionados à prática esportiva e de atividades físicas.  ",
-    ],
-  },
+  // {
+  //   id: 0,
+  //   question: "Quando será o MeddFitness 2025?",
+  //   response: [
+  //     "Ocorrerá de 07 a 09 de novenbro, na Arena Olímpia Shows & Eventos",
+  //     "Rua Projetada A, Sem N° - Parque do Sol, Olímpia-SP.",
+  //   ],
+  // },
+  // {
+  //   id: 1,
+  //   question: "Para quem é o workshop? Qual o público?",
+  //   response: [
+  //     "Profissionais e estudantes de graduação e pós-graduação das áreas de nutrição, educação física, medicina, fisioterapia e outros relacionados à área esportiva.",
+  //     "Pesquisadores e membros de grupos de pesquisa e programas de pós-graduação nas áreas correlatas à medicina esportiva.",
+  //     "Atletas, treinadores, praticantes de atividades físicas, além dos anteriormente descritos.",
+  //     "Empresas prestadoras de serviços e fornecedoras de produtos relacionados à prática esportiva e de atividades físicas.  ",
+  //   ],
+  // },
   {
     id: 2,
     question: "Qual a idade mínima para entrar no evento?",
@@ -169,7 +169,13 @@ export const dailyTickets: articleContent[] = [
 import aboutIccon from "@/assets/icons/about.svg";
 import objectiveIccon from "@/assets/icons/objective.svg";
 import targetIccon from "@/assets/icons/target.svg";
-export const about = [
+import workshop from "@/assets/icons/workshop.svg";
+import feira from "@/assets/icons/feira.svg";
+import cast from "@/assets/icons/cast.svg";
+import fisioculturiosmo from "@/assets/icons/fisiculturismo.svg";
+import concusto from "@/assets/icons/concurso.svg";
+import shows from "@/assets/icons/shows.svg";
+export const about: About[] = [
   {
     title: "SOBRE O EVENTO",
     desc: "Idealizado para percorrer o Brasil, o MeddFitness promove o acesso à medicina esportiva baseada em evidências, com foco no fisiculturismo, performance e bem-estar. É um espaço interativo e acessível para médicos, nutricionistas, fisioterapeutas, educadores físicos, atletas, estudantes e profissionais da saúde.",
@@ -184,5 +190,50 @@ export const about = [
     title: "PÚBLICO-ALVO",
     desc: "Profissionais e estudantes de Nutrição, Medicina, Educação Física, Fisioterapia e áreas afins Atletas, treinadores e praticantes de atividades físicas Empresas do setor esportivo e fitness Pesquisadores e grupos de estudo em medicina esportiva.",
     icon: targetIccon,
+  },
+  {
+    title: "WORKSHOP MEDDFITNESS – OLÍMPIA 2025",
+    desc: "Será o primeiro de muitos. Um encontro científico com grandes nomes das ciências do esporte debatendo temas atuais como:",
+    itens: [
+      "MEDICINA ESPORTIVA",
+      "NUTRIÇÃO ESPORTIVA E ESTÉTICA",
+      "RESPONSABILIDADES, AÇÕES E PROCESSOS",
+      "PREPARAÇÃO TÉCNICA E TREINAMENTO",
+      "SUPLEMENTAÇÃO",
+      "INDÚSTRIA PHARMA",
+      "CRIANÇAS, ADOLESCENTES E 3ª IDADE NO ESPORTE",
+      "BODYBUILDING: MITOS E VERDADES",
+      "PSICOLOGIA, SAÚDE E COMPORTAMENTO MENTAL",
+      "SISTEMA CARDIOVASCULAR DO EXERCÍCIO DO ESPORTE",
+      "ESTRUTURA ÓSSEA – LESÕES",
+      "SAÚDE DA MULHER",
+    ],
+    icon: workshop,
+  },
+  {
+    title: "FEIRA MEDDFITNESS",
+    desc: "Estandes de marcas de suplementos, equipamentos, tecnologia esportiva, moda fitness e muito mais. Um hub de tendências, lançamentos e networking.",
+    icon: feira,
+  },
+  {
+    title: "MEDDCAST MEDDFITNESS",
+    desc: "Conversas com especialistas, atletas, influenciadores do universo fitness, expositores entre outros convidados. Uma troca de experiências que ultrapassa os bastidores do evento.",
+    icon: cast,
+  },
+  {
+    title: "CAMPEONATO DE FISICULTURISMO",
+    desc: "Organizado pela IFBB Brasil, o campeonato celebra a excelência muscular com base em equilíbrio, estética e saúde. A IFBB – Federação Internacional de Fisiculturismo e Fitness, com 204 países afiliados, realiza mais de 8 mil campeonatos por ano, incluindo 52 etapas no Brasil.",
+    icon: fisioculturiosmo,
+    itens: ["Acesse o regulamento completo no site oficial: www.ifbb.com"],
+  },
+  {
+    title: "CONCURSO MEGAFITNESS",
+    desc: "Celebrando a beleza e o estilo de vida saudável com o concurso Miss & Mister MegaFitness. Aberto ao público, com inscrições online.",
+    icon: concusto,
+  },
+  {
+    title: "SHOWS E ENTRETENIMENTO",
+    desc: "Abertura com o espetáculo do Universo Casuo, atrações musicais e apresentações que tornam a experiência ainda mais inesquecível.",
+    icon: shows,
   },
 ];

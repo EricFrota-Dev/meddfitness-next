@@ -4,7 +4,10 @@ import GradientCard from "@/components/ui/GradientCard";
 
 const Contact = () => {
   return (
-    <div className="customContainer flex justify-around">
+    <div
+      className="px-[10%] grid grid-cols-2 justify-around mt-40
+    "
+    >
       {contacts.map(({ name, contacts }, i) => (
         <GradientCard key={i} bordered className="max-w-150 flex-1">
           <h2>{name}</h2>

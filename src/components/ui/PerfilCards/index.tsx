@@ -24,7 +24,7 @@ const PerfilCard: React.FC<PerfilCardProps> = ({
       from={animation}
       className="flex flex-col mt-6 rounded-xl overflow-hidden w-33 md:w-fit max-w-60 shadow-xl shadow-darker/30"
     >
-      <div className="">
+      <div className="bg-primary">
         <Image src={src} alt={name} />
       </div>
       <div className="flex text-center flex-col items-center h-full bg-2 text-6 p-2">

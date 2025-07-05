@@ -17,7 +17,7 @@ const Speakers = () => {
         <div className="cursor-pointer">
           <Button>
             <span className="font-bold">
-              CLIQUE AQUI E CONFIRA AS ATIVIDADES E CRONOGRAAMA DA FEIRA
+              CLIQUE AQUI E CONFIRA AS ATIVIDADES E CRONOGRAMA DO EVENTO
             </span>
           </Button>
         </div>

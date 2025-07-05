@@ -29,9 +29,9 @@ const page = () => {
     <>
       <Banner />
       <MeddFitnessAbout />
-      <section className="bg-dark-300">
+      {/* <section className="bg-dark-300">
         <Showcase />
-      </section>
+      </section> */}
       <section>
         <IFBBFed />
       </section>
@@ -45,12 +45,12 @@ const page = () => {
           ))}
         </div>
       </section> */}
-      <section>
+      {/* <section>
         <Objetivos />
       </section>
       <section>
         <MedicinaEsportiva />
-      </section>
+      </section> */}
       <section>
         <div className="customContainer text-center px-20 bg-6/60">
           <div>

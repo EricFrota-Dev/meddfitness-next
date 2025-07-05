@@ -11,3 +11,9 @@ export type FAQsProps = {
   question: string;
   response: string[];
 };
+export type About = {
+  title: string;
+  desc: string;
+  icon: StaticImageData;
+  itens?: string[];
+};

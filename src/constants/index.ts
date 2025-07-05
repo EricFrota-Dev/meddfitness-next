@@ -203,22 +203,34 @@ export const atractions: atractionProps[] = [
     ],
     images: [stevenSagal1, stevenSagal2],
   },
-  {
-    id: 3,
-    title: "ZÉ NETO E CRISTIANO",
-    subTitle: "CANTOR SERTAJEJO",
-    desc: [
-      "Uma das duplas sertanejas mais populares do Brasil, conhecida por seus sucessos românticos e animados que conquistam multidões.",
-    ],
-    images: [zeNetoCristiano1, zeNetoCristiano2],
-  },
+  // {
+  //   id: 3,
+  //   title: "ZÉ NETO E CRISTIANO",
+  //   subTitle: "CANTOR SERTAJEJO",
+  //   desc: [
+  //     "Uma das duplas sertanejas mais populares do Brasil, conhecida por seus sucessos românticos e animados que conquistam multidões.",
+  //   ],
+  //   images: [zeNetoCristiano1, zeNetoCristiano2],
+  // },
 ];
+import proscila from "@/assets/images/perfilPhoto/PriscilaForesti_perfil.png";
+import ana from "@/assets/images/perfilPhoto/AnaCláudiaCassebFinatoZuliani_perfil.png";
+import perla from "@/assets/images/perfilPhoto/PerlaFernandesSouza_perfil.png";
 
 export const embaixadores: simpleCard[] = [
-  { id: 0, title: "XXX", src: defaultPerfilPhoto, desc: " EM BREVE" },
-  { id: 1, title: "XXX", src: defaultPerfilPhoto, desc: " EM BREVE" },
-  { id: 2, title: "XXX", src: defaultPerfilPhoto, desc: " EM BREVE" },
-  { id: 3, title: "XXX", src: defaultPerfilPhoto, desc: " EM BREVE" },
+  { id: 0, title: "PRISCILA FORESTI", src: proscila, desc: "" },
+  {
+    id: 1,
+    title: "ANA CLÁUDIA CASSEB FINATO ZULIANI",
+    src: ana,
+    desc: "",
+  },
+  {
+    id: 2,
+    title: "PERLA FERNANDES DE SOUZA",
+    src: perla,
+    desc: "",
+  },
 ];
 export const patrocinadores = [
   { id: 0, name: "XXX", src: defaultPerfilPhoto, desc: " EM BREVE" },
