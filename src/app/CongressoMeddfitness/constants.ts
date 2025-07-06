@@ -192,7 +192,7 @@ export const about: About[] = [
     icon: targetIccon,
   },
   {
-    title: "WORKSHOP MEDDFITNESS – OLÍMPIA 2025",
+    title: "WORKSHOP – OLÍMPIA 2025",
     desc: "Será o primeiro de muitos. Um encontro científico com grandes nomes das ciências do esporte debatendo temas atuais como:",
     itens: [
       "MEDICINA ESPORTIVA",
@@ -211,12 +211,12 @@ export const about: About[] = [
     icon: workshop,
   },
   {
-    title: "FEIRA MEDDFITNESS",
+    title: "FEIRA",
     desc: "Estandes de marcas de suplementos, equipamentos, tecnologia esportiva, moda fitness e muito mais. Um hub de tendências, lançamentos e networking.",
     icon: feira,
   },
   {
-    title: "MEDDCAST MEDDFITNESS",
+    title: "MEDDCAST",
     desc: "Conversas com especialistas, atletas, influenciadores do universo fitness, expositores entre outros convidados. Uma troca de experiências que ultrapassa os bastidores do evento.",
     icon: cast,
   },
