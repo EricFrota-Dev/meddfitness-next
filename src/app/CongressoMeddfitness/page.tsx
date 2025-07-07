@@ -10,7 +10,7 @@ import { duvidasRespostas01, duvidasRespostas02 } from "./constants";
 import Speakers from "./components/Speakers";
 import Local from "./components/Local";
 import AtractionCard from "@/components/ui/AtractionCard";
-import Passport from "./components/Passport";
+// import Passport from "./components/Passport";
 import Partner from "./components/Partner";
 import Volunteer from "./components/Volunteer";
 import Downloads from "./components/Downloads";
@@ -118,9 +118,9 @@ const page = () => {
         </div>
       </section>
 
-      <section id="passaportes">
+      {/* <section id="passaportes">
         <Passport />
-      </section>
+      </section> */}
 
       <section className="bg-primary text-darker text-center mb-10">
         <h1 className="m-6">

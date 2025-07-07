@@ -395,7 +395,7 @@ export const navegation = [
   },
   {
     id: "3",
-    title: "EVENTO EM GRANDE ESTILO",
+    title: "EVENTOS EM GRANDE ESTILO",
     url: "/EventoGrandeEstilo",
     options: [],
   },

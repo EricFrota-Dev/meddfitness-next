@@ -19,11 +19,10 @@ const Footer = () => {
             <h2 className="text-2xl font-bold">
               <span>MEDDFITNESS</span>
             </h2>
-            <p className="mt-2 text-gray-300 text-sm">
-              Conectando saúde e desempenho físico. Nossa missão é oferecer
-              soluções fitness baseadas em evidências médicas para otimizar sua
-              qualidade de vida.
-            </p>
+            <h4 className="mt-2 text-gray-300 text-xl">
+              Uma empresa especializada em eventos e entretenimento que promove
+              encontros memoráveis que unem propósito e exelência.
+            </h4>
           </div>
 
           {/* Coluna 2 - Serviços */}
@@ -32,27 +31,32 @@ const Footer = () => {
             <ul className="mt-2 space-y-1">
               <li>
                 <a href="#" className="text-sm hover:text-gray-400">
-                  Avaliação Física Médica
+                  Feiras
                 </a>
               </li>
               <li>
                 <a href="#" className="text-sm hover:text-gray-400">
-                  Treinos Personalizados
+                  Workshops
                 </a>
               </li>
               <li>
                 <a href="#" className="text-sm hover:text-gray-400">
-                  Nutrição Esportiva
+                  Concursos
                 </a>
               </li>
               <li>
                 <a href="#" className="text-sm hover:text-gray-400">
-                  Fisioterapia Esportiva
+                  Campionatos
                 </a>
               </li>
               <li>
                 <a href="#" className="text-sm hover:text-gray-400">
-                  Suplementação Guiada
+                  Podcast
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-sm hover:text-gray-400">
+                  Shows
                 </a>
               </li>
             </ul>
@@ -60,11 +64,8 @@ const Footer = () => {
 
           {/* Coluna 3 - Contato */}
           <div className="w-full md:w-1/4">
-            <h3 className="text-lg font-semibold">Contato</h3>
-            <p className="mt-2 text-sm text-gray-300">
-              📍 Av. Saúde, 123 - São Paulo, SP
-            </p>
-            <p className="text-sm text-gray-300">📞 (11) 98765-4321</p>
+            <h3 className="text-lg font-semibold">Atendimento</h3>
+            {/* <p className="text-sm text-gray-300">📞 (11) 96922-3341</p> */}
             <p className="text-sm text-gray-300">📧 contato@meddfitness.com</p>
           </div>
 
