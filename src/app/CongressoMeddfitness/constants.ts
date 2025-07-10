@@ -23,15 +23,15 @@ export const midias: Midias[] = [
   { icon: face, name: "Facebook", value: "5,75K", type: "seguidores" },
   {
     icon: congresso,
-    name: "Congresso Meddfitness",
-    value: "10,2K",
+    name: "1°Congresso MeddFitness Brasil",
+    value: "12K",
     type: "visualizações",
   },
-  { icon: insta, name: "Instagran", value: "284K", type: "seguidores" },
+  { icon: insta, name: "Instagram", value: "284K", type: "seguidores" },
   {
     icon: rede,
     name: "Site IFBB World",
-    value: "15 Milhões/ mes",
+    value: "15 Milhões/ mês",
     type: "visualizações",
   },
   {
@@ -59,7 +59,7 @@ export const duvidasRespostas01: FAQsProps[] = [
     id: 0,
     question: "Por que em Olímpia?",
     response: [
-      "Primeira vês que a IFBB e MEDDFITNESS escolhem uma cidade e obtém  apoio total  da Secretaria de Esportes e Turismo da Prefeitura Municipal para sediar esse evento, cuja magnitude propiciará um encontro científico e demonstrativo Da capacidade de atendimento médico da cidade e participação de seus  atletas em campeonatos. A cidade atende mais de 93 municípios vizinhos que utilizam sua malha de saúde, conta com os grandes especialistas de medicina esportiva da cidade e região, fazendo fronteira com os estados de Mato Grosso do Sul, Minas Gerais e Goiás e atendendo em sua malha pacientes dos três estados.",
+      "Localizada no interior do estado de São Paulo, Olímpia é conhecida como a “Capital Nacional do Folclore” e destaca-se por seu rico patrimônio cultural e turístico. A cidade abriga o tradicional Festival do Folclore, que reúne grupos de todo o Brasil para celebrar as diversas manifestações culturais do país. Além disso, Olímpia é um importante polo de turismo termal, atraindo visitantes aos seus parques aquáticos com águas quentes naturais. Com infraestrutura acolhedora e atrações para todas as idades, Olímpia combina tradição e lazer em um só destino.",
     ],
   },
   {

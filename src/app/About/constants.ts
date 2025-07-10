@@ -35,7 +35,7 @@ export const grupoGestorAbout = [
   {
     name: "Diana Monteiro",
     role: "CEO",
-    desc: "IFBB BRASIL",
+    desc: "CBMFF | IFBB BRASIL",
     src: DianaMonteiro,
   },
   {

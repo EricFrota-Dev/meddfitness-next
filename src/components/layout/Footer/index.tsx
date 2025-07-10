@@ -19,9 +19,9 @@ const Footer = () => {
             <h2 className="text-2xl font-bold">
               <span>MEDDFITNESS</span>
             </h2>
-            <h4 className="mt-2 text-gray-300 text-xl">
-              Uma empresa especializada em eventos e entretenimento que promove
-              encontros memoráveis que unem propósito e exelência.
+            <h4 className="mt-2 text-gray-300 text-lg">
+              A MeddFitness é a organizadora do maior congresso de medicina
+              esportiva do país.
             </h4>
           </div>
 
@@ -51,7 +51,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#" className="text-sm hover:text-gray-400">
-                  Podcast
+                  Podcasts
                 </a>
               </li>
               <li>
@@ -66,7 +66,9 @@ const Footer = () => {
           <div className="w-full md:w-1/4">
             <h3 className="text-lg font-semibold">Atendimento</h3>
             {/* <p className="text-sm text-gray-300">📞 (11) 96922-3341</p> */}
-            <p className="text-sm text-gray-300">📧 contato@meddfitness.com</p>
+            <p className="text-sm text-gray-300">
+              📧 contato@meddfitness.com.br
+            </p>
           </div>
 
           {/* Coluna 4 - Redes Sociais */}
@@ -94,7 +96,7 @@ const Footer = () => {
 
       {/* Direitos Autorais */}
       <div className="text-center text-sm text-gray-400 p-6">
-        © 2025 MedDFitness. Todos os direitos reservados.
+        © 2025 MeddFitness. Todos os direitos reservados.
       </div>
     </motion.div>
   );

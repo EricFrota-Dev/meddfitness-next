@@ -432,13 +432,13 @@ export const banners: simpleImage[] = [
 ];
 
 export const ingressosCard = [
-  { title: "Workshop de medicina Esportiva", neonWords: ["Workshop", "de"] },
+  { title: "Workshop de Medicina Esportiva", neonWords: ["Workshop", "de"] },
   {
     title: "MegaFitness: O maior concurso fitness do Brasil",
     neonWords: ["MegaFitness:"],
   },
   {
-    title: "Campeonato de Fisiculturismo com a IFBB",
+    title: "Campeonato de Fisiculturismo com a CBMFF | IFBB Brasil",
     neonWords: ["Fisiculturismo"],
   },
 ];

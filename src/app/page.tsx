@@ -12,11 +12,11 @@ const Home = () => {
       <div id="MedFuture">
         <EntryAnimation
           from="right"
-          className="customContainer text-light-500 flex items-center justify-center gap-[10%] bg-darker xl:min-h-22"
+          className="customContainer flex items-center justify-center gap-[10%] bg-darker xl:min-h-22"
         >
-          <h1 className="font-extrabold">CRIAÇÃO</h1>{" "}
-          <h1 className="font-extrabold">CELEBRAÇÃO</h1>{" "}
-          <h1 className="font-extrabold">CONEXÃO</h1>
+          <h1 className="font-extrabold">
+            <span>Vida em Movimento</span>
+          </h1>
         </EntryAnimation>
       </div>
 
