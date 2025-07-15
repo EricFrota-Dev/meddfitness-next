@@ -43,9 +43,7 @@ const Downloads = () => {
               <h1>
                 <span>CONTATO PARA ASSUNTOS SOBRE IMPRENSA</span>
               </h1>
-              <p>📩 paulonetto@meddfitness.com.br</p>
-              <p>📩 leandro@meddfitness.com.br</p>
-              <p>📩 cassio@meddfitness.com.br</p>
+              <p>📩 jacvart@uol.com.br</p>
             </div>
           </GradientCard>
         </div>

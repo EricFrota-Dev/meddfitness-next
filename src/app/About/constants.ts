@@ -35,13 +35,13 @@ export const grupoGestorAbout = [
   {
     name: "Diana Monteiro",
     role: "CEO",
-    desc: "CBMFF | IFBB BRASIL",
+    desc: " Chief Executive Officer\n\nCBMFF | IFBB BRASIL",
     src: DianaMonteiro,
   },
   {
     name: "Betão Monteiro",
-    role: "COO",
-    desc: "Chief Operating Officer",
+    role: "CFO",
+    desc: "Chief Financial Officer\n\nCBMFF | IFBB BRASIL",
     src: BetaoMonteiro,
   },
 ];

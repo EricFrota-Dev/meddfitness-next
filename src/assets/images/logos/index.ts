@@ -8,6 +8,10 @@ import universoCasuo from "./universo-casuo-logo.png";
 import rissi from "./rissi-logo.png";
 import linkedFun from "./linked-fun-logo.png";
 import LogoPrincipal from "./meddfitness-logo-principal.svg";
+import sbtBank from "./tbt-bank-logo.png";
+import chronus from "./chronus-bank-logo.png";
+import jacCo from "./jac-co-logo.png";
+import arena from "./arena-olimpia-logo.png";
 
 export {
   Logo,
@@ -20,4 +24,8 @@ export {
   rissi,
   linkedFun,
   LogoPrincipal,
+  sbtBank,
+  chronus,
+  jacCo,
+  arena,
 };

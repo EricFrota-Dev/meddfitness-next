@@ -8,9 +8,9 @@ const IFBBFed = () => {
       <EntryAnimation from="left">
         <div className="flex flex-col gap-6 max-w-200 border-b-1 border-dark-100 p-4">
           <span className="font-montserrat">
-            <p className="font-[900] text-[9rem] -mb-10">IFBB</p>
-            <p className="font-[900] text-4xl">
-              FEDERAÇÃO INTERNACIONAL DE FISICULTURISMO E FITNESS
+            <p className="font-[900] text-[4rem]">CBMFF | IFBB BRASIL</p>
+            <p className="font-[900] text-2xl">
+              CONFEDERAÇÃO BRASILEIRA DE MUSCULAÇÃO, FISICULTURISMO E FITNESS
             </p>
           </span>
 

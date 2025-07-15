@@ -38,9 +38,13 @@ import {
   Logo,
   LogoPrincipal,
   megafitness,
-  rissi,
+  // rissi,
   universoCasuo,
-  vivaCare,
+  // vivaCare,
+  sbtBank,
+  chronus,
+  jacCo,
+  arena,
 } from "@/assets/images/logos";
 import { books, hands, instruments, network } from "@/assets/icons";
 import { banner1, banner2, banner3 } from "@/assets/images/banners";
@@ -211,15 +215,13 @@ export const atractions: atractionProps[] = [
   //   images: [zeNetoCristiano1, zeNetoCristiano2],
   // },
 ];
-import proscila from "@/assets/images/perfilPhoto/PriscilaForesti_perfil.png";
 import ana from "@/assets/images/perfilPhoto/AnaCláudiaCassebFinatoZuliani_perfil.png";
 import perla from "@/assets/images/perfilPhoto/PerlaFernandesSouza_perfil.png";
 
 export const embaixadores: simpleCard[] = [
-  { id: 0, title: "PRISCILA FORESTI", src: proscila, desc: "" },
   {
     id: 1,
-    title: "ANA CLÁUDIA CASSEB FINATO ZULIANI",
+    title: "Frederico Lapenda",
     src: ana,
     desc: "",
   },
@@ -241,7 +243,7 @@ export const echosystem = [
   {
     id: 0,
     title: "CONCURSO DE GAROTA MEGAFIT",
-    desc: "promovendo a representatividade e o empoderamento feminino no fitness.",
+    desc: "Promovendo a representatividade do Universo Fitness.",
     src: megafitness,
   },
   {
@@ -256,35 +258,59 @@ export const echosystem = [
     desc: "Cursos de MBA/Tecnologo.",
     src: ifbbAcademy,
   },
-  {
-    id: 3,
-    title: "VIVA CARE",
-    desc: "Banco para Antecipação de recebíveis médicos.",
-    src: vivaCare,
-  },
+  // {
+  //   id: 3,
+  //   title: "VIVA CARE",
+  //   desc: "Banco para Antecipação de recebíveis médicos.",
+  //   src: vivaCare,
+  // },
   {
     id: 4,
     title: "ANADEM",
-    desc: "promovendo a representatividade e o empoderamento feminino no fitness.",
+    desc: "Seguros de Responsabilidade Civil Médica.",
     src: anadem,
   },
   {
     id: 5,
     title: "UNIVERSO CASUO",
-    desc: "Campeonatos de fisiculturismo regionais, estaduais, brasileiro e sulamenticano.",
+    desc: "Shows.",
     src: universoCasuo,
   },
-  {
-    id: 6,
-    title: "RISSI",
-    desc: "Cursos de MBA/Tecnologo.",
-    src: rissi,
-  },
+  // {
+  //   id: 6,
+  //   title: "RISSI",
+  //   desc: "Cursos de MBA/Tecnologo.",
+  //   src: rissi,
+  // },
   {
     id: 7,
     title: "LINKED FUN",
-    desc: "Banco para Antecipação de recebíveis médicos.",
+    desc: "Criação de Eventos sob Medida.",
     src: linkedFun,
+  },
+  {
+    id: 8,
+    title: "STB BANK",
+    desc: "Participação de Recebíveis Médicos.",
+    src: sbtBank,
+  },
+  {
+    id: 8,
+    title: "CHRONUS BANK",
+    desc: "Participação de Recebíveis Médicos.",
+    src: chronus,
+  },
+  {
+    id: 8,
+    title: "JAC & CO",
+    desc: "Participação de Recebíveis Médicos.",
+    src: jacCo,
+  },
+  {
+    id: 8,
+    title: "ARENA OLÍMPIA",
+    desc: "Participação de Recebíveis Médicos.",
+    src: arena,
   },
 ];
 export const palestrants: simpleCard[] = [
@@ -330,7 +356,7 @@ export const projetoMeddfitness = [
   {
     id: 2,
     title: "NEGÓCIOS",
-    desc: "Incentivar a troca de experiências, a cooperação e o enriquecimento profissional, reunindo especialistas e empresas de diversos estados brasileiros e de países ibero-americanos. Além disso, proporcionar aos congressistas a oportunidade de ampliar o relacionamento com entidades atuantes nas diferentes áreas da medicina esportiva.",
+    desc: "Incentivar a troca de experiências, a cooperação e o enriquecimento profissional, reunindo especialistas e empresas de diversos estados brasileiros e de países ibero-americanos. Além disso, proporcionar aos participantes a oportunidade de ampliar o relacionamento com entidades atuantes nas diferentes áreas da medicina esportiva.",
     icon: hands,
   },
   {

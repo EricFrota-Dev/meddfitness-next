@@ -4,6 +4,7 @@ import Image from "next/image";
 import EntryAnimation, {
   EntryDirection,
 } from "@/components/layout/AnimatedContent/EntryAnimation";
+import ReactMarkdown from "react-markdown";
 
 type PerfilCardProps = simpleCardProps & {
   animation?: EntryDirection;
@@ -32,11 +33,11 @@ const PerfilCard: React.FC<PerfilCardProps> = ({
           <strong>{name}</strong>
         </h4>
         {role && (
-          <p>
+          <p className="font-bold">
             <span>{role}</span>
           </p>
         )}
-        {desc && <p className="text-gray-500">{desc}</p>}
+        {desc && <ReactMarkdown>{desc}</ReactMarkdown>}
       </div>
     </EntryAnimation>
   );

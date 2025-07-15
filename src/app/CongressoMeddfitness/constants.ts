@@ -59,16 +59,16 @@ export const duvidasRespostas01: FAQsProps[] = [
     id: 0,
     question: "Por que em Olímpia?",
     response: [
-      "Localizada no interior do estado de São Paulo, Olímpia é conhecida como a “Capital Nacional do Folclore” e destaca-se por seu rico patrimônio cultural e turístico. A cidade abriga o tradicional Festival do Folclore, que reúne grupos de todo o Brasil para celebrar as diversas manifestações culturais do país. Além disso, Olímpia é um importante polo de turismo termal, atraindo visitantes aos seus parques aquáticos com águas quentes naturais. Com infraestrutura acolhedora e atrações para todas as idades, Olímpia combina tradição e lazer em um só destino.",
+      "Localizada no interior de São Paulo, Olímpia é um dos principais polos turísticos do país, com uma das maiores redes hoteleiras do estado, ficando atrás apenas da capital. Conhecida por seus parques aquáticos com águas termais, a cidade atrai milhões de visitantes anualmente e se destaca como destino ideal para unir conteúdo, negócios e lazer. Além do turismo, Olímpia é reconhecida como a Capital Nacional do Folclore, enriquecendo o destino com uma forte identidade cultural. Essa combinação faz de Olímpia o local ideal para sediar o Fórum MeddFitness Brasil.",
     ],
   },
-  {
-    id: 1,
-    question: "Por que o Workshop/feira?",
-    response: [
-      "Uma cidade como São Jose do Rio Preto que possui sua malha de medicina uma capacidade atraronômica de atendimento, incluído 93 municípios da região o que eleva sua população de amostragem para 2,5 milhões de pessoas que utilizam seus suas 27 unidades básicas de atendimentos de saúde, seus 250 clinicas e consultórios especializados e mais de 100 unidades de apoio e diagnósticos. Com 2356 médicos a cidade possui o mais alto índice de atendimento por paciente chegando a 5,6 pacientes por médico sendo a maior do Brasil.",
-    ],
-  },
+  // {
+  //   id: 1,
+  //   question: "Por que o Workshop/feira?",
+  //   response: [
+  //     "Uma cidade como São Jose do Rio Preto que possui sua malha de medicina uma capacidade atraronômica de atendimento, incluído 93 municípios da região o que eleva sua população de amostragem para 2,5 milhões de pessoas que utilizam seus suas 27 unidades básicas de atendimentos de saúde, seus 250 clinicas e consultórios especializados e mais de 100 unidades de apoio e diagnósticos. Com 2356 médicos a cidade possui o mais alto índice de atendimento por paciente chegando a 5,6 pacientes por médico sendo a maior do Brasil.",
+  //   ],
+  // },
   {
     id: 2,
     question: "Tema central",
@@ -80,7 +80,7 @@ export const duvidasRespostas01: FAQsProps[] = [
     id: 3,
     question: "Por que participar?",
     response: [
-      "A MEDDFITNESS, será uma diversificação de eventos simultâneos, reunindo grandes marcas, profissionais de medicina esportiva e áreas correlatas, conta com uma grande programação técnica e eventos com artistas mundiais, (Casuo – Cirque du Soleil), Steacen Seagal – Lutador, ator e músico, Campeonato Feminino de Fisiculturismo e Fitness, Campeonato Kids, além de estandes e praça de alimentação. Os participantes terão a oportunidade de aprender sobre Medicina Esportiva, treinos, truques, campeonatos e sobre as últimas tendências do mercado fitness, conhecer novos produtos e serviços.",
+      "O MEDDFITNESS é um evento único que reúne simultaneamente grandes marcas, profissionais renomados da medicina esportiva e áreas afins, atletas, amantes do esporte e entusiastas do universo fitness. Com uma programação rica e diversificada, você poderá aproveitar conteúdos técnicos e atualizados, campeonatos e concursos emocionantes, experiências culturais e de entretenimento, além de networking e oportunidades de negócios. O evento também oferece espaços de convivência, como a praça de alimentação, para relaxar e trocar experiências com outros participantes. Participar do MEDDFITNESS é estar no centro de um ambiente que une ciência, esporte, saúde e cultura, proporcionando aprendizado, inspiração e conexão para todos que desejam evoluir — seja você profissional, atleta ou apaixonado por um estilo de vida ativo e saudável.",
     ],
   },
   {
@@ -142,7 +142,7 @@ export const voluntiers: articleContent[] = [
     id: 1,
     title: "SEJA UM VOLUNTÁRIO",
     content:
-      "Faça parte da organização do maior evento de fitness e bem-estar da América Latina. Participe como monitor voluntário do MEDDFITNESS 2025, entre os dias 25 e 26 de julho, no centro regional de eventos, em Rio Preto (SP)",
+      "Faça parte do staff do maior evento de fitness e bem-estar da América Latina. Participe como voluntário do MEDDFITNESS 2025, entre os dias 07 e 09 de novembro, na Arena Olímpia Shows e Eventos, Olímpia, SP.",
   },
   {
     id: 2,
@@ -192,8 +192,8 @@ export const about: About[] = [
     icon: targetIccon,
   },
   {
-    title: "WORKSHOP – OLÍMPIA 2025",
-    desc: "Será o primeiro de muitos. Um encontro científico com grandes nomes das ciências do esporte debatendo temas atuais como:",
+    title: "PALESTRAS OLÍMPIA 2025",
+    desc: "Será o primeiro de muitos. Um encontro de alto nível com grandes nomes do esporte e da saúde debatendo temas atuais como:",
     itens: [
       "MEDICINA ESPORTIVA",
       "NUTRIÇÃO ESPORTIVA E ESTÉTICA",
@@ -228,7 +228,7 @@ export const about: About[] = [
   },
   {
     title: "CONCURSO MEGAFITNESS",
-    desc: "Celebrando a beleza e o estilo de vida saudável com o concurso Miss & Mister MegaFitness. Aberto ao público, com inscrições online.",
+    desc: "Mais que um concurso de beleza, o Miss & Mister MegaFitness celebra o estilo de vida saudável e valoriza pessoas autênticas, conscientes e representativas. Inscrições abertas ao público, com envio de vídeo criativo ao som da trilha oficial do evento.",
     icon: concusto,
   },
   {

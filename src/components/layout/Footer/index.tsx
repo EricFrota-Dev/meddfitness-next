@@ -36,7 +36,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#" className="text-sm hover:text-gray-400">
-                  Workshops
+                  Palestras
                 </a>
               </li>
               <li>
@@ -46,7 +46,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#" className="text-sm hover:text-gray-400">
-                  Campionatos
+                  Campeonatos
                 </a>
               </li>
               <li>

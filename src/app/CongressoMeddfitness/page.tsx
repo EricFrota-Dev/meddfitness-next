@@ -14,10 +14,14 @@ import AtractionCard from "@/components/ui/AtractionCard";
 import Partner from "./components/Partner";
 import Volunteer from "./components/Volunteer";
 import Downloads from "./components/Downloads";
-import DailyTickets from "./components/DailyTickets";
+// import DailyTickets from "./components/DailyTickets";
 import Banner from "./components/Banner";
 
+import { ifbbAcademy, jacCo, LogoPrincipal } from "@/assets/images/logos";
+import Image from "next/image";
+
 const page = () => {
+  const realizacao = [ifbbAcademy, LogoPrincipal, jacCo];
   return (
     <>
       <Banner />
@@ -136,7 +140,7 @@ const page = () => {
       <section>
         <div className="bg-darker/70 text-center py-10  px-6">
           <h1>
-            <span>MEDDFITNESS – Olímpia,SP.</span>
+            <span>MEDDFITNESS – Olímpia, SP.</span>
           </h1>
           <h2>
             Apoiar o MEDDFITNESS 2025 é conectar sua marca ao futuro do esporte,
@@ -158,7 +162,7 @@ const page = () => {
 
       <section>
         <div className="customContainer text-center">
-          <h1>PERGUNTAS FREQUÊNTES</h1>
+          <h1>PERGUNTAS FREQUENTES</h1>
           <Accordion items={duvidasRespostas02} />
         </div>
       </section>
@@ -169,13 +173,27 @@ const page = () => {
         <Downloads />
       </section>
       <section>
-        <div className="bg-primary text-center text-darker py-10 my-10">
+        <div className="text-center bg-light text-darker py-10 my-10">
           <h1>REALIZAÇÃO</h1>
+          <div className="flex justify-around customContainer">
+            {realizacao.map((image, i) => (
+              <Image
+                src={image}
+                alt={`logo ${i + 1}`}
+                key={i}
+                width={200}
+                className=""
+              />
+            ))}
+          </div>
+
+          <h1>APOIO</h1>
+          {}
         </div>
       </section>
-      <section>
+      {/* <section>
         <DailyTickets />
-      </section>
+      </section> */}
     </>
   );
 };
