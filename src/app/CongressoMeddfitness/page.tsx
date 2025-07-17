@@ -16,6 +16,7 @@ import Volunteer from "./components/Volunteer";
 import Downloads from "./components/Downloads";
 // import DailyTickets from "./components/DailyTickets";
 import Banner from "./components/Banner";
+import imagemSemNome from "@/assets/images/logos/sem-nome-logo.png";
 
 import { ifbbAcademy, jacCo, LogoPrincipal } from "@/assets/images/logos";
 import Image from "next/image";
@@ -174,7 +175,7 @@ const page = () => {
       </section>
       <section>
         <div className="text-center bg-light text-darker py-10 my-10">
-          <h1>REALIZAÇÃO</h1>
+          <h1 className="font-[700] text-primary-dark">REALIZAÇÃO</h1>
           <div className="flex justify-around customContainer">
             {realizacao.map((image, i) => (
               <Image
@@ -187,8 +188,10 @@ const page = () => {
             ))}
           </div>
 
-          <h1>APOIO</h1>
-          {}
+          <h1 className="font-[700] text-primary-dark">APOIO</h1>
+          <div className="flex justify-center">
+            <Image src={imagemSemNome} alt="uma-logo" width={200} />
+          </div>
         </div>
       </section>
       {/* <section>

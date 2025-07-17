@@ -1,28 +1,16 @@
 "use client";
-import React, { useState } from "react";
 import { premiacao } from "../constants";
 
 const Regulamento = () => {
-  const [isOpen, setIsOpen] = useState<boolean>(false);
-
-  const toggleView = () => {
-    setIsOpen((prev) => !prev);
-  };
-
   return (
     <>
-      <div className="mb-4 text-center bg-dark-300 shadow-md shadow-darker-30">
-        <button
-          onClick={() => toggleView()}
-          className={`px-4 cursor-pointer hover:scale-102 hover:text-primary-light py-2  border-x border-dark-300 transition-all duration-300`}
-        >
-          <h1 className="text-[4rem] font-bold font-montserrat text-center text-primary ">
-            REGULAMENTO
-          </h1>
-        </button>
+      <div className="mb-4 text-center shadow-md shadow-darker-30 flex customContainer gap-20 justify-around items-center">
+        <h1 className="text-[4rem] font-bold font-montserrat text-center text-primary ">
+          REGULAMENTO
+        </h1>
 
-        <div className={`${isOpen ? "" : "hidden"}`}>
-          <div className="customContainer regulamento">
+        <div className="text-dark flex flex-col gap-20 bg-light w-200 h-130 overflow-x-hidden overflow-y-auto p-10">
+          <div>
             <h2>1 Perfil dos Candidatos</h2>
             <p>
               Para participar do processo seletivo, os candidatos deverão
@@ -73,7 +61,7 @@ const Regulamento = () => {
             </p>
           </div>
 
-          <div className="customContainer regulamento">
+          <div>
             <h2>2.0 Taxa de Inscrição</h2>
             <p>
               2.1 Para participar do Concurso MEGAFITNESS e suas respectivas
@@ -119,7 +107,7 @@ const Regulamento = () => {
               documentação comprobatória.
             </p>
           </div>
-          <div className="customContainer regulamento">
+          <div>
             <h2>3 - Critérios de Seleção e Classificação</h2>
             <p>
               3.1 Por não se tratar de um concurso de fisiculturismo ou de
@@ -166,7 +154,7 @@ const Regulamento = () => {
               objetivos de desempate.
             </p>
           </div>
-          <div className="customContainer regulamento">
+          <div>
             <h2>4 - BANCA JULGADORA</h2>
             <p>
               4.1 A banca avaliadora será composta por profissionais do setor
@@ -176,7 +164,7 @@ const Regulamento = () => {
               e produtores de TV — indicados pela IFBB Brasil.
             </p>
           </div>
-          <div className="customContainer regulamento">
+          <div>
             <h2>5 - Premiação</h2>
             <p>
               5.1 Os finalistas do 1º ao 3º lugar, nas categorias masculina e
@@ -202,7 +190,7 @@ const Regulamento = () => {
               </ul>
             </div>
           </div>
-          <div className="customContainer regulamento">
+          <div>
             <h2>
               6 - Direitos de Uso de Imagem, Voz e contatos para envio de
               mensagens.
@@ -239,7 +227,7 @@ const Regulamento = () => {
               conforme seus critérios internos.
             </p>
           </div>
-          <div className="customContainer regulamento">
+          <div>
             <h2>7.0 Assessoria e Exclusividade</h2>
             <p>
               7.1 As finalistas terão assessoria de imprensa exclusiva, indicada
@@ -308,7 +296,7 @@ const Regulamento = () => {
               segurança pública e/ou força maior.
             </p>
           </div>
-          <div className="customContainer regulamento">
+          <div>
             <h2>8.0 Todos os direitos autorais</h2>
             <p>
               8.1 Ao se inscrever no MEGAFITNESS, o participante declara
