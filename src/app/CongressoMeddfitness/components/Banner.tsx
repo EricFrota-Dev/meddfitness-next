@@ -15,7 +15,7 @@ const Banner = () => {
           1º Fórum MeddFitness Brasil - Olímpia/SP 2025
         </h1>
         <h3 className="text-[2.5rem] z-10">
-          Feira • Workshop • Podcast• Concurso • Campeonato • Show
+          Feira • Palestra • Podcast• Concurso • Campeonato • Show
         </h3>
         {/* <h5 className="text-[2.5rem] z-10">
           {" "}

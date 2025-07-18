@@ -13,16 +13,16 @@ import AtractionCard from "@/components/ui/AtractionCard";
 // import Passport from "./components/Passport";
 import Partner from "./components/Partner";
 import Volunteer from "./components/Volunteer";
-import Downloads from "./components/Downloads";
+// import Downloads from "./components/Downloads";
 // import DailyTickets from "./components/DailyTickets";
 import Banner from "./components/Banner";
-import imagemSemNome from "@/assets/images/logos/sem-nome-logo.png";
+import imagemSemNome from "@/assets/images/logos/Imagem do WhatsApp de 2025-07-17 à(s) 20.32.32_7ea71c4d.jpg";
 
-import { ifbbAcademy, jacCo, LogoPrincipal } from "@/assets/images/logos";
+import { ifbbBrasil, jacCo, LogoPrincipal } from "@/assets/images/logos";
 import Image from "next/image";
 
 const page = () => {
-  const realizacao = [ifbbAcademy, LogoPrincipal, jacCo];
+  const realizacao = [ifbbBrasil, LogoPrincipal, jacCo];
   return (
     <>
       <Banner />
@@ -74,7 +74,8 @@ const page = () => {
             <h1>EMBAIXADORAS</h1>
           </div>
           <div className="flex flex-wrap md:flex-nowrap gap-2 md:gap-6 justify-around">
-            {/* são 3 e estao na ultima apresentação enviada */}
+            {/* são 3 e estao na ultima apresentação enviada */
+            /* COLOCAR IMAGEM DO DOCUMENTO */}
             {embaixadores.map(({ title, src, desc }, i) => (
               <PerfilCard
                 key={i}
@@ -170,12 +171,12 @@ const page = () => {
       <section id="voluntario">
         <Volunteer />
       </section>
-      <section>
+      {/* <section>
         <Downloads />
-      </section>
+      </section> */}
       <section>
         <div className="text-center bg-light text-darker py-10 my-10">
-          <h1 className="font-[700] text-primary-dark">REALIZAÇÃO</h1>
+          <h1 className="font-[700] text-primary-dark">REALIZAÇÃO:</h1>
           <div className="flex justify-around customContainer">
             {realizacao.map((image, i) => (
               <Image
@@ -188,9 +189,11 @@ const page = () => {
             ))}
           </div>
 
-          <h1 className="font-[700] text-primary-dark">APOIO</h1>
+          <h1 className="font-[700] text-primary-dark mt-10 pt-10 ml-[14%] mr-[14%] border-t-2 border-light-500">
+            APOIO:
+          </h1>
           <div className="flex justify-center">
-            <Image src={imagemSemNome} alt="uma-logo" width={200} />
+            <Image src={imagemSemNome} alt="uma-logo" width={500} />
           </div>
         </div>
       </section>

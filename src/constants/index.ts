@@ -415,7 +415,7 @@ export const navegation = [
   },
   {
     id: "2",
-    title: "1° CONGRESSO MEDDFITNESS BRASIL",
+    title: "1° FÓRUM MEDDFITNESS BRASIL",
     url: "/CongressoMeddfitness",
     options: [],
   },

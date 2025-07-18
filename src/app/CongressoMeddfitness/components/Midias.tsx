@@ -8,7 +8,7 @@ const Midias = () => {
     <div className="customContainer text-center">
       <p className="font-montserrat text-4xl border-b-1 border-b-light-500 p-4">
         <span>
-          <strong>MÍDIAS SOCIAIS </strong>| DIVULGAÇÃO
+          <strong>IFBB EM NÚMEROS:</strong>
         </span>
       </p>
       <div>

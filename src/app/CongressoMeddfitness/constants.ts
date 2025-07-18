@@ -21,12 +21,12 @@ export const midias: Midias[] = [
   { icon: linkedin, name: "Linkedin", value: "30K", type: "seguidores" },
   { icon: youtube, name: "Youtube", value: "5,75K", type: "seguidores" },
   { icon: face, name: "Facebook", value: "5,75K", type: "seguidores" },
-  {
-    icon: congresso,
-    name: "1°Congresso MeddFitness Brasil",
-    value: "12K",
-    type: "visualizações",
-  },
+  // {
+  //   icon: congresso,
+  //   name: "1°Congresso MeddFitness Brasil",
+  //   value: "12K",
+  //   type: "visualizações",
+  // },
   { icon: insta, name: "Instagram", value: "284K", type: "seguidores" },
   {
     icon: rede,
@@ -34,24 +34,24 @@ export const midias: Midias[] = [
     value: "15 Milhões/ mês",
     type: "visualizações",
   },
-  {
-    icon: revista,
-    name: "Revista Bem-estar",
-    value: "35K",
-    type: "seguidores",
-  },
-  {
-    icon: revistaBranca,
-    name: "Revista Elite Magazine",
-    value: "34K",
-    type: "seguidores",
-  },
-  {
-    icon: revista,
-    name: "Revista Caras",
-    value: "49K",
-    type: "seguidores",
-  },
+  // {
+  //   icon: revista,
+  //   name: "Revista Bem-estar",
+  //   value: "35K",
+  //   type: "seguidores",
+  // },
+  // {
+  //   icon: revistaBranca,
+  //   name: "Revista Elite Magazine",
+  //   value: "34K",
+  //   type: "seguidores",
+  // },
+  // {
+  //   icon: revista,
+  //   name: "Revista Caras",
+  //   value: "49K",
+  //   type: "seguidores",
+  // },
 ];
 
 export const duvidasRespostas01: FAQsProps[] = [
