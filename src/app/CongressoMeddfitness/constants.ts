@@ -1,11 +1,8 @@
 import {
-  congresso,
   face,
   insta,
   linkedin,
   rede,
-  revista,
-  revistaBranca,
   youtube,
 } from "@/assets/images/logos/midias";
 import { About, Midias } from "./types";
