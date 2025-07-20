@@ -1,7 +1,9 @@
 "use client";
 
 import { entryAnimation } from "@/animations";
+import { contacts } from "@/app/Contact/constants";
 import { motion } from "motion/react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -63,12 +65,23 @@ const Footer = () => {
           </div>
 
           {/* Coluna 3 - Contato */}
-          <div className="w-full md:w-1/4">
-            <h3 className="text-lg font-semibold">Atendimento</h3>
+          <div className="w-full md:w-1/4 list-none">
+            <h3 className="text-lg font-semibold pb-2">Contatos</h3>
             {/* <p className="text-sm text-gray-300">📞 (11) 96922-3341</p> */}
-            <p className="text-sm text-gray-300">
-              📧 contato@meddfitness.com.br
-            </p>
+            {contacts.map((contact, i) => (
+              <li className="pb-2 flex flex-col" key={i}>
+                <p className="text-bold">{contact.name}</p>
+                {contact.contacts.map((item, i) => (
+                  <Link
+                    href="#"
+                    key={i}
+                    className="pl-2 hover:text-primary hover:scale-102 transition-all"
+                  >
+                    {item}
+                  </Link>
+                ))}
+              </li>
+            ))}
           </div>
 
           {/* Coluna 4 - Redes Sociais */}

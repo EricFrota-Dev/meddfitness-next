@@ -17,13 +17,13 @@ const AtractionCard: React.FC<atractionProps> = ({
         isLeft
           ? "rounded-l-xl bg-gradient-to-r xl:text-end"
           : "rounded-r-xl bg-gradient-to-l xl:text-start items-end xl:justify-end"
-      } from-primary-semi-dark via-primary-darker to-dark p-6 text-center flex flex-col xl:items-center mb-10 xl:flex-row`}
+      } from-primary-darker to-dark p-6 text-center flex flex-col xl:items-center mb-10 xl:flex-row`}
       variants={entryAnimation()}
       initial={!isLeft ? "from_left" : "from_right"}
       whileInView="default"
     >
       <div
-        className={`mb-4 xl:max-w-70 mx-auto xl:mx-6 ${
+        className={`mb-4 xl:max-w-120 mx-auto xl:mx-6 ${
           isLeft ? "xl:order-1" : "xl:order-2"
         }`}
       >

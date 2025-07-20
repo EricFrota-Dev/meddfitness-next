@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import banner4 from "@/assets/images/banners/banner4.jpg";
-import { LogoPrincipal } from "@/assets/images/logos";
+import { LogoPrincipalLight } from "@/assets/images/logos";
 import { entregas, frentes } from "./constants";
 import GradientCard from "@/components/ui/GradientCard";
 import eventShow from "@/assets/images/events/show01.jpg";
@@ -14,11 +14,11 @@ const EventoGrandeEstilo = () => {
       <div>
         <Image src={banner4} alt="Eventos em Grande Estilo" />
       </div>
-      <section className="bg-primary-darker">
+      <section className="bg-[#37A7E6]">
         <div className="customContainer">
-          <div className=" p-10 gap-10 flex justify-end items-center">
+          <div className=" p-10 gap-10 flex justify-end items-end">
             <div>
-              <h4 className="text-justify text-2xl">
+              <h4 className="text-justify text-2xl font-[500]">
                 A MEDDFITNESS também é uma empresa especializada em eventos e
                 entretenimento que promove encontros memoráveis que unem
                 sofisticação, propósito e excelência. <br />
@@ -27,7 +27,12 @@ const EventoGrandeEstilo = () => {
                 para encantar, envolver e transformar.
               </h4>
             </div>
-            <Image src={LogoPrincipal} alt="Meddfitness" height={400} />
+            <Image
+              src={LogoPrincipalLight}
+              alt="Meddfitness"
+              height={200}
+              className=""
+            />
           </div>
         </div>
       </section>
@@ -80,20 +85,16 @@ const EventoGrandeEstilo = () => {
       >
         <div className="customContainer bg-darker/50">
           <h1 className="text-[3rem] mb-10 font-extrabold">
-            <span>EVENTOS EM GRANDE ESTILO!</span>
+            <span>ENERGIZE SEU EVENTO COM PERFORMANCES ÚNICAS</span>
           </h1>
           <p className="text-2xl">
-            Realizamos{" "}
-            <strong>
-              eventos corporativos, sociais, culturais e promocionais
-            </strong>
-            com excelência e criatividade. Nosso repertório é amplo e
-            diversificado. A equipe multidisciplinar da MEDDFITNESS está sempre
-            pronta para surpreender. Shows, ativações, experiências imersivas,
-            festas personalizadas e uma produção técnica impecável: se você pode
-            imaginar, nós podemos realizar. Com alegria, elegância e atenção aos
-            detalhes, transformamos cada encontro em uma experiência única capaz
-            de emocionar, criar conexões e valorizar a essência de cada ocasião.
+            Realizamos eventos corporativos, sociais, culturais e promocionais
+            com criatividade e excelência. Nossa equipe especializada, aliada a
+            um repertório diversificado e produção técnica de alta qualidade,
+            transforma cada evento em um momento marcante e inesquecível. Shows,
+            ativações, experiências imersivas, festas personalizadas e uma
+            produção técnica impecável: se você pode imaginar, nós podemos
+            realizar.
           </p>
         </div>
       </section>

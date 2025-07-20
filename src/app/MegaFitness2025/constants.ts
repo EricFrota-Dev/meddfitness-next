@@ -7,7 +7,7 @@ type BlocoTexto = {
 };
 export const sections: BlocoTexto[] = [
   {
-    title: "O QUE É O CONCURSO MEGAFITNESS?",
+    title: "O QUE É O CONCURSO MEGAFITNESS ?",
     content: [
       {
         text: "O Concurso **MEGAFITNESS** foi criado idealizado com exclusividade pela **MEDDFITNESS** como uma grande ferramenta de divulgação de um evento maior, denominado **MEDDFITNESS**.",
@@ -31,13 +31,13 @@ export const sections: BlocoTexto[] = [
     ],
   },
   {
-    title: "OBJETIVO DO CONCURSO",
+    title: "ESTRATÉGIAS DE ALCANCE E ENGAJAMENTO",
     content: [
       {
-        text: "Esse concurso será o principal divulgador do **1º Encontro de Medicina Esportiva**, \n\n\n\n intitulado **MEDDFITNESS**, que realizará sua primeira edição nos dias  **07 e 08 de novembro de 2025**. O evento integrará  o calendário de novas atividades da IFBB para o ano de 2026, com ações previstas em todos os estados do Brasil.",
+        text: "Este concurso será o principal divulgador do 1º Fórum de Medicina Integrativa, intitulado MEDDFITNESS, que realizará sua primeira edição de 07 a 09 de novembro de 2025. O evento fará parte do calendário oficial de novas atividades da CBMFF | IFBB Brasil - Confederação Brasileira Musculação, Fisiculturismo e Fitness para o ano de 2026, com ações previstas em todos os estados do Brasil.",
       },
       {
-        text: "A utilização de um concurso de modelos fitness como estratégia de  divulgação para um  evento de medicina esportiva é  **inédita no Brasil**, uma proposta inovadora que promove um evento por meio de outro, ampliando o alcance e o engajamento com diferentes públicos.",
+        text: "Utilizar um concurso de modelos fitness como estratégia de divulgação para um evento de medicina integrativa é algo inédito no Brasil, uma proposta inovadora que promove um evento por meio de outro, ampliando o alcance e o engajamento com diferentes públicos.",
       },
     ],
   },

@@ -1,4 +1,4 @@
-import { atractions, embaixadores, patrocinadores } from "@/constants";
+import { atractions, patrocinadores } from "@/constants";
 import React from "react";
 import MeddFitnessAbout from "./components/MeddFitnessAbout";
 import IFBBFed from "./components/IFBBFed";
@@ -68,14 +68,13 @@ const page = () => {
         </div>
       </section>
 
-      <section>
+      {/* <section className="flex justify-center bg-[#031322]">
         <div className="customContainer text-center">
           <div>
             <h1>EMBAIXADORAS</h1>
           </div>
           <div className="flex flex-wrap md:flex-nowrap gap-2 md:gap-6 justify-around">
-            {/* são 3 e estao na ultima apresentação enviada */
-            /* COLOCAR IMAGEM DO DOCUMENTO */}
+            
             {embaixadores.map(({ title, src, desc }, i) => (
               <PerfilCard
                 key={i}
@@ -88,7 +87,8 @@ const page = () => {
             ))}
           </div>
         </div>
-      </section>
+        <Image src={embaixadoresImage} alt="embaixadores" height={720} />
+      </section> */}
 
       <section>
         <div className="customContainer text-center">

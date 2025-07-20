@@ -23,12 +23,14 @@ import {
   yoga,
 } from "@/assets/images/parceiros";
 import {
-  anatoly1,
-  anatoly2,
   casuoAtraction1,
   casuoAtraction2,
-  stevenSagal1,
-  stevenSagal2,
+  coverLadyGaga,
+  coverLadyGaga2,
+  fredericoLapenda,
+  fredericoLapenda2,
+  esaiMorales,
+  esaiMorales2,
 } from "@/assets/images/atractions";
 import {
   anadem,
@@ -179,32 +181,62 @@ export const parceiros = [
 
 export const atractions: atractionProps[] = [
   {
+    id: 4,
+    title: "FREDERICO LAPENDA",
+    subTitle:
+      "Alta performance e disciplina: das artes marciais ao cinema global",
+    desc: [
+      "Lapenda é cineasta e dono da Paradigm Pictures, responsável pelo filme Bad Guys, premiado em 2008. Apesar do prestígio no cinema e no Beverly Hills Film Festival, ganhou destaque no mundo das lutas, sendo peça-chave na divulgação do vale-tudo nos anos 1990 e presidente do World Vale Tudo Championship (WWC).",
+    ],
+    images: [fredericoLapenda, fredericoLapenda2],
+  },
+  {
+    id: 6,
+    title: "ESAI MORALES",
+    subTitle:
+      "Saúde, preparo físico e mental na rotina de grandes produções de Hollywood",
+    desc: [
+      "Esai Morales é um renomado ator americano, conhecido por filmes como Bad Boys e La Bamba, e séries como Ozark e Titans. Além da carreira nas telas, também atua como treinador de celebridades em Hollywood, unindo atuação e preparo físico. Conexão que reforça sua presença no MeddFitness.",
+    ],
+    images: [esaiMorales, esaiMorales2],
+  },
+  {
     id: 0,
     subTitle: "UNIVERSO CASUO",
     title: "CIRQUE DU SOLEIL",
     desc: [
-      "Espetáculo artístico criado por Marcos Casuo, ex-integrante do Cirque du Soleil, unindo música, performance e acrobacias em um show único e vibrante.",
+      "Ex-integrante da equipe russa de malabarismo no Cirque du Soleil e criador de diversos quadros para seus espetáculos, Casuo retornou ao Brasil e fundou sua própria companhia, o Universo Casuo. Interpretando múltiplos personagens, ele leva ao público o conceito de Circo Espetáculo, encantando milhares de espectadores pelo país com novas performances e narrativas envolventes.",
     ],
     images: [casuoAtraction1, casuoAtraction2],
   },
   {
-    id: 1,
-    title: "ANATOLY",
-    subTitle: "VLADIMIR SHMONDENKO",
+    id: 5,
+    title: "COVER LADY GAGA",
+    subTitle: "PREPARO FÍSICO E SHOW ELETRIZANTE",
     desc: [
-      "Atleta de fisiculturismo de renome internacional, referência em treinamento de alto rendimento e desenvolvimento muscular extremo.",
+      "Performance e preparo físico de alto nível: A cover oficial da Lady Gaga apresenta um show com dança, energia e expressão à altura de uma atleta de palco, conectando-se ao universo da performance esportiva e artística de alto rendimento.",
     ],
-    images: [anatoly1, anatoly2],
+    images: [coverLadyGaga, coverLadyGaga2],
   },
-  {
-    id: 2,
-    title: "STEVEN SEAGAL",
-    subTitle: "ATOR",
-    desc: [
-      "Ator, mestre em artes marciais e ícone dos filmes de ação, conhecido por sua destreza no Aikido e por sua carreira no cinema de Hollywood.",
-    ],
-    images: [stevenSagal1, stevenSagal2],
-  },
+
+  // {
+  //   id: 1,
+  //   title: "ANATOLY",
+  //   subTitle: "VLADIMIR SHMONDENKO",
+  //   desc: [
+  //     "Atleta de fisiculturismo de renome internacional, referência em treinamento de alto rendimento e desenvolvimento muscular extremo.",
+  //   ],
+  //   images: [anatoly1, anatoly2],
+  // },
+  // {
+  //   id: 2,
+  //   title: "STEVEN SEAGAL",
+  //   subTitle: "ATOR",
+  //   desc: [
+  //     "Ator, mestre em artes marciais e ícone dos filmes de ação, conhecido por sua destreza no Aikido e por sua carreira no cinema de Hollywood.",
+  //   ],
+  //   images: [stevenSagal1, stevenSagal2],
+  // },
   // {
   //   id: 3,
   //   title: "ZÉ NETO E CRISTIANO",
@@ -273,7 +305,7 @@ export const echosystem = [
   {
     id: 5,
     title: "UNIVERSO CASUO",
-    desc: "Shows.",
+    desc: "Conceito de Circo Espetáculo.",
     src: universoCasuo,
   },
   // {
@@ -297,19 +329,19 @@ export const echosystem = [
   {
     id: 8,
     title: "CHRONUS BANK",
-    desc: "Participação de Recebíveis Médicos.",
+    desc: "#########",
     src: chronus,
   },
   {
     id: 8,
-    title: "JAC & CO",
-    desc: "Participação de Recebíveis Médicos.",
+    title: "JAC & CO PRODUCTION",
+    desc: "Curadoria e Organização de Eventos.",
     src: jacCo,
   },
   {
     id: 8,
     title: "ARENA OLÍMPIA",
-    desc: "Participação de Recebíveis Médicos.",
+    desc: "#########",
     src: arena,
   },
 ];
@@ -403,25 +435,25 @@ export const stafPerfilPhotos: simpleCard[] = [
 export const navegation = [
   {
     id: "0",
-    title: "SOBRE NÓS",
+    title: "Sobre Nós",
     url: "/About",
     options: [],
   },
   {
     id: "1",
-    title: "MEGAFITNESS 2025",
+    title: "MegaFitness 2025",
     url: "/MegaFitness2025",
     options: [],
   },
   {
     id: "2",
-    title: "1° FÓRUM MEDDFITNESS BRASIL",
+    title: "1° Fórum MeddFitness Brasil",
     url: "/CongressoMeddfitness",
     options: [],
   },
   {
     id: "3",
-    title: "EVENTOS EM GRANDE ESTILO",
+    title: "Eventos em Grande Estilo",
     url: "/EventoGrandeEstilo",
     options: [],
   },
@@ -431,12 +463,12 @@ export const navegation = [
   //   url: "/Blog",
   //   options: [],
   // },
-  {
-    id: "5",
-    title: "CONTATO",
-    url: "/Contact",
-    options: [],
-  },
+  // {
+  //   id: "5",
+  //   title: "Contato",
+  //   url: "/Contact",
+  //   options: [],
+  // },
 ];
 export const images: simpleImage[] = [
   {
@@ -458,7 +490,7 @@ export const banners: simpleImage[] = [
 ];
 
 export const ingressosCard = [
-  { title: "Workshop de Medicina Esportiva", neonWords: ["Workshop", "de"] },
+  { title: "Workshop de Medicina Integrativa", neonWords: ["Workshop", "de"] },
   {
     title: "MegaFitness: O maior concurso fitness do Brasil",
     neonWords: ["MegaFitness:"],

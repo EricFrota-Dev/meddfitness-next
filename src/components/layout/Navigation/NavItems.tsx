@@ -39,7 +39,7 @@ const NavItems = () => {
               transition={{ duration: 0.3, ease: "easeInOut" }}
             />
 
-            <h5>{title}</h5>
+            <h5 className="font-[500]">{title}</h5>
           </Link>
         </motion.li>
       ))}

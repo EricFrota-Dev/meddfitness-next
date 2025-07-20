@@ -6,6 +6,12 @@ import stevenSagal1 from "./seven-sagal-atraction-1.jpg";
 import stevenSagal2 from "./seven-sagal-atraction-2.jpg";
 import zeNetoCristiano1 from "./ze-neto-e-cristiano-1.jpg";
 import zeNetoCristiano2 from "./ze-neto-e-cristiano-2.jpg";
+import fredericoLapenda from "@/assets/images/perfilPhoto/frederico-lapenda.webp";
+import fredericoLapenda2 from "@/assets/images/perfilPhoto/frederico-lapenda2.jpg";
+import coverLadyGaga2 from "@/assets/images/perfilPhoto/lady-gaga.jpg";
+import coverLadyGaga from "@/assets/images/perfilPhoto/cover-lady-gaga.webp";
+import esaiMorales from "@/assets/images/perfilPhoto/esai-morales.webp";
+import esaiMorales2 from "@/assets/images/perfilPhoto/Esai_Morales.jpg";
 
 export {
   casuoAtraction1,
@@ -16,4 +22,10 @@ export {
   stevenSagal2,
   zeNetoCristiano1,
   zeNetoCristiano2,
+  fredericoLapenda,
+  fredericoLapenda2,
+  coverLadyGaga2,
+  coverLadyGaga,
+  esaiMorales,
+  esaiMorales2,
 };

@@ -4,12 +4,12 @@ import { premiacao } from "../constants";
 const Regulamento = () => {
   return (
     <>
-      <div className="mb-4 text-center shadow-md shadow-darker-30 flex customContainer gap-20 justify-around items-center">
-        <h1 className="text-[4rem] font-bold font-montserrat text-center text-primary ">
+      <div>
+        <h1 className="text-center font-extrabold text-[4rem] mb-10 text-primary">
           REGULAMENTO
         </h1>
 
-        <div className="text-dark flex flex-col gap-20 bg-light w-200 h-130 overflow-x-hidden overflow-y-auto p-10">
+        <div className="text-light flex flex-col gap-20 bg-dark-100 w-200 h-130 overflow-x-hidden overflow-y-auto p-10">
           <div>
             <h2>1 Perfil dos Candidatos</h2>
             <p>

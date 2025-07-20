@@ -10,15 +10,14 @@ const MegaFitness2025 = () => {
       <div>
         <Image src={banners[2].src} alt={banners[2].alt} />
       </div>
-      <section id="apresentacao">
+      <section id="apresentacao" className="grid grid-cols-3 mt-40">
         <Apresentacao />
       </section>
-      <section id="desafios">
+      <section id="desafiosRegulamentos" className="flex justify-around">
         <Desafios />
-      </section>
-      <section id="regulamento">
         <Regulamento />
       </section>
+
       {/* <section id="investimento" className="customContainer text-center">
         <h1>Investimento Patrocínio</h1>
         <p>Medfit Ouro 200 K 2 cotas</p>

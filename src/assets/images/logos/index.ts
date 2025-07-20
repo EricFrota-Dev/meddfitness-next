@@ -12,6 +12,8 @@ import sbtBank from "./tbt-bank-logo.png";
 import chronus from "./chronus-bank-logo.png";
 import jacCo from "./jac-co-logo.png";
 import arena from "./arena-olimpia-logo.png";
+import LogoPrincipalDark from "./meddfitness-logo-principal-back.svg";
+import LogoPrincipalLight from "./meddfitness-logo-principal-light.svg";
 
 export {
   Logo,
@@ -28,4 +30,6 @@ export {
   chronus,
   jacCo,
   arena,
+  LogoPrincipalDark,
+  LogoPrincipalLight,
 };

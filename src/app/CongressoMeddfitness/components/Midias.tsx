@@ -16,7 +16,7 @@ const Midias = () => {
           {midias.map(({ icon, name, value, type }, i) => (
             <EntryAnimation from="scale" delay={i * 100} key={i}>
               <li
-                className={`w-23 h-65 flex flex-col justify-between items-center px-3 py-6 ${
+                className={`w-33 h-65 flex flex-col justify-around items-center px-3 py-6 ${
                   i % 2 == 0
                     ? "border-2 border-primary text-primary"
                     : "text-lisht"
