@@ -175,7 +175,7 @@ import shows from "@/assets/icons/shows.svg";
 export const about: About[] = [
   {
     title: "SOBRE O EVENTO",
-    desc: "Idealizado para percorrer o Brasil, o MeddFitness promove o acesso à medicina esportiva baseada em evidências, com foco no fisiculturismo, performance e bem-estar. É um espaço interativo e acessível para médicos, nutricionistas, fisioterapeutas, educadores físicos, atletas, estudantes e profissionais da saúde.",
+    desc: "Idealizado para percorrer o Brasil, o MeddFitness promove o acesso à medicina integrativa baseada em evidências, com foco no fisiculturismo, performance e bem-estar. É um espaço interativo e acessível para médicos, nutricionistas, fisioterapeutas, educadores físicos, atletas, estudantes e profissionais da saúde.",
     icon: aboutIccon,
   },
   {

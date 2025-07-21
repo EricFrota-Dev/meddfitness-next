@@ -56,9 +56,9 @@ const page = () => {
               <span>1ª Edição do MEDDFITNESS – Olímpia - SP</span>
             </h1>
             <h2>
-              O WORKSHOP MEDDFITNESS 2025 marca o início de uma nova era na
-              medicina esportiva, reunindo especialistas, atletas, pesquisadores
-              e profissionais do setor fitness para compartilhar conhecimento,
+              O MEDDFITNESS 2025 marca o início de uma nova era na medicina
+              esportiva, reunindo especialistas, atletas, pesquisadores e
+              profissionais do setor fitness para compartilhar conhecimento,
               inovação e experiências.
             </h2>
           </div>
