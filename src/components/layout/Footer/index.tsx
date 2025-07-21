@@ -22,7 +22,7 @@ const Footer = () => {
               <span>MEDDFITNESS</span>
             </h2>
             <h4 className="mt-2 text-gray-300 text-lg">
-              A MeddFitness é a organizadora do maior congresso de medicina
+              A MeddFitness é a organizadora do maior fórum de medicina
               esportiva do país.
             </h4>
           </div>
