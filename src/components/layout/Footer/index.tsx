@@ -21,7 +21,7 @@ const Footer = () => {
             </h2>
             <h4 className="mt-2 text-gray-300 text-lg">
               A MeddFitness é a organizadora do maior fórum de medicina
-              esportiva do país.
+              integrativa do país.
             </h4>
           </div>
 

@@ -1,6 +1,6 @@
 export const contacts = [
   {
-    name: "PAULO NETO",
+    name: "PAULO NETTO",
     contacts: ["contato@meddfitness.com.br", "(11) 96922-3341"],
   },
   {
