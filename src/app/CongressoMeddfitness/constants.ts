@@ -180,12 +180,12 @@ export const about: About[] = [
   },
   {
     title: "OBJETIVOS",
-    desc: "Democratizar o conhecimento técnico-científico da medicina esportiva. Estimular o intercâmbio de ideias, estudos e práticas seguras. Promover o aperfeiçoamento profissional e a saúde no esporte. Aproximar marcas, profissionais e o público em geral.",
+    desc: "Democratizar o conhecimento técnico-científico da medicina integrativa. Estimular o intercâmbio de ideias, estudos e práticas seguras. Promover o aperfeiçoamento profissional e a saúde no esporte. Aproximar marcas, profissionais e o público em geral.",
     icon: objectiveIccon,
   },
   {
     title: "PÚBLICO-ALVO",
-    desc: "Profissionais e estudantes de Nutrição, Medicina, Educação Física, Fisioterapia e áreas afins Atletas, treinadores e praticantes de atividades físicas Empresas do setor esportivo e fitness Pesquisadores e grupos de estudo em medicina esportiva.",
+    desc: "Profissionais e estudantes de graduação e pós-graduação das áreas de Nutrição, Educação Física, Medicina, Fisioterapia e demais áreas relacionadas ao esporte. Pesquisadores e membros de grupos de pesquisa e programas de pós-graduação em áreas correlatas à Medicina Esportiva. Atletas, treinadores e praticantes de atividades físicas, além dos públicos já mencionados. Empresas prestadoras de serviços e fornecedoras de produtos voltados à prática esportiva e atividades físicas.",
     icon: targetIccon,
   },
   {
@@ -219,7 +219,7 @@ export const about: About[] = [
   },
   {
     title: "CAMPEONATO DE FISICULTURISMO",
-    desc: "Organizado pela IFBB Brasil, o campeonato celebra a excelência muscular com base em equilíbrio, estética e saúde. A IFBB – Federação Internacional de Fisiculturismo e Fitness, com 204 países afiliados, realiza mais de 8 mil campeonatos por ano, incluindo 52 etapas no Brasil.",
+    desc: "É a entidade esportiva responsável pela gestão do fisiculturismo e fitness em nível mundial. Com 204 nações afiliadas, a IFBB promove o esporte amador, representando a mais alta expressão do desenvolvimento muscular humano de forma equilibrada e saudável. Anualmente, organiza mais de 8.000 campeonatos mundiais e 52 campeonatos no Brasil: Regionais, Estaduais, Brasileiro, Sul-americano, Mundial, Feminino e Kids. Seu site oficial (www.ifbb.com) recebe 15 milhões de acessos por mês, provenientes de diversos países ao redor do mundo.",
     icon: fisioculturiosmo,
     itens: ["Acesse o regulamento completo no site oficial: www.ifbb.com"],
   },
@@ -232,5 +232,95 @@ export const about: About[] = [
     title: "SHOWS E ENTRETENIMENTO",
     desc: "Abertura com o espetáculo do Universo Casuo, atrações musicais e apresentações que tornam a experiência ainda mais inesquecível.",
     icon: shows,
+  },
+];
+
+export const categories = [
+  {
+    title: "Women's Bikini",
+    divisions: [
+      { ageGroup: "Senior", height: "164cm / +164cm", overall: true },
+      { ageGroup: "Master", category: "Única" },
+    ],
+  },
+  {
+    title: "Women's Fit Model",
+    divisions: [
+      { ageGroup: "Senior", height: "164cm / +164cm", overall: true },
+      { ageGroup: "Master", category: "Única" },
+    ],
+  },
+  {
+    title: "Women's Wellness",
+    divisions: [
+      { ageGroup: "Senior", height: "158cm / 163cm / +163cm", overall: true },
+      { ageGroup: "Master", category: "Única" },
+    ],
+  },
+  {
+    title: "Men's Muscle I",
+    divisions: [{ ageGroup: "Senior", category: "Única" }],
+  },
+  {
+    title: "Men's Physique",
+    divisions: [
+      { ageGroup: "Junior", category: "Única" },
+      {
+        ageGroup: "Senior",
+        height: "170cm / 175cm / 176cm / +176cm",
+        overall: true,
+      },
+      { ageGroup: "Master", category: "Única" },
+    ],
+  },
+  {
+    title: "Men's Body Shape",
+    divisions: [{ ageGroup: "Senior", category: "Única" }],
+  },
+  {
+    title: "Muscular Men's Physique",
+    divisions: [
+      { ageGroup: "Senior", height: "175cm / +175cm", overall: true },
+    ],
+  },
+  {
+    title: "Men's Body Muscle II",
+    divisions: [{ ageGroup: "Senior", category: "Única" }],
+  },
+];
+export const ifbbAwards = [
+  {
+    title: "1º Colocado",
+    items: [
+      "Troféu IFBB",
+      "Medalha IFBB",
+      "Book fotográfico por agência Megafitness Model",
+      "Produtos cosméticos e suplementos",
+      "Prêmio no valor de 5 mil reais",
+    ],
+  },
+  {
+    title: "2º Colocado",
+    items: [
+      "Troféu IFBB",
+      "Medalha IFBB",
+      "Book fotográfico por agência Megafitness Model",
+      "Produtos cosméticos e suplementos",
+      "Prêmio no valor de 3 mil reais",
+    ],
+  },
+  {
+    title: "3º Colocado",
+    items: [
+      "Troféu IFBB",
+      "Medalha IFBB",
+      "Book fotográfico por agência Megafitness Model",
+      "Produtos cosméticos e suplementos",
+      "Prêmio no valor de 2 mil reais",
+    ],
+  },
+  {
+    title: "4º a 6º Colocados",
+    items: ["Troféu IFBB", "Medalha IFBB", "Produtos cosméticos e suplementos"],
   },
 ];

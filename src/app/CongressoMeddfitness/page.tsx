@@ -20,6 +20,8 @@ import imagemSemNome from "@/assets/images/logos/Imagem do WhatsApp de 2025-07-1
 
 import { ifbbBrasil, jacCo, LogoPrincipal } from "@/assets/images/logos";
 import Image from "next/image";
+import Categories from "./components/Categories";
+import IfbbAwards from "./components/IfbbAwards";
 
 const page = () => {
   const realizacao = [ifbbBrasil, LogoPrincipal, jacCo];
@@ -49,6 +51,8 @@ const page = () => {
       <section>
         <MedicinaEsportiva />
       </section> */}
+      <Categories />
+      <IfbbAwards />
       <section>
         <div className="customContainer text-center px-20 bg-6/60">
           <div>
@@ -57,7 +61,7 @@ const page = () => {
             </h1>
             <h2>
               O MEDDFITNESS 2025 marca o início de uma nova era na medicina
-              esportiva, reunindo especialistas, atletas, pesquisadores e
+              integrativa, reunindo especialistas, atletas, pesquisadores e
               profissionais do setor fitness para compartilhar conhecimento,
               inovação e experiências.
             </h2>
@@ -179,13 +183,15 @@ const page = () => {
           <h1 className="font-[700] text-primary-dark">REALIZAÇÃO:</h1>
           <div className="flex justify-around customContainer">
             {realizacao.map((image, i) => (
-              <Image
-                src={image}
-                alt={`logo ${i + 1}`}
-                key={i}
-                width={200}
-                className=""
-              />
+              <div className="flex justify-center items-center" key={i}>
+                <Image
+                  src={image}
+                  alt={`logo ${i + 1}`}
+                  key={i}
+                  height={180}
+                  className="w-50"
+                />
+              </div>
             ))}
           </div>
 

@@ -17,7 +17,7 @@ const EchoSysyemCard: React.FC<simpleCard> = ({ title, desc, src }) => {
         <Image
           src={src}
           alt={title}
-          className="absolute rounded-full w-54 bottom-3 left-3 "
+          className="absolute rounded-full w-54 bottom-3 left-3 bg-light"
         />
       </div>
     </div>

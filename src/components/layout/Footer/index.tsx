@@ -1,9 +1,7 @@
 "use client";
 
 import { entryAnimation } from "@/animations";
-import { contacts } from "@/app/Contact/constants";
 import { motion } from "motion/react";
-import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -65,9 +63,9 @@ const Footer = () => {
           </div>
 
           {/* Coluna 3 - Contato */}
-          <div className="w-full md:w-1/4 list-none text-sm">
+          {/* <div className="w-full md:w-1/4 list-none text-sm">
             <h3 className="text-lg font-semibold pb-2">Contatos</h3>
-            {/* <p className="text-sm text-gray-300">📞 (11) 96922-3341</p> */}
+            <p className="text-sm text-gray-300">📞 (11) 96922-3341</p>
             {contacts.map((contact, i) => (
               <li className="pb-2 flex flex-col" key={i}>
                 <p className="text-bold">{contact.name}</p>
@@ -82,22 +80,22 @@ const Footer = () => {
                 ))}
               </li>
             ))}
-          </div>
+          </div> */}
 
           {/* Coluna 4 - Redes Sociais */}
           <div className="w-full md:w-1/4">
             <h3 className="text-lg font-semibold">Redes Sociais</h3>
-            <div className="flex space-x-4 mt-2">
-              <a href="#" className="text-gray-300 hover:text-gray-400">
+            <div className="space-x-4 mt-2">
+              <a href="#" className="text-gray-300 flex hover:text-gray-400">
                 📘 Facebook
               </a>
-              <a href="#" className="text-gray-300 hover:text-gray-400">
+              <a href="#" className="text-gray-300 flex hover:text-gray-400">
                 🐦 Twitter
               </a>
-              <a href="#" className="text-gray-300 hover:text-gray-400">
+              <a href="#" className="text-gray-300 flex hover:text-gray-400">
                 📷 Instagram
               </a>
-              <a href="#" className="text-gray-300 hover:text-gray-400">
+              <a href="#" className="text-gray-300 flex hover:text-gray-400">
                 🎥 YouTube
               </a>
             </div>

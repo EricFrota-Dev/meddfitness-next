@@ -5,13 +5,13 @@
   --font-open-sans: open-sans;
 
   /* Primary */
-  --color-primary-light: #52fcff;
-  --color-primary-semi-light: #59e6e4;
-  --color-primary: #3ec1c9;
+  --color-primary-light: #00ffff;
+  --color-primary-semi-light: #20d6ff;
+  --color-primary: #37a7e6;
   /* --color-primary: #37a7e6; */
-  --color-primary-semi-dark: #39a1a6;
-  --color-primary-dark: #3d7a7d;
-  --color-primary-darker: #1c4545;
+  --color-primary-semi-dark: #297aaa;
+  --color-primary-dark: #22668d;
+  --color-primary-darker: #173c52;
   /* Auxiliar */
   --color-secondary: #37e6b4;
   --color-prime: #ffc302;

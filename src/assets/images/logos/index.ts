@@ -1,7 +1,7 @@
 import Logo from "./meddfitness-logo.svg";
 import anadem from "./anadem-logo.png";
 import megafitness from "./megafitness-logo.png";
-import ifbbBrasil from "./ifbb-brasil-logo.png";
+import ifbbBrasil from "./ifbb-brasil-logo.webp";
 import ifbbAcademy from "./ifbb-academy-logo.png";
 import vivaCare from "./viva-care-logo.png";
 import universoCasuo from "./universo-casuo-logo.png";
@@ -14,6 +14,7 @@ import jacCo from "./jac-co-logo.png";
 import arena from "./arena-olimpia-logo.png";
 import LogoPrincipalDark from "./meddfitness-logo-principal-back.svg";
 import LogoPrincipalLight from "./meddfitness-logo-principal-light.svg";
+import whatsapp from "./whatsapp-logo.svg";
 
 export {
   Logo,
@@ -32,4 +33,5 @@ export {
   arena,
   LogoPrincipalDark,
   LogoPrincipalLight,
+  whatsapp,
 };

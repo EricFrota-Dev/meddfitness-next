@@ -129,3 +129,41 @@ export const premiacao = [
     ],
   },
 ];
+
+export const awards = [
+  {
+    title: "1º Colocado:",
+    awards: [
+      "a) Troféu Miss e Mister Fitness;",
+      "b) Book fotográfico por agência Megafitness Model;",
+      "c) Produtos cosméticos, suplementos, faixa e flores;",
+      "d) Prêmio no valor de 4 mil reais. ",
+    ],
+  },
+  {
+    title: "2º Colocado:",
+    awards: [
+      "a) Troféu Miss e Mister Fitness; ",
+      "b) Book fotográfico por Megafitness Model ;",
+      "c) Produtos cosméticos, suplementos, faixa e flores;",
+      "d) Prêmio no valor de 3 mil reais.",
+    ],
+  },
+  {
+    title: "3º Colocado:",
+    awards: [
+      "a) Troféu Miss e Mister Fitness; ",
+      "b) Book fotográfico por Megafitness Model;",
+      "c) Produtos cosméticos, suplementos, faixa e flores;",
+      "d) Prêmio no valor de 2 mil reais.",
+    ],
+  },
+  {
+    title: "4ºa  6º Colocados:",
+    awards: [
+      "a) Troféu Miss e Mister Fitness; ",
+      "b) Produtos cosméticos, suplementos. faixa e flores;",
+      "c) Prêmio no valor de 1 mil reais.",
+    ],
+  },
+];

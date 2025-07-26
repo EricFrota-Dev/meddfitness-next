@@ -376,7 +376,7 @@ export const projetoMeddfitness = [
   {
     id: 0,
     title: "NETWORK",
-    desc: "Congregar, estimular e apoiar o intercâmbio de informações atualizadas e do conhecimento técnico-científico na área de medicina, na área da medicina esportiva, alinhando-se às diretrizes das políticas de promoção do esporte saudável, adequado e da segurança física e mental.",
+    desc: "Congregar, estimular e apoiar o intercâmbio de informações atualizadas e do conhecimento técnico-científico na área de medicina, na área da medicina integrativa, alinhando-se às diretrizes das políticas de promoção do esporte saudável, adequado e da segurança física e mental.",
     icon: network,
   },
   {
@@ -388,7 +388,7 @@ export const projetoMeddfitness = [
   {
     id: 2,
     title: "NEGÓCIOS",
-    desc: "Incentivar a troca de experiências, a cooperação e o enriquecimento profissional, reunindo especialistas e empresas de diversos estados brasileiros e de países ibero-americanos. Além disso, proporcionar aos participantes a oportunidade de ampliar o relacionamento com entidades atuantes nas diferentes áreas da medicina esportiva.",
+    desc: "Incentivar a troca de experiências, a cooperação e o enriquecimento profissional, reunindo especialistas e empresas de diversos estados brasileiros e de países ibero-americanos. Além disso, proporcionar aos participantes a oportunidade de ampliar o relacionamento com entidades atuantes nas diferentes áreas da medicina integrativa.",
     icon: hands,
   },
   {
@@ -463,12 +463,12 @@ export const navegation = [
   //   url: "/Blog",
   //   options: [],
   // },
-  // {
-  //   id: "5",
-  //   title: "Contato",
-  //   url: "/Contact",
-  //   options: [],
-  // },
+  {
+    id: "5",
+    title: "Contato",
+    url: "/Contact",
+    options: [],
+  },
 ];
 export const images: simpleImage[] = [
   {
