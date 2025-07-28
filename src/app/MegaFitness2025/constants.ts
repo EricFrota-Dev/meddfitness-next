@@ -22,11 +22,11 @@ export const sections: BlocoTexto[] = [
     title: "MEGA PERSONALIDADE FITNESS",
     content: [
       {
-        text: "A **MEDDFITNESS** inova e transforma  o universo dos grandes concursos de modelos com o lançamento do **MEGAFITNESS**, um projeto  totalmente  digital, dentro do TikTok. A proposta é encontrar as  novas personalidade **MEGAFITNESS** do Brasil.",
+        text: "A **MEDDFITNESS** inova e transforma  o universo dos grandes concursos de modelos com o lançamento do **MEGAFITNESS**, um projeto  totalmente  digital, dentro do TikTok. A proposta é encontrar as  novas personalidade **MEGAFITNESS** do Brasil. ",
         spacing: true,
       },
       {
-        text: "O **MEGAFITNESS**  irá eleger novas personalidades fitness  por meio de desafios criativos e envolventes. A competição terá início em **1º de julho** e se encerrará em **10 de outubro**, com a apuração e divulgação dos resultados marcada para o dia  **15 de outubro de 2025**.\n\n Nesta data serão anunciadas as três grandes personalidades **MEGAFITNESS**, que receberão prêmios, presentes, contratos de publicidade, entre outros reconhecimentos.",
+        text: "O **MEGAFITNESS**  irá eleger novas personalidades fitness  por meio de desafios criativos e envolventes. A competição terá início em **1º de setembro** e se encerrará em **20 de outubro**, com a apuração e divulgação dos resultados marcada para o dia  **08 de novembro de 2025**. Nesta data serão anunciadas as três grandes personalidades MEGAFITNESS, que receberão prêmios, presentes, contratos de publicidade, entre outros reconhecimentos.",
       },
     ],
   },
