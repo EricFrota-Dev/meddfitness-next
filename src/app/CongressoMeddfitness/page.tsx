@@ -11,7 +11,7 @@ import Speakers from "./components/Speakers";
 import Local from "./components/Local";
 import AtractionCard from "@/components/ui/AtractionCard";
 // import Passport from "./components/Passport";
-import Partner from "./components/Partner";
+// import Partner from "./components/Partner";
 import Volunteer from "./components/Volunteer";
 // import Downloads from "./components/Downloads";
 // import DailyTickets from "./components/DailyTickets";
@@ -139,9 +139,9 @@ const page = () => {
         </h1>
       </section>
 
-      <section id="sejaParceiro">
+      {/* <section id="sejaParceiro">
         <Partner />
-      </section>
+      </section> */}
 
       <section>
         <div className="bg-darker/70 text-center py-10  px-6">
