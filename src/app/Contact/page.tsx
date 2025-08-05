@@ -1,5 +1,5 @@
-import GradientCard from "@/components/ui/GradientCard";
-import { contacts } from "./constants";
+// import GradientCard from "@/components/ui/GradientCard";
+// import { contacts } from "./constants";
 
 const Contact = () => {
   return (
@@ -7,7 +7,15 @@ const Contact = () => {
       className="px-[10%] grid grid-cols-2 justify-around mt-40 gap-10
     "
     >
-      {contacts.map(({ name, contacts }, i) => (
+      <h2 className="">
+        imprensa@meddfitness.com.br <br />
+        digital@meddfitness.com.br
+        <br />
+        hub@meddfitness.com.br <br />
+        paulonetto@meddfitness.com.br
+        <br />
+      </h2>
+      {/* {contacts.map(({ name, contacts }, i) => (
         <GradientCard key={i} bordered className="text-center">
           <div className="mb-6">
             <h1>{name}</h1>
@@ -24,7 +32,7 @@ const Contact = () => {
             ))}
           </div>
         </GradientCard>
-      ))}
+      ))} */}
     </div>
   );
 };

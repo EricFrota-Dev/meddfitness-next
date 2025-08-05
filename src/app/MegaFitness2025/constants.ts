@@ -26,7 +26,7 @@ export const sections: BlocoTexto[] = [
         spacing: true,
       },
       {
-        text: "O **MEGAFITNESS**  irá eleger novas personalidades fitness  por meio de desafios criativos e envolventes. A competição terá início em **1º de setembro** e se encerrará em **20 de outubro**, com a apuração e divulgação dos resultados marcada para o dia  **08 de novembro de 2025**. Nesta data serão anunciadas as três grandes personalidades MEGAFITNESS, que receberão prêmios, presentes, contratos de publicidade, entre outros reconhecimentos.",
+        text: "O **MEGAFITNESS**  irá eleger novas personalidades fitness  por meio de desafios criativos e envolventes. A competição terá início em **20 de setembro** e se encerrará em **20 de outubro**, com a apuração e divulgação dos resultados marcada para o dia  **08 de novembro de 2025**. Nesta data serão anunciadas as três grandes personalidades MEGAFITNESS, que receberão prêmios, presentes, contratos de publicidade, entre outros reconhecimentos.",
       },
     ],
   },

@@ -8,6 +8,9 @@ import MeddProject from "./components/MeddProject";
 import { grupoGestorAbout } from "./constants";
 // import EntryAnimation from "@/components/layout/AnimatedContent/EntryAnimation";
 import EchoSysyemCarousel from "@/components/ui/EchoSysyemCarousel";
+import { targets } from "@/assets/images/logos/targets";
+import Image from "next/image";
+import eventosRealizados from "@/assets/images/events/eventosRealizados.jpg";
 
 const Equipe = () => {
   return (
@@ -67,6 +70,33 @@ const Equipe = () => {
         </div>
       </section>
       <MeddProject />
+      <section>
+        <Image src={eventosRealizados} alt="eventos realizdos" />
+      </section>
+      <div className="bg-primary">
+        <h1 className="text-center mb-6  text-dark py-10 px-[10%] border-b border-dark-100">
+          ALGUNS CLIENTES & TARGET : NOSSA REDE DE RELACIONAMENTOS
+        </h1>
+        <div>
+          <ul className="grid gap-6 customContainer grid-cols-7 bg-primary">
+            {targets.map((image, i) => (
+              <li
+                key={i}
+                className="flex items-center justify-center shadow-lg bg-light"
+              >
+                <div className=" rounded min-w-30 h-30 p-3 flex justify-center items-center">
+                  <Image
+                    src={image}
+                    alt={"logo" + 1 + i}
+                    width={120}
+                    height={120}
+                  />
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
     </>
   );
 };

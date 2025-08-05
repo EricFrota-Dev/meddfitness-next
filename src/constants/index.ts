@@ -434,6 +434,13 @@ export const stafPerfilPhotos: simpleCard[] = [
 
 export const navegation = [
   {
+    id: "01",
+    title: "Home",
+    url: "/",
+    options: [],
+  },
+
+  {
     id: "0",
     title: "Sobre Nós",
     url: "/About",
@@ -451,12 +458,12 @@ export const navegation = [
     url: "/CongressoMeddfitness",
     options: [],
   },
-  {
-    id: "3",
-    title: "Eventos em Grande Estilo",
-    url: "/EventoGrandeEstilo",
-    options: [],
-  },
+  // {
+  //   id: "3",
+  //   title: "Eventos em Grande Estilo",
+  //   url: "/EventoGrandeEstilo",
+  //   options: [],
+  // },
   // {
   //   id: "4",
   //   title: "BLOG",
@@ -490,7 +497,7 @@ export const banners: simpleImage[] = [
 ];
 
 export const ingressosCard = [
-  { title: "Workshop de Medicina Integrativa", neonWords: ["Workshop", "de"] },
+  { title: "Fórum de Medicina Integrativa", neonWords: ["Workshop", "de"] },
   {
     title: "MegaFitness: O maior concurso fitness do Brasil",
     neonWords: ["MegaFitness:"],
