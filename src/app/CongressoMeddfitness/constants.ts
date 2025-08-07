@@ -141,12 +141,12 @@ export const voluntiers: articleContent[] = [
     content:
       "Faça parte do staff do maior evento de fitness e bem-estar da América Latina. Participe como voluntário do MEDDFITNESS 2025, entre os dias 07 e 09 de novembro, na Arena Olímpia Shows e Eventos, Olímpia, SP.",
   },
-  {
-    id: 2,
-    title: "PAINEL NOVOS TALENTOS",
-    content:
-      "Quer subir no palco da MEDDFit 2025? Inscreva-se para o processo seletivo de novos palestrantes no Painel de Novos Talentos.",
-  },
+  // {
+  //   id: 2,
+  //   title: "PAINEL NOVOS TALENTOS",
+  //   content:
+  //     "Quer subir no palco da MEDDFit 2025? Inscreva-se para o processo seletivo de novos palestrantes no Painel de Novos Talentos.",
+  // },
 ];
 
 export const dailyTickets: articleContent[] = [
