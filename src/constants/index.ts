@@ -437,46 +437,175 @@ export const navegation = [
     id: "01",
     title: "Home",
     url: "/",
-    options: [],
+    childrens: [],
   },
-
   {
     id: "0",
     title: "Sobre Nós",
     url: "/About",
-    options: [],
+    childrens: [
+      { title: "A Meddfitness", url: "#a-meddfitness" },
+      { title: "Comissão 2025", url: "#comissao-2025" },
+      {
+        title: "Ecossistema Operacional",
+        url: "#ecossistema-operacional",
+      },
+      { title: "Nossos Pilares", url: "#nossos-pilares" },
+      { title: "Eventos Patrocinados", url: "#eventos-patrocinados" },
+      {
+        title: "Clientes e Relacionamentos",
+        url: "#clientes-relacionamentos",
+      },
+    ],
   },
   {
     id: "1",
     title: "MegaFitness 2025",
     url: "/MegaFitness2025",
-    options: [],
+    childrens: [
+      {
+        title: "O Concurso MegaFitness",
+        url: "#o-concurso-megafitness",
+      },
+      {
+        title: "MegaPersonalidade Fitness",
+        url: "#megapersonalidade-fitness",
+      },
+      {
+        title: "Estratégias de Alcance e Engajamento",
+        url: "#estrategias-alcance-engajamento",
+      },
+      { title: "Desafios Oficiais", url: "#desafios-oficiais" },
+      { title: "Regulamento", url: "#regulamento" },
+      { title: "Premiação", url: "#premiacao" },
+      {
+        title: "Presença em Eventos e Mídias",
+        url: "#presenca-em-eventos-e-midias",
+      },
+    ],
   },
   {
     id: "2",
     title: "1° Fórum MeddFitness Brasil",
     url: "/CongressoMeddfitness",
-    options: [],
+    childrens: [
+      {
+        title: "Apresentação do Evento",
+        url: "#apresentacao",
+      },
+      { title: "Sobre o Fórum", url: "#sobre-o-forum" },
+      {
+        title: "Parceiros Oficiais",
+        url: "#parceiros-oficiais",
+      },
+      {
+        title: "IFBB em Números",
+        url: "#ifbb-em-numeros",
+      },
+      {
+        title: "Competições e Categorias",
+        url: "#competicoes-e-categorias",
+      },
+      { title: "Premiações", url: "#premiacoes" },
+      {
+        title: "Garanta o seu ingresso",
+        url: "#ingresso",
+      },
+      {
+        title: "Por que em Olímpia?",
+        url: "#por-que-olimpia",
+      },
+      { title: "Tema Central", url: "#tema-central" },
+      {
+        title: "Por que Participar?",
+        url: "#por-que-participar",
+      },
+      {
+        title: "A quem se Destina?",
+        url: "#publico-alvo",
+      },
+      {
+        title: "Palestrantes e Temas",
+        url: "#palestrantes-temas",
+      },
+      { title: "Programação", url: "#programacao" },
+      { title: "Localização", url: "#localizacao" },
+      {
+        title: "Atrações Confirmadas",
+        url: "#atracoes-confirmadas",
+      },
+      {
+        title: "Patrocinadores e Apoiadores",
+        url: "#patrocinadores-apoiadores",
+      },
+      { title: "Perguntas Frequentes (FAQ)", url: "#faq" },
+      {
+        title: "Seja Voluntário",
+        url: "#seja-voluntario",
+      },
+      { title: "Realização", url: "#realizacao" },
+    ],
   },
-  // {
-  //   id: "3",
-  //   title: "Eventos em Grande Estilo",
-  //   url: "/EventoGrandeEstilo",
-  //   options: [],
-  // },
-  // {
-  //   id: "4",
-  //   title: "BLOG",
-  //   url: "/Blog",
-  //   options: [],
-  // },
   {
     id: "5",
     title: "Contato",
     url: "/Contact",
-    options: [],
+    childrens: [],
   },
 ];
+
+// export const navegation = [
+//   {
+//     id: "01",
+//     title: "Home",
+//     url: "/",
+//     childrens: [
+
+//     ],
+//   },
+
+//   {
+//     id: "0",
+//     title: "Sobre Nós",
+//     url: "/About",
+//     childrens: [
+//       {
+//         title: "",
+//         url: "",
+//       },
+//     ],
+//   },
+//   {
+//     id: "1",
+//     title: "MegaFitness 2025",
+//     url: "/MegaFitness2025",
+//     childrens: [],
+//   },
+//   {
+//     id: "2",
+//     title: "1° Fórum MeddFitness Brasil",
+//     url: "/CongressoMeddfitness",
+//     childrens: [],
+//   },
+//   // {
+//   //   id: "3",
+//   //   title: "Eventos em Grande Estilo",
+//   //   url: "/EventoGrandeEstilo",
+//   //   childrens: [],
+//   // },
+//   // {
+//   //   id: "4",
+//   //   title: "BLOG",
+//   //   url: "/Blog",
+//   //   childrens: [],
+//   // },
+//   {
+//     id: "5",
+//     title: "Contato",
+//     url: "/Contact",
+//     childrens: [],
+//   },
+// ];
 export const images: simpleImage[] = [
   {
     id: 0,

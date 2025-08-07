@@ -6,7 +6,10 @@ import { ifbbAwards } from "../constants";
 
 const IfbbAwards = () => {
   return (
-    <div className="customContainer min-h-140 bg-darker text-white py-16">
+    <div
+      className="customContainer min-h-140 bg-darker text-white py-16"
+      id="premiacoes"
+    >
       <p className="text-primary mb-10 text-center text-lg">
         A premiação desta Edição será composta da seguinte forma, por categoria.
       </p>

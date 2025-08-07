@@ -32,10 +32,10 @@ const page = () => {
       {/* <section className="bg-dark-300">
         <Showcase />
       </section> */}
-      <section>
+      <section id="parceiros-oficiais">
         <IFBBFed />
       </section>
-      <section className="bg-darker">
+      <section className="bg-darker" id="ifbb-em-numeros">
         <Midias />
       </section>
       {/* <section>
@@ -53,7 +53,7 @@ const page = () => {
       </section> */}
       <Categories />
       <IfbbAwards />
-      <section>
+      <section id="ingresso">
         <div className="customContainer text-center px-20 bg-6/60">
           <div>
             <h1>
@@ -94,7 +94,7 @@ const page = () => {
         <Image src={embaixadoresImage} alt="embaixadores" height={720} />
       </section> */}
 
-      <section>
+      <section id="por-que-olimpia">
         <div className="customContainer text-center">
           <div>
             <h1>MEDDFITNESS 2025</h1>
@@ -110,15 +110,16 @@ const page = () => {
         </div>
       </section>
 
-      <section>
+      <section id="palestrantes-temas">
         <Speakers />
       </section>
+      <section id="programacao"></section>
 
-      <section id="localDoEvento" className="bg-darker/50">
+      <section id="localizacao" className="bg-darker/50">
         <Local />
       </section>
 
-      <section>
+      <section id="atracoes-confirmadas">
         <div className="customContainer">
           <h1 className="text-center mb-10">ATRAÇÕES DA FEIRA</h1>
 
@@ -155,7 +156,7 @@ const page = () => {
           </h2>
         </div>
       </section>
-      <section>
+      <section id="patrocinadores-apoiadores">
         <div className="customContainer text-center">
           <h1>QUADRO DE PATROCINADORES</h1>
           <div className="flex flex-wrap md:flex-nowrap gap-2 md:gap-6 justify-around">
@@ -166,19 +167,19 @@ const page = () => {
         </div>
       </section>
 
-      <section>
+      <section id="faq">
         <div className="customContainer text-center">
           <h1>PERGUNTAS FREQUENTES</h1>
           <Accordion items={duvidasRespostas02} />
         </div>
       </section>
-      <section id="voluntario">
+      <section id="seja-voluntario">
         <Volunteer />
       </section>
       {/* <section>
         <Downloads />
       </section> */}
-      <section>
+      <section id="realizacao">
         <div className="text-center bg-light text-darker py-10 my-10">
           <h1 className="font-[700] text-primary-dark">REALIZAÇÃO:</h1>
           <div className="flex justify-around customContainer">

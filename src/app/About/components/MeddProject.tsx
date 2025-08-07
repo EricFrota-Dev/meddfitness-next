@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const MeddProject = () => {
   return (
-    <section id="projetoMeddfitness">
+    <section id="nossos-pilares">
       <div className="customContainer">
         <div>
           <h3 className="text-center">

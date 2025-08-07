@@ -5,7 +5,7 @@ import AboutHideTexts from "./AboutHideTexts";
 
 const MeddFitnessAbout = () => {
   return (
-    <div className="px-[10%] py-30 grid grid-cols-3 gap-20">
+    <div className="px-[10%] py-30 grid grid-cols-3 gap-20" id="sobre-o-forum">
       {about.map(({ title, icon, desc, itens }, i) => (
         <GradientCard
           delay={i * 100}

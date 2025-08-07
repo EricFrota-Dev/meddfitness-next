@@ -4,7 +4,7 @@ import ReactMarkdown from "react-markdown";
 
 const Desafios = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center" id="desafios-oficiais">
       <h1 className="text-center font-extrabold text-[4rem] mb-10 ">
         <span>DESAFIOS</span>
       </h1>

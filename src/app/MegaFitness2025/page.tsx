@@ -8,20 +8,20 @@ import Award from "./components/Award";
 const MegaFitness2025 = () => {
   return (
     <>
-      <div>
+      <div id="o-concurso-megafitness">
         <Image src={banners[2].src} alt={banners[2].alt} />
       </div>
-      <section id="apresentacao">
+      <section id="megapersonalidade-fitness">
         <Apresentacao />
       </section>
-      <section id="desafiosRegulamentos" className="flex justify-around">
+      <section className="flex justify-around">
         <Desafios />
         <Regulamento />
       </section>
       <section id="premiacao">
         <Award />
       </section>
-      <section>
+      <section id="presenca-em-eventos-e-midias">
         <div className="flex bg-primary-darker">
           <div className="p-10 flex-1 pl-[10%] text-center flex justify-center items-center flex-col">
             <h1 className="text-[3rem] mb-4">

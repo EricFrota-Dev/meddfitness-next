@@ -4,7 +4,7 @@ import { premiacao } from "../constants";
 const Regulamento = () => {
   return (
     <>
-      <div>
+      <div id="regulamento">
         <h1 className="text-center font-extrabold text-[4rem] mb-10 text-primary">
           REGULAMENTO
         </h1>

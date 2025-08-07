@@ -6,7 +6,10 @@ import EntryAnimation from "@/components/layout/AnimatedContent/EntryAnimation";
 
 const Banner = () => {
   return (
-    <div className="w-full h-205 bg-gradient-to-l via-primary text-shadow-sm text-shadow-primary-darker to-primary-darker from-primary-darker p-10 text-center flex flex-col justify-center items-center relative">
+    <div
+      id="apresentacao"
+      className="w-full h-205 bg-gradient-to-l via-primary text-shadow-sm text-shadow-primary-darker to-primary-darker from-primary-darker p-10 text-center flex flex-col justify-center items-center relative"
+    >
       <EntryAnimation from="left" className="absolute">
         <Image src={Couple} alt="couple" height={820} />
       </EntryAnimation>

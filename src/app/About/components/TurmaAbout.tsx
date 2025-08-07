@@ -6,7 +6,7 @@ import GradientCard from "@/components/ui/GradientCard";
 
 const TurmaAbout = () => {
   return (
-    <div className="customContainer mt-14">
+    <div className="customContainer mt-14" id="a-meddfitness">
       <div className="mt-10 mb-10 flex flex-col xl:flex-row gap-5 xl:gap-20">
         <EntryAnimation from="left" className="flex-1 flex items-center">
           <Image

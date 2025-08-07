@@ -50,7 +50,7 @@ const Equipe = () => {
           </h2>
         </EntryAnimation>
       </section> */}
-      <section id="ecosistema">
+      <section id="ecossistema-operacional">
         <div className="cusomContainer text-center">
           <div className="my-10">
             <p className="text-3xl font-bold">ECOSSISTEMA OPERACIONAL</p>
@@ -70,10 +70,10 @@ const Equipe = () => {
         </div>
       </section>
       <MeddProject />
-      <section>
+      <section id="eventos-patrocinados">
         <Image src={eventosRealizados} alt="eventos realizdos" />
       </section>
-      <div className="bg-primary">
+      <div className="bg-primary" id="clientes-relacionamentos">
         <h1 className="text-center mb-6  text-dark py-10 px-[10%] border-b border-dark-100">
           ALGUNS CLIENTES & TARGET : NOSSA REDE DE RELACIONAMENTOS
         </h1>

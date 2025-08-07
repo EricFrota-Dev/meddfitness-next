@@ -3,7 +3,10 @@ import { categories } from "../constants";
 
 const Categories = () => {
   return (
-    <div className="customContainer flex flex-col items-center">
+    <div
+      className="customContainer flex flex-col items-center"
+      id="competicoes-e-categorias"
+    >
       <div>
         <h2 className="text-primary font-[800]">CBMFF | IFBB - BRASIL.</h2>
       </div>
