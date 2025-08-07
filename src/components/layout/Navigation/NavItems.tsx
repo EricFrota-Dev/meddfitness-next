@@ -63,6 +63,8 @@ const NavItems = () => {
                 onClick={(e) => {
                   if (hasChildren && !isSidebarOpen) {
                     e.preventDefault();
+                  } else {
+                    window.location.href = url;
                   }
                   handleClickToggle(index);
                   if (!hasChildren) close();
