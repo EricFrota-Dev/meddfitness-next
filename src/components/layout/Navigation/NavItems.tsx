@@ -64,7 +64,7 @@ const NavItems = () => {
                   if (hasChildren && !isSidebarOpen) {
                     e.preventDefault();
                   } else {
-                    window.location.href = url;
+                    window.location.href = `/meddfitness-next${url}`;
                   }
                   handleClickToggle(index);
                   if (!hasChildren) close();
