@@ -23,7 +23,10 @@ const BannerCarousel = () => {
   };
 
   const banners = [bannerForum, bannerMegafitness];
-  const links = ["/CongressoMeddfitness", "/MegaFitness2025"];
+  const links = [
+    "/meddfitness-next/CongressoMeddfitness",
+    "/meddfitness-next/MegaFitness2025",
+  ];
 
   return (
     <div className="w-screen max-h-180 flex justify-center relative">

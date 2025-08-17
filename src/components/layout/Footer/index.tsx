@@ -87,7 +87,7 @@ const Footer = () => {
               <ul className="mt-2 space-y-1">
                 <li>
                   <a
-                    href="/CongressoMeddfitness#palestrantes-temas"
+                    href="/meddfitness-next/CongressoMeddfitness#palestrantes-temas"
                     className="text-sm hover:text-gray-400"
                   >
                     Palestras
@@ -95,7 +95,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/MegaFitness2025"
+                    href="/meddfitness-next/MegaFitness2025"
                     className="text-sm hover:text-gray-400"
                   >
                     Concursos
@@ -103,7 +103,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/CongressoMeddfitness#competicoes-e-categorias"
+                    href="/meddfitness-next/CongressoMeddfitness#competicoes-e-categorias"
                     className="text-sm hover:text-gray-400"
                   >
                     Campeonatos
@@ -112,7 +112,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="/About#eventos-patrocinados"
+                    href="/meddfitness-next/About#eventos-patrocinados"
                     className="text-sm hover:text-gray-400"
                   >
                     Shows
