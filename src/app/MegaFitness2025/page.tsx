@@ -1,22 +1,21 @@
 import React from "react";
-import Image from "next/image";
-import { banners } from "@/constants";
 import Apresentacao from "./components/Apresentacao";
 import Desafios from "./components/Desafios";
 import Regulamento from "./components/Regulamento";
 import Award from "./components/Award";
+import Banner from "./components/Banner";
 const MegaFitness2025 = () => {
   return (
     <>
-      <div id="o-concurso-megafitness">
-        <Image src={banners[2].src} alt={banners[2].alt} />
-      </div>
+      <Banner />
       <section id="megapersonalidade-fitness">
         <Apresentacao />
       </section>
-      <section className="flex justify-around">
-        <Desafios />
-        <Regulamento />
+      <section className="bg-dark-100">
+        <div className="w-full customContainer grid gap-10 grid-cols-1 xl:grid-cols-2">
+          <Desafios />
+          <Regulamento />
+        </div>
       </section>
       <section id="premiacao">
         <Award />

@@ -186,3 +186,26 @@ section {
   border-bottom: 1px solid var(--color-primary-darker);
   margin: 40px 0;
 }
+
+::-webkit-scrollbar {
+  width: 12px; /* largura da scrollbar */
+  height: 8px; /* para scroll horizontal */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-light); /* cor da barrinha */
+  border-radius: 9999px; /* arredondado */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6b7280; /* hover */
+}
+
+.scrollborder ::-webkit-scrollbar-track {
+  border: 1px solid var(--color-light); /* trilho */
+  border-radius: 6px;
+}

@@ -3,15 +3,14 @@ import { premiacao } from "../constants";
 
 const Regulamento = () => {
   return (
-    <>
-      <div id="regulamento">
-        <h1 className="text-center font-extrabold text-[4rem] mb-10 text-primary">
-          REGULAMENTO
-        </h1>
-
-        <div className="text-light flex flex-col gap-20 bg-dark-100 w-200 h-130 overflow-x-hidden overflow-y-auto p-10">
+    <div id="regulamento">
+      <h1 className="text-center font-extrabold text-[2rem] mb-10">
+        Regulamento
+      </h1>
+      <div className="py-10 px-5 border-2 border-light rounded-4xl scrollborder">
+        <div className="text-light text-xl flex flex-col gap-20 h-130 overflow-x-hidden overflow-y-auto p-6">
           <div>
-            <h2>1 Perfil dos Candidatos</h2>
+            <h3>1 Perfil dos Candidatos</h3>
             <p>
               Para participar do processo seletivo, os candidatos deverão
               acessar o site www.meddfitness.com.br e preencher o formulário de
@@ -62,7 +61,7 @@ const Regulamento = () => {
           </div>
 
           <div>
-            <h2>2.0 Taxa de Inscrição</h2>
+            <h3>2.0 Taxa de Inscrição</h3>
             <p>
               2.1 Para participar do Concurso MEGAFITNESS e suas respectivas
               etapas, os candidatos deverão efetuar o pagamento de uma taxa de
@@ -108,7 +107,7 @@ const Regulamento = () => {
             </p>
           </div>
           <div>
-            <h2>3 - Critérios de Seleção e Classificação</h2>
+            <h3>3 - Critérios de Seleção e Classificação</h3>
             <p>
               3.1 Por não se tratar de um concurso de fisiculturismo ou de
               modelos profissionais, a banca avaliadora — composta por
@@ -155,7 +154,7 @@ const Regulamento = () => {
             </p>
           </div>
           <div>
-            <h2>4 - BANCA JULGADORA</h2>
+            <h3>4 - BANCA JULGADORA</h3>
             <p>
               4.1 A banca avaliadora será composta por profissionais do setor
               fitness, como nutricionistas, personal trainers, médicos
@@ -165,7 +164,7 @@ const Regulamento = () => {
             </p>
           </div>
           <div>
-            <h2>5 - Premiação</h2>
+            <h3>5 - Premiação</h3>
             <p>
               5.1 Os finalistas do 1º ao 3º lugar, nas categorias masculina e
               feminina, terão contrato com a agência Megafitness Model e
@@ -191,10 +190,10 @@ const Regulamento = () => {
             </div>
           </div>
           <div>
-            <h2>
+            <h3>
               6 - Direitos de Uso de Imagem, Voz e contatos para envio de
               mensagens.
-            </h2>
+            </h3>
             <p>
               6.1 Todos os candidatos, inclusive os finalistas, concordam e
               cedem automaticamente à MEDDFITNESS os direitos de uso de sua
@@ -228,7 +227,7 @@ const Regulamento = () => {
             </p>
           </div>
           <div>
-            <h2>7.0 Assessoria e Exclusividade</h2>
+            <h3>7.0 Assessoria e Exclusividade</h3>
             <p>
               7.1 As finalistas terão assessoria de imprensa exclusiva, indicada
               pela MEDDFITNESS, sem qualquer ônus. Essa assessoria será
@@ -297,7 +296,7 @@ const Regulamento = () => {
             </p>
           </div>
           <div>
-            <h2>8.0 Todos os direitos autorais</h2>
+            <h3>8.0 Todos os direitos autorais</h3>
             <p>
               8.1 Ao se inscrever no MEGAFITNESS, o participante declara
               automaticamente ter pleno conhecimento de todos os termos deste
@@ -320,7 +319,7 @@ const Regulamento = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

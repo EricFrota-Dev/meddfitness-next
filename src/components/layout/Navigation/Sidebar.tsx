@@ -15,11 +15,12 @@ const Sidebar: React.FC<childrenProps> = ({ children }) => {
       <AnimatePresence>
         {isSidebarOpen && (
           <motion.aside
-            className="mt-16 w-90 -z-10 h-screen bg-5/70 backdrop-blur-xl fixed -top-16 right-0 pt-16 border-4 xl:hidden"
+            className="mt-16 w-90 -z-10 h-screen bg-darker/90 border-1 border-dark-300 backdrop-blur-xl fixed -top-16 right-0 pt-16 xl:hidden"
             variants={entryAnimation()}
             initial="from_right"
             animate="default"
-            exit="from_right">
+            exit="from_right"
+          >
             <ul className="flex flex-col gap-2 p-4">{children}</ul>
           </motion.aside>
         )}

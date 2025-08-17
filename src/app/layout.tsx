@@ -46,9 +46,9 @@ export default function RootLayout({
           href={"https://wa.me/5511997887451?text=Ol%C3%A1%20Jacqueline"}
           target="_blank"
           rel="noopener noreferrer"
-          className="fixed flex items-center flex-col bottom-10 right-30 hover:scale-105 opacity-30 hover:opacity-100 transition-all duration-200"
+          className="fixed flex items-center bg-dark-100 shadow-md shadow-darker p-4 rounded-full flex-col bottom-10 right-5 md:right-15 xl:right-30 hover:scale-105 opacity-30 hover:opacity-100 transition-all duration-200"
         >
-          <Image src={whatsapp} alt="whatsapp" width={60} />
+          <Image src={whatsapp} alt="whatsapp" width={40} />
         </Link>
       </body>
     </html>
