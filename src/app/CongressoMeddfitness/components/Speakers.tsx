@@ -9,11 +9,11 @@ const Speakers = () => {
         <div>
           <h1>PALESTRANTES E TEMAS ABORDADOS</h1>
         </div>
-        <div className="mt-6">
+        <div className="mt-6 ">
           <EchoSysyemCarousel items={palestrants} />
         </div>
       </div>
-      <div className="flex justify-center my-10">
+      <div className="flex justify-center my-10 customContainer">
         <div className="cursor-pointer">
           <Button>
             <span className="font-bold">

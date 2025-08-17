@@ -14,6 +14,5 @@ export type FAQsProps = {
 export type About = {
   title: string;
   desc: string;
-  icon: StaticImageData;
   itens?: string[];
 };

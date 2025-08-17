@@ -6,7 +6,7 @@ import EntryAnimation from "@/components/layout/AnimatedContent/EntryAnimation";
 
 const Ingressos = () => {
   return (
-    <div className="customContainer flex flex-col justify-around gap-10">
+    <div className="customContainer flex flex-col justify-around gap-10 overflow-x-hidden">
       <div className="flex flex-col md:flex-row gap-[5%] justify-center items-center">
         {ingressosCard.map((event, index) => (
           <EntryAnimation

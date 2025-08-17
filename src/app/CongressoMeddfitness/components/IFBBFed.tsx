@@ -4,12 +4,14 @@ import EntryAnimation from "@/components/layout/AnimatedContent/EntryAnimation";
 
 const IFBBFed = () => {
   return (
-    <div className="customContainer flex gap-6 justify-center">
+    <div className="customContainer flex flex-col md:flex-row gap-6 justify-center">
       <EntryAnimation from="left">
         <div className="flex flex-col gap-6 max-w-200 border-b-1 border-dark-100 p-4">
           <span className="font-montserrat">
-            <p className="font-[900] text-[4rem]">CBMFF | IFBB BRASIL</p>
-            <p className="font-[900] text-2xl">
+            <p className="font-[900] text-2xl md:text-[4rem]">
+              CBMFF | IFBB BRASIL
+            </p>
+            <p className="font-[900] text-xl md:text-2xl">
               CONFEDERAÇÃO BRASILEIRA DE MUSCULAÇÃO, FISICULTURISMO E FITNESS
             </p>
           </span>
@@ -42,7 +44,7 @@ const IFBBFed = () => {
           </ul>
         </div>
       </EntryAnimation>
-      <div className="flex">
+      <div className="flex justify-center md:justify-start min-w-60">
         <div>
           <div className="h-full mx-auto w-full relative flex justify-center items-center">
             <EntryAnimation

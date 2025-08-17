@@ -12,13 +12,12 @@ const TurmaAbout = () => {
           <Image
             src={images[1].src}
             alt={images[1].alt}
+            width={100}
+            height={100}
             className="w-full max-w-100"
           />
         </EntryAnimation>
-        <EntryAnimation
-          from="right"
-          className="flex-2 text-justify self-center text-xl"
-        >
+        <EntryAnimation from="right" className="flex-2 self-center text-xl">
           <p>
             {" "}
             A <strong>MeddFitness</strong> nasceu com o propósito de levar

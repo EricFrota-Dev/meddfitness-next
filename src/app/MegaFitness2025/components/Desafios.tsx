@@ -1,5 +1,5 @@
 import { desafios } from "../constants";
-import EntryAnimation from "@/components/layout/AnimatedContent/EntryAnimation";
+
 import ReactMarkdown from "react-markdown";
 
 const Desafios = () => {
@@ -15,7 +15,7 @@ const Desafios = () => {
         <div className="text-light flex flex-col gap-20 h-130 overflow-x-hidden overflow-y-auto">
           {desafios.map(({ title, content }, i) => (
             <li key={i} className="list-none">
-              <EntryAnimation from="bottom">
+              <div>
                 <div className="overflow-hidden p-6">
                   <h3>{title}</h3>
                   {content.map(({ text, spacing }, i) => (
@@ -33,7 +33,7 @@ const Desafios = () => {
                     </ReactMarkdown>
                   ))}
                 </div>
-              </EntryAnimation>
+              </div>
             </li>
           ))}
         </div>

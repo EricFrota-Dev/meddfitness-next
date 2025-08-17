@@ -173,7 +173,7 @@ const Regulamento = () => {
               destaque, conforme sua capacidade de atuação.
             </p>
             <div>
-              <ul className="flex m-10 border-light-500 border-1 rounded-xl p-5 ">
+              <ul className="flex flex-col m-10 border-light-500 border-1 rounded-xl p-5 ">
                 {premiacao.map(({ colocacao, premios }, i) => (
                   <li key={i} className="p-4">
                     <h3>{colocacao}</h3>

@@ -18,10 +18,10 @@ const EchoSysyemCarousel: React.FC<echoSysyemCardProps> = ({ items }) => {
     mobile: {
       breakpoint: {
         max: 490,
-        min: 490,
+        min: 300,
       },
-      items: 2,
-      partialVisibilityGutter: 30,
+      items: 1,
+      partialVisibilityGutter: 40,
     },
     tablet: {
       breakpoint: {
@@ -60,7 +60,7 @@ const EchoSysyemCarousel: React.FC<echoSysyemCardProps> = ({ items }) => {
       shouldResetAutoplay
       showDots={false}
       sliderClass=""
-      slidesToSlide={2}
+      slidesToSlide={1}
       swipeable
       customLeftArrow={<CustomLeftArrow />}
       customRightArrow={<CustomRightArrow />}

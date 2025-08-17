@@ -9,7 +9,7 @@ const GarantirEngressoBtn: React.FC<GarantirEngressoBtnProps> = ({
 }) => {
   return (
     <motion.div
-      className={className}
+      className={`${className} scale-100 md:scale-130 xl:scale-160`}
       variants={pulseAnimation()}
       animate="default"
     >

@@ -4,9 +4,8 @@ import MeddFitnessAbout from "./components/MeddFitnessAbout";
 import IFBBFed from "./components/IFBBFed";
 import Midias from "./components/Midias";
 import PerfilCard from "@/components/ui/PerfilCards";
-import GarantirEngressoBtn from "@/components/ui/Button/GarantirEngressoBtn";
 import Accordion from "@/components/ui/Accordion";
-import { duvidasRespostas01, duvidasRespostas02 } from "./constants";
+import { duvidasRespostas02 } from "./constants";
 import Speakers from "./components/Speakers";
 import Local from "./components/Local";
 import AtractionCard from "@/components/ui/AtractionCard";
@@ -15,23 +14,39 @@ import AtractionCard from "@/components/ui/AtractionCard";
 import Volunteer from "./components/Volunteer";
 // import Downloads from "./components/Downloads";
 // import DailyTickets from "./components/DailyTickets";
-import Banner from "./components/Banner";
 import imagemSemNome from "@/assets/images/logos/Imagem do WhatsApp de 2025-07-17 à(s) 20.32.32_7ea71c4d.jpg";
 
 import { ifbbBrasil, jacCo, LogoPrincipal } from "@/assets/images/logos";
 import Image from "next/image";
 import Categories from "./components/Categories";
 import IfbbAwards from "./components/IfbbAwards";
+import Banner from "@/components/ui/Banner";
+import { bannerForum } from "@/assets/images/banners";
 
 const page = () => {
   const realizacao = [ifbbBrasil, LogoPrincipal, jacCo];
   return (
     <>
-      <Banner />
+      <div id="apresentacao">
+        <Banner bannerImage={bannerForum} />
+      </div>
+
       <MeddFitnessAbout />
       {/* <section className="bg-dark-300">
         <Showcase />
       </section> */}
+      <section id="palestrantes-temas">
+        <Speakers />
+      </section>
+      <section id="atracoes-confirmadas" className="overflow-x-hidden">
+        <div className="customContainer">
+          <h1 className="text-center mb-10">ATRAÇÕES DA FEIRA</h1>
+
+          {atractions.map((atraction, i) => (
+            <AtractionCard {...atraction} isLeft={i % 2 == 0} key={i} />
+          ))}
+        </div>
+      </section>
       <section id="parceiros-oficiais">
         <IFBBFed />
       </section>
@@ -53,24 +68,6 @@ const page = () => {
       </section> */}
       <Categories />
       <IfbbAwards />
-      <section id="ingresso">
-        <div className="customContainer text-center px-20 bg-6/60">
-          <div>
-            <h1>
-              <span>1ª Edição do MEDDFITNESS – Olímpia - SP</span>
-            </h1>
-            <h2>
-              O MEDDFITNESS 2025 marca o início de uma nova era na medicina
-              integrativa, reunindo especialistas, atletas, pesquisadores e
-              profissionais do setor fitness para compartilhar conhecimento,
-              inovação e experiências.
-            </h2>
-          </div>
-          <div className="flex justify-center">
-            <GarantirEngressoBtn className="mt-6" />
-          </div>
-        </div>
-      </section>
 
       {/* <section className="flex justify-center bg-[#031322]">
         <div className="customContainer text-center">
@@ -94,57 +91,28 @@ const page = () => {
         <Image src={embaixadoresImage} alt="embaixadores" height={720} />
       </section> */}
 
-      <section id="por-que-olimpia">
-        <div className="customContainer text-center">
-          <div>
-            <h1>MEDDFITNESS 2025</h1>
-          </div>
-          <div className="xl:flex mt-6">
-            {/* <div className="flex-1 order-first xl:order-last">
-              <img src={medEventPhoto} alt="foto Evento" />
-            </div> */}
-            <div className="flex-1 p-6 order-last xl:order-first">
-              <Accordion items={duvidasRespostas01} />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="palestrantes-temas">
-        <Speakers />
-      </section>
       <section id="programacao"></section>
 
       <section id="localizacao" className="bg-darker/50">
         <Local />
       </section>
 
-      <section id="atracoes-confirmadas">
-        <div className="customContainer">
-          <h1 className="text-center mb-10">ATRAÇÕES DA FEIRA</h1>
-
-          {atractions.map((atraction, i) => (
-            <AtractionCard {...atraction} isLeft={i % 2 == 0} key={i} />
-          ))}
-        </div>
-      </section>
-
       {/* <section id="passaportes">
         <Passport />
       </section> */}
 
-      <section className="bg-primary text-darker text-center mb-10">
+      {/* <section className="bg-primary text-darker text-center mb-10">
         <h1 className="m-6">
           MEDDFITNESS 2025: Onde a ciência, o esporte e a performance se
           encontram para transformar o futuro do fitness!
         </h1>
-      </section>
+      </section> */}
 
       {/* <section id="sejaParceiro">
         <Partner />
       </section> */}
 
-      <section>
+      {/* <section>
         <div className="bg-darker/70 text-center py-10  px-6">
           <h1>
             <span>MEDDFITNESS – Olímpia, SP.</span>
@@ -155,7 +123,7 @@ const page = () => {
             milhares de pessoas!
           </h2>
         </div>
-      </section>
+      </section> */}
       <section id="patrocinadores-apoiadores">
         <div className="customContainer text-center">
           <h1>QUADRO DE PATROCINADORES</h1>
@@ -173,6 +141,7 @@ const page = () => {
           <Accordion items={duvidasRespostas02} />
         </div>
       </section>
+
       <section id="seja-voluntario">
         <Volunteer />
       </section>

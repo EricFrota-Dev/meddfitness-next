@@ -2,6 +2,7 @@ import React from "react";
 import { midias } from "../constants";
 import Image from "next/image";
 import EntryAnimation from "@/components/layout/AnimatedContent/EntryAnimation";
+import { FaChevronRight } from "react-icons/fa";
 
 const Midias = () => {
   return (
@@ -11,8 +12,8 @@ const Midias = () => {
           <strong>IFBB EM NÚMEROS:</strong>
         </span>
       </p>
-      <div>
-        <ul className="flex justify-around gap-4 p-10">
+      <div className="relative">
+        <ul className="flex justify-around gap-4 p-10 overflow-auto">
           {midias.map(({ icon, name, value, type }, i) => (
             <EntryAnimation from="scale" delay={i * 100} key={i}>
               <li
@@ -43,6 +44,10 @@ const Midias = () => {
             </EntryAnimation>
           ))}
         </ul>
+        <FaChevronRight
+          size={30}
+          className="absolute -right-10 top-30 md:hidden"
+        />
       </div>
     </div>
   );

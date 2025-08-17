@@ -3,12 +3,13 @@ import Apresentacao from "./components/Apresentacao";
 import Desafios from "./components/Desafios";
 import Regulamento from "./components/Regulamento";
 import Award from "./components/Award";
-import Banner from "./components/Banner";
+import { bannerMegafitness } from "@/assets/images/banners";
+import Banner from "@/components/ui/Banner";
 const MegaFitness2025 = () => {
   return (
     <>
-      <Banner />
-      <section id="megapersonalidade-fitness">
+      <Banner bannerImage={bannerMegafitness} />
+      <section id="o-concurso-megafitness">
         <Apresentacao />
       </section>
       <section className="bg-dark-100">

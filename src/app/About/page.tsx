@@ -78,13 +78,13 @@ const Equipe = () => {
           ALGUNS CLIENTES & TARGET : NOSSA REDE DE RELACIONAMENTOS
         </h1>
         <div>
-          <ul className="grid gap-6 customContainer grid-cols-7 bg-primary">
+          <ul className="grid gap-4 customContainer grid-cols-3 md:grid-cols-5 xl:grid-cols-7 bg-primary">
             {targets.map((image, i) => (
               <li
                 key={i}
                 className="flex items-center justify-center shadow-lg bg-light"
               >
-                <div className=" rounded min-w-30 h-30 p-3 flex justify-center items-center">
+                <div className="rounded min-w-30 h-30 p-3 flex justify-center items-center">
                   <Image
                     src={image}
                     alt={"logo" + 1 + i}

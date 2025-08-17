@@ -1,30 +1,33 @@
-import Image from "next/image";
+import GarantirEngressoBtn from "@/components/ui/Button/GarantirEngressoBtn";
 import { about } from "../constants";
-import GradientCard from "@/components/ui/GradientCard";
-import AboutHideTexts from "./AboutHideTexts";
 
 const MeddFitnessAbout = () => {
   return (
-    <div className="px-[10%] py-30 grid grid-cols-3 gap-20" id="sobre-o-forum">
-      {about.map(({ title, icon, desc, itens }, i) => (
-        <GradientCard
-          delay={i * 100}
-          from="bottom"
-          key={i}
-          bordered
-          className="hover:scale-105 transition-all duration-500 cursor-pointer relative"
-        >
-          <AboutHideTexts index={i} text={desc} itens={itens ? itens : null} />
-          <Image
-            src={icon}
-            width={300}
-            alt={"imagen" + i}
-            className="mb-4 text-light"
-          />
-          <h2 className="font-extrabold text-center">{title}</h2>
-        </GradientCard>
-      ))}
-    </div>
+    <section id="sobre-o-forum">
+      <div className="customContainer text-center px-20">
+        <div>
+          <h1>
+            <span>1º Fórum MEDDFITNESS • Olímpia-SP </span>
+          </h1>
+          <h2>
+            O início de uma nova era na medicina integrativa, reunindo
+            especialistas, atletas, pesquisadores e profissionais do setor
+            fitness para compartilhar conhecimento, inovação e experiências.
+          </h2>
+        </div>
+        {about.map(({ title, desc }, i) => (
+          <div className="my-15" key={i}>
+            <h1 className="mb-5">
+              <span>{title}</span>
+            </h1>
+            <p className="text-xl">{desc}</p>
+          </div>
+        ))}
+        <div className="flex justify-center">
+          <GarantirEngressoBtn className="mt-6" />
+        </div>
+      </div>
+    </section>
   );
 };
 

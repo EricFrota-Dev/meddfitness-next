@@ -37,11 +37,10 @@ const Local = () => {
             </div>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1866.0897835653768!2d-48.919746697038754!3d-20.7029316126649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bc6f7583218d71%3A0x3fa668f43574128c!2sR.%20Projetada%20A%20-%20Ol%C3%ADmpia%2C%20SP%2C%2015400-000!5e0!3m2!1spt-BR!2sbr!4v1752539951459!5m2!1spt-BR!2sbr"
-              width="600"
-              height="450"
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
+              className="w-full h-auto"
             ></iframe>
           </GradientCard>
         </div>

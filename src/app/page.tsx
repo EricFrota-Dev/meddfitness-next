@@ -12,9 +12,9 @@ const Home = () => {
       <div id="MedFuture">
         <EntryAnimation
           from="right"
-          className="customContainer flex items-center justify-center gap-[10%] bg-darker xl:min-h-22"
+          className="customContainer flex items-center justify-center gap-[10%] xl:min-h-22"
         >
-          <h1 className="font-extrabold">
+          <h1 className="font-extrabold text-center">
             <span>Vida em Movimento</span>
           </h1>
         </EntryAnimation>

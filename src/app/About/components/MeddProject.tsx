@@ -24,7 +24,13 @@ const MeddProject = () => {
               className="flex items-center flex-col"
             >
               <div className="flex items-center justify-center mb-6 mt-6 md:mt-0">
-                <Image src={icon} alt={title} className="w-18 h-18" />
+                <Image
+                  src={icon}
+                  alt={title}
+                  width={40}
+                  height={40}
+                  className="w-18 h-18"
+                />
               </div>
 
               <GradientCard className="max-w-70 h-full" bordered>

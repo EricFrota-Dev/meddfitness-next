@@ -49,7 +49,6 @@ import {
   arena,
 } from "@/assets/images/logos";
 import { books, hands, instruments, network } from "@/assets/icons";
-import { banner1, banner2, banner3 } from "@/assets/images/banners";
 import { categoryFem, simpleCard, simpleImage } from "./types";
 import { atractionProps } from "@/components/ui/AtractionCard/types";
 
@@ -444,7 +443,7 @@ export const navegation = [
     title: "Sobre Nós",
     url: "/About",
     childrens: [
-      { title: "A Meddfitness", url: "#a-meddfitness" },
+      { title: "A Meddfitness", url: "/" },
       { title: "Comissão 2025", url: "#comissao-2025" },
       {
         title: "Ecossistema Operacional",
@@ -465,15 +464,7 @@ export const navegation = [
     childrens: [
       {
         title: "O Concurso MegaFitness",
-        url: "#o-concurso-megafitness",
-      },
-      {
-        title: "MegaPersonalidade Fitness",
-        url: "#megapersonalidade-fitness",
-      },
-      {
-        title: "Estratégias de Alcance e Engajamento",
-        url: "#estrategias-alcance-engajamento",
+        url: "/",
       },
       { title: "Desafios Oficiais", url: "#desafios-oficiais" },
       { title: "Regulamento", url: "#regulamento" },
@@ -491,9 +482,17 @@ export const navegation = [
     childrens: [
       {
         title: "Apresentação do Evento",
-        url: "#apresentacao",
+        url: "/",
       },
       { title: "Sobre o Fórum", url: "#sobre-o-forum" },
+      {
+        title: "Palestrantes e Temas",
+        url: "#palestrantes-temas",
+      },
+      {
+        title: "Atrações Confirmadas",
+        url: "#atracoes-confirmadas",
+      },
       {
         title: "Parceiros Oficiais",
         url: "#parceiros-oficiais",
@@ -507,33 +506,9 @@ export const navegation = [
         url: "#competicoes-e-categorias",
       },
       { title: "Premiações", url: "#premiacoes" },
-      {
-        title: "Garanta o seu ingresso",
-        url: "#ingresso",
-      },
-      {
-        title: "Por que em Olímpia?",
-        url: "#por-que-olimpia",
-      },
-      { title: "Tema Central", url: "#tema-central" },
-      {
-        title: "Por que Participar?",
-        url: "#por-que-participar",
-      },
-      {
-        title: "A quem se Destina?",
-        url: "#publico-alvo",
-      },
-      {
-        title: "Palestrantes e Temas",
-        url: "#palestrantes-temas",
-      },
-      { title: "Programação", url: "#programacao" },
+
       { title: "Localização", url: "#localizacao" },
-      {
-        title: "Atrações Confirmadas",
-        url: "#atracoes-confirmadas",
-      },
+
       {
         title: "Patrocinadores e Apoiadores",
         url: "#patrocinadores-apoiadores",
@@ -546,12 +521,12 @@ export const navegation = [
       { title: "Realização", url: "#realizacao" },
     ],
   },
-  {
-    id: "5",
-    title: "Contato",
-    url: "/Contact",
-    childrens: [],
-  },
+  // {
+  //   id: "5",
+  //   title: "Contato",
+  //   url: "#contact",
+  //   childrens: [],
+  // },
 ];
 
 // export const navegation = [
@@ -617,12 +592,6 @@ export const images: simpleImage[] = [
     alt: "MeddFitness Logo Principal",
     src: LogoPrincipal,
   },
-];
-
-export const banners: simpleImage[] = [
-  { id: 1, src: banner1, alt: "Banner 1" },
-  { id: 2, src: banner2, alt: "Banner 2" },
-  { id: 3, src: banner3, alt: "Banner 3" },
 ];
 
 export const ingressosCard = [

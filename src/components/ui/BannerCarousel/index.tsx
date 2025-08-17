@@ -1,10 +1,10 @@
 "use client";
 
-import { banners } from "@/constants";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import BannerItem from "./BannerItem";
 import { CustomLeftArrow, CustomRightArrow } from "./Arrows";
+import { bannerForum, bannerMegafitness } from "@/assets/images/banners";
+import Banner from "../Banner";
 
 const BannerCarousel = () => {
   const responsive = {
@@ -22,30 +22,36 @@ const BannerCarousel = () => {
     },
   };
 
+  const banners = [bannerForum, bannerMegafitness];
+  const links = ["/CongressoMeddfitness", "/MegaFitness2025"];
+
   return (
-    <div className="w-screen max-h-180 flex justify-center">
+    <div className="w-screen max-h-180 flex justify-center relative">
       <Carousel
         additionalTransfrom={0}
         arrows
         autoPlay
-        autoPlaySpeed={3000}
+        autoPlaySpeed={4000}
         centerMode={false}
         containerClass="w-screen"
         draggable
         infinite
         keyBoardControl
         minimumTouchDrag={80}
-        pauseOnHover
         responsive={responsive}
         shouldResetAutoplay
-        showDots
+        showDots={false}
         slidesToSlide={1}
         swipeable
         customLeftArrow={<CustomLeftArrow />}
         customRightArrow={<CustomRightArrow />}
+        customTransition="all 0.7s ease" // suaviza troca
+        transitionDuration={700}
       >
-        {banners.map(({ alt, src }, i) => (
-          <BannerItem key={i} src={src} alt={alt} />
+        {banners.map((banner, i) => (
+          <a key={i} className="relative group" href={links[i]}>
+            <Banner bannerImage={banner} />
+          </a>
         ))}
       </Carousel>
     </div>
