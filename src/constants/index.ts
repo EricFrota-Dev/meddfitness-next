@@ -37,7 +37,6 @@ import {
   ifbbAcademy,
   ifbbBrasil,
   linkedFun,
-  Logo,
   LogoPrincipal,
   megafitness,
   // rissi,
@@ -45,7 +44,6 @@ import {
   // vivaCare,
   sbtBank,
   chronus,
-  jacCo,
   arena,
 } from "@/assets/images/logos";
 import { books, hands, instruments, network } from "@/assets/icons";
@@ -333,12 +331,6 @@ export const echosystem = [
   },
   {
     id: 8,
-    title: "JAC & CO PRODUCTION",
-    desc: "Curadoria e Organização de Eventos.",
-    src: jacCo,
-  },
-  {
-    id: 8,
     title: "ARENA OLÍMPIA",
     desc: "#########",
     src: arena,
@@ -478,7 +470,7 @@ export const navegation = [
   {
     id: "2",
     title: "1° Fórum MeddFitness Brasil",
-    url: "/CongressoMeddfitness",
+    url: "/Forum",
     childrens: [
       {
         title: "Apresentação do Evento",
@@ -585,7 +577,7 @@ export const images: simpleImage[] = [
   {
     id: 0,
     alt: "MeddFitness Logo",
-    src: Logo,
+    src: LogoPrincipal,
   },
   {
     id: 1,

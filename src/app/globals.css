@@ -7,7 +7,7 @@
   /* Primary */
   --color-primary-light: #00ffff;
   --color-primary-semi-light: #20d6ff;
-  --color-primary: #37a7e6;
+  --color-primary: #17c8d0;
   /* --color-primary: #37a7e6; */
   --color-primary-semi-dark: #297aaa;
   --color-primary-dark: #22668d;
@@ -45,7 +45,8 @@
   scroll-behavior: smooth;
 }
 
-html {
+html,
+body {
   width: 100vw;
   overflow-x: hidden;
 }

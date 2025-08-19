@@ -3,7 +3,11 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { CustomLeftArrow, CustomRightArrow } from "./Arrows";
-import { bannerForum, bannerMegafitness } from "@/assets/images/banners";
+import {
+  bannerForumHome,
+  bannerMegafitnessHome,
+  bannerCBMFFMegafitnessHome,
+} from "@/assets/images/banners";
 import Banner from "../Banner";
 
 const BannerCarousel = () => {
@@ -22,10 +26,15 @@ const BannerCarousel = () => {
     },
   };
 
-  const banners = [bannerForum, bannerMegafitness];
+  const banners = [
+    bannerForumHome,
+    bannerMegafitnessHome,
+    bannerCBMFFMegafitnessHome,
+  ];
   const links = [
-    "/meddfitness-next/CongressoMeddfitness",
-    "/meddfitness-next/MegaFitness2025",
+    "/meddfitness-next/Forum",
+    "/meddfitness-next/MegaFitness2025#regulamento",
+    "/meddfitness-next/Forum#competicoes-e-categorias",
   ];
 
   return (

@@ -8,7 +8,11 @@ const Logo = () => {
     <>
       <EntryAnimation from="left">
         <Link href="/">
-          <Image className="h-25" src={images[1].src} alt={images[1].alt} />
+          <Image
+            className="h-18 md:h-20 w-auto"
+            src={images[1].src}
+            alt={images[1].alt}
+          />
         </Link>
       </EntryAnimation>
     </>

@@ -15,7 +15,7 @@ const Sidebar: React.FC<childrenProps> = ({ children }) => {
       <AnimatePresence>
         {isSidebarOpen && (
           <motion.aside
-            className="w-90 -z-10 h-screen bg-darker/90 border-1 border-dark-300 backdrop-blur-xl fixed -top-16 right-0 py-30 xl:hidden overflow-hidden overflow-y-auto"
+            className="w-screen md:w-85 -z-10 h-screen bg-darker/90 border-1 border-dark-300 backdrop-blur-xl fixed -top-16 -right-6 pt-30 xl:hidden overflow-hidden overflow-y-auto"
             variants={entryAnimation()}
             initial="from_right"
             animate="default"

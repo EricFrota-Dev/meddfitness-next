@@ -4,7 +4,6 @@ import {
   DianaMonteiro,
   BetaoMonteiro,
   CassioBirque,
-  Jacqueline,
 } from "@/assets/images/perfilPhoto";
 
 export const grupoGestorAbout = [
@@ -25,12 +24,6 @@ export const grupoGestorAbout = [
     role: "CEO",
     desc: "Chief Executive Officer",
     src: PauloNetto,
-  },
-  {
-    name: "Jacqueline Mouradian",
-    role: "CEEO",
-    desc: "Chief Events and Experience Officer",
-    src: Jacqueline,
   },
   {
     name: "Diana Monteiro",

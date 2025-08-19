@@ -142,7 +142,6 @@ const Footer = () => {
             {/* Coluna 4 - Contato */}
             <div className="w-full list-none text-sm">
               <h3 className="text-lg font-semibold pb-2">Contatos</h3>
-              <p className="text-sm text-gray-300">📞 (11) 96922-3341</p>
               {contacts.map((contact, i) => (
                 <li className="pb-2 flex flex-col" key={i}>
                   <p className="text-bold">{contact.name}</p>

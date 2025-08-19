@@ -1,7 +1,7 @@
 export const contacts = [
   {
     name: "PAULO NETTO",
-    contacts: ["contato@meddfitness.com.br", "(11) 96922-3341"],
+    contacts: ["paulonetto@meddfitness.com.br", "(11) 96922-3341"],
   },
   // {
   //   name: "JACQUELINE MOURADIAN",

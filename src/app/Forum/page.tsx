@@ -16,7 +16,7 @@ import Volunteer from "./components/Volunteer";
 // import DailyTickets from "./components/DailyTickets";
 import imagemSemNome from "@/assets/images/logos/Imagem do WhatsApp de 2025-07-17 à(s) 20.32.32_7ea71c4d.jpg";
 
-import { ifbbBrasil, jacCo, LogoPrincipal } from "@/assets/images/logos";
+import { ifbbBrasil, LogoLight } from "@/assets/images/logos";
 import Image from "next/image";
 import Categories from "./components/Categories";
 import IfbbAwards from "./components/IfbbAwards";
@@ -24,7 +24,7 @@ import Banner from "@/components/ui/Banner";
 import { bannerForum } from "@/assets/images/banners";
 
 const page = () => {
-  const realizacao = [ifbbBrasil, LogoPrincipal, jacCo];
+  const realizacao = [ifbbBrasil, LogoLight];
   return (
     <>
       <div id="apresentacao">
