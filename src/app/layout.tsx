@@ -9,7 +9,7 @@ import { whatsapp } from "@/assets/images/logos";
 
 export const metadata: Metadata = {
   icons: {
-    icon: "/favicon.svg",
+    icon: "/meddfitness-next/favicon.svg",
   },
   title: "Meddfitness",
   description: "Meddfitness",
