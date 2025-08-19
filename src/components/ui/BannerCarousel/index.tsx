@@ -32,9 +32,9 @@ const BannerCarousel = () => {
     bannerCBMFFMegafitnessHome,
   ];
   const links = [
-    "/meddfitness-next/Forum",
-    "/meddfitness-next/MegaFitness2025#regulamento",
-    "/meddfitness-next/Forum#competicoes-e-categorias",
+    "/Forum",
+    "/MegaFitness2025#regulamento",
+    "/Forum#competicoes-e-categorias",
   ];
 
   return (
