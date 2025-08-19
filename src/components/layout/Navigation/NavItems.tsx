@@ -62,7 +62,7 @@ const NavItems = () => {
               <button
                 onClick={() => {
                   if (!isSidebarOpen || !hasChildren) {
-                    window.location.href = `/${url}`;
+                    window.location.href = url;
                     return;
                   }
                   handleClickToggle(index);
