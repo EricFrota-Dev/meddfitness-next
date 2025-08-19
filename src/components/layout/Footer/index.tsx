@@ -1,8 +1,6 @@
 "use client";
 
-import { entryAnimation } from "@/animations";
-import { contacts } from "@/app/Contact/constants";
-import { motion } from "framer-motion"; // ajustei import
+import { contacts } from "@/app/Contato/constants";
 import Link from "next/link";
 import { SiMinutemailer } from "react-icons/si";
 import EntryAnimation from "../AnimatedContent/EntryAnimation";
@@ -61,12 +59,7 @@ const Footer = () => {
       </section>
 
       {/* Footer */}
-      <motion.div
-        className="bg-darker text-light"
-        variants={entryAnimation()}
-        initial="from_bottom"
-        whileInView="default"
-      >
+      <div className="bg-darker text-light">
         {/* Container Principal */}
         <div className="customContainer">
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 justify-between gap-8 ">
@@ -167,7 +160,7 @@ const Footer = () => {
         <div className="text-center text-sm text-gray-400 p-6">
           © 2025 MeddFitness. Todos os direitos reservados.
         </div>
-      </motion.div>
+      </div>
     </>
   );
 };

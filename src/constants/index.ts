@@ -433,7 +433,7 @@ export const navegation = [
   {
     id: "0",
     title: "Sobre Nós",
-    url: "/About",
+    url: "/Sobre",
     childrens: [
       { title: "A Meddfitness", url: "/" },
       { title: "Comissão 2025", url: "#comissao-2025" },

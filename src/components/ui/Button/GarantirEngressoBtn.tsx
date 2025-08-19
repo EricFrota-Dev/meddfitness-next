@@ -13,10 +13,7 @@ const GarantirEngressoBtn: React.FC<GarantirEngressoBtnProps> = ({
       variants={pulseAnimation()}
       animate="default"
     >
-      <Button
-        typeBtn="redirect"
-        onClick={() => (window.location.href = "https://ifbb.com.br/")}
-      >
+      <Button typeBtn="redirect" onClick={() => (window.location.href = "#")}>
         <strong className="text-center">GARANTA O SEU INGRESSO</strong>
       </Button>
     </motion.div>
