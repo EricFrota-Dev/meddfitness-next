@@ -1,5 +1,5 @@
 import {
-  PauloNetto,
+  // PauloNetto,
   LeandroMoraes,
   DianaMonteiro,
   BetaoMonteiro,
@@ -15,16 +15,16 @@ export const grupoGestorAbout = [
   },
   {
     name: "Leandro Moraes",
-    role: "COO",
-    desc: "Chief Operating Officer",
-    src: LeandroMoraes,
-  },
-  {
-    name: "Paulo Netto",
     role: "CEO",
     desc: "Chief Executive Officer",
-    src: PauloNetto,
+    src: LeandroMoraes,
   },
+  // {
+  //   name: "Paulo Netto",
+  //   role: "CEO",
+  //   desc: "Chief Executive Officer",
+  //   src: PauloNetto,
+  // },
   {
     name: "Diana Monteiro",
     role: "CEO",

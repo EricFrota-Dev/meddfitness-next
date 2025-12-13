@@ -13,7 +13,6 @@ import {
   defaultPerfilPhoto,
   DianaMonteiro,
   LeandroMoraes,
-  PauloNetto,
 } from "@/assets/images/perfilPhoto";
 import {
   academias,
@@ -391,12 +390,12 @@ export const projetoMeddfitness = [
 ];
 
 export const stafPerfilPhotos: simpleCard[] = [
-  {
-    id: 0,
-    src: PauloNetto,
-    title: "Paulo Netto",
-    desc: "Comissão Organizadora",
-  },
+  // {
+  //   id: 0,
+  //   src: PauloNetto,
+  //   title: "Paulo Netto",
+  //   desc: "Comissão Organizadora",
+  // },
   {
     id: 1,
     src: LeandroMoraes,

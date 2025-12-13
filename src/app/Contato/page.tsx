@@ -12,7 +12,7 @@ const Contact = () => {
         digital@meddfitness.com.br
         <br />
         hub@meddfitness.com.br <br />
-        paulonetto@meddfitness.com.br
+        {/* paulonetto@meddfitness.com.br */}
         <br />
       </h2>
       {/* {contacts.map(({ name, contacts }, i) => (
