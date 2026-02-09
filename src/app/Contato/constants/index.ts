@@ -5,7 +5,7 @@ export const contacts = [
   },
   // {
   //   name: "JACQUELINE MOURADIAN",
-  //   contacts: ["jacvart@uol.com.br", "(11) 99788-7451"],
+  //   contacts: ["jacvart@uol.com.br", "(11) 99788-7451"""],
   // },
   // {
   //   name: "LEANDRO MORAES",
